@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -23,9 +24,9 @@ const Navbar = () => {
           <li className="mx-2">Home</li>
           <li className="mx-2">About Us</li>
           <li className="mx-2">Our Services</li>
-          <a href="contact">
+          <Link to="/contact">
             <li className="mx-2">Contact us</li>
-          </a>
+         </Link>
         </ul>
      
       </div>
