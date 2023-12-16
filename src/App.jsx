@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './compontents/Navbar'
-import About from './compontents/About'
+import About from './compontents/About/About'
 import Service from './compontents/Service'
 import More from './compontents/More'
 import Description from './compontents/Description'
@@ -8,6 +8,7 @@ import Footer from './compontents/Footer'
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import Contact from './compontents/Contact/Contact'
 import Header from './compontents/Header'
+import Product from './compontents/Product'
 
  const CommonLayout = ({ children }) => {
    return (
@@ -30,8 +31,8 @@ import Header from './compontents/Header'
              element={
                <CommonLayout>
                  <Header />
-                 <About />
                  <Service />
+                 <Product />
                  <More />
 
                  <Description />
@@ -39,6 +40,7 @@ import Header from './compontents/Header'
              }
            />
            <Route path="/Contact" element={<Contact />} />
+           <Route path="About" element={<About />} />
          </Routes>
        </BrowserRouter>
      </div>
