@@ -3,7 +3,7 @@ import React from 'react'
 const Description = () => {
   return (
     <div className="">
-      <div className="mx-auto max-w-2xl mt-8 px-4" style={{ marginLeft: "2%" }}>
+      <div className="mx-auto max-w-2xl mt-8 px-4 " style={{marginTop: '4rem',  marginLeft: "2%" }}>
         <span className="text-gray-500 text-lg font-semibold">
           ST Highlights
         </span>

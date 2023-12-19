@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './compontents/Navbar'
 import About from './compontents/About/About'
 import Service from './compontents/Service'
-import More from './compontents/More'
+
 import Description from './compontents/Description'
 import Footer from './compontents/Footer'
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
@@ -33,7 +33,7 @@ import Product from './compontents/Product'
                  <Header />
                  <Service />
                  <Product />
-                 <More />
+            
 
                  <Description />
                </CommonLayout>
