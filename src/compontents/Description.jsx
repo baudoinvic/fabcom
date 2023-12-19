@@ -3,7 +3,10 @@ import React from 'react'
 const Description = () => {
   return (
     <div className="">
-      <div className="mx-auto max-w-2xl mt-8 px-4 " style={{marginTop: '4rem',  marginLeft: "2%" }}>
+      <div
+        className="mx-auto max-w-2xl mt-8 px-4 "
+        style={{ marginTop: "4rem", marginLeft: "2%" }}
+      >
         <span className="text-gray-500 text-lg font-semibold">
           ST Highlights
         </span>
@@ -58,8 +61,8 @@ const Description = () => {
       </div>
       <div class="relative text-center  object-cover ">
         <img
-          src="https://thumbs.dreamstime.com/b/electronic-computer-hardware-technology-template-design-abstract-motherboard-111610950.jpg"
-          style={{ width: "104rem", height: "530px" }}
+          src="https://www.st.com/content/dam/st-crew/robot-industry-factory-1920x950.jpg"
+          style={{ width: "104rem", height: "570px" }}
           alt="Robot Factory Image"
         ></img>
 
