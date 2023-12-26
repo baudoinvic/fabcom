@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -20,9 +21,11 @@ const Header = () => {
               Our technology starts with you.<br></br> Let's build a
               computerized world together.
             </span>
-            <button class="px-4 py-4 bg-white text-blue-500 font-semibold rounded hover:bg-blue-100">
-              Discover More
-            </button>
+            <Link to="/about">
+              <button class="px-4 py-4 bg-white text-blue-500 font-semibold rounded hover:bg-blue-100">
+                Discover More
+              </button>
+            </Link>
           </div>
         </div>
       </div>

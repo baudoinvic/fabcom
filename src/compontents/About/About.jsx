@@ -38,7 +38,7 @@ const About = () => {
             customers achieve the results they need.
           </p>
           <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Know more
+            Read More
           </button>
         </div>
         <div class="w-full  md:w-1/2">
