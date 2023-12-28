@@ -26,6 +26,7 @@ const Header = () => {
                 Discover More
               </button>
             </Link>
+          
           </div>
         </div>
       </div>
