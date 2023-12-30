@@ -19,7 +19,7 @@ const Login = () => {
           <div className="w-full md:ml-8 ml-4">
             <input
               type="text"
-              className="rounded-lg  p-2 mb-2 md:w-4/6 w-5/6"
+              className="rounded-lg shadow-md p-2 mb-2 md:w-4/6 w-5/6"
             />
           </div>
           <div className="mt-4 mb-2  font-semibold md:ml-8 ml-4">
@@ -28,7 +28,7 @@ const Login = () => {
           <div className="w-full md:ml-8 ml-4">
             <input
               type="password"
-              className="rounded-lg  p-2 mb-2 md:w-4/6 w-5/6"
+              className="rounded-lg shadow-md p-2 mb-2 md:w-4/6 w-5/6"
             />
             <p className=" text-sm m-2 w-4/6 text-left">
               don't you have an account?{" "}

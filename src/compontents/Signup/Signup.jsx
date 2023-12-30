@@ -19,7 +19,7 @@ const Signup = () => {
           <div className="w-full md:ml-8 ml-4">
             <input
               type="text"
-              className="rounded-lg shadow-md  p-2 mb-2 md:w-4/6 w-5/6" 
+              className="rounded-lg shadow-md  p-2 mb-2 md:w-4/6 w-5/6"
               placeholder="enter your password"
             />
           </div>
@@ -42,8 +42,9 @@ const Signup = () => {
 
           <div className="w-full md:ml-8 ml-4">
             <input
-              type="text"
-              className="rounded-lg shadow-md p-2 mb-2 md:w-4/6 w-5/6"
+              type="password"
+              className="rounded-lg shadow-md p-2 mb-2 md:w-4/6 w-5/6 bg-solid-color text-black border border-solid border-px-color"
+              placeholder="enter password"
             />
           </div>
 
@@ -54,7 +55,8 @@ const Signup = () => {
             <input
               type="password"
               className="rounded-lg shadow-md p-2 mb-2 md:w-4/6 w-5/6"
-              placeholder="enter password" style={{color: 'black'}}
+              placeholder="enter password"
+              style={{ color: "black" }}
             />
             <p className=" text-sm m-2 w-4/6 text-left">
               already have an account?{" "}
