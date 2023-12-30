@@ -9,6 +9,9 @@ import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import Contact from './compontents/Contact/Contact'
 import Header from './compontents/Header'
 import Product from './compontents/Product'
+import Homepage from './compontents/Homepage'
+import Login from './compontents/Login/Login'
+import Signup from './compontents/Signup/Signup'
 
  const CommonLayout = ({ children }) => {
    return (
@@ -33,7 +36,6 @@ import Product from './compontents/Product'
                  <Header />
                  <Service />
                  <Product />
-            
 
                  <Description />
                </CommonLayout>
@@ -41,6 +43,9 @@ import Product from './compontents/Product'
            />
            <Route path="/Contact" element={<Contact />} />
            <Route path="About" element={<About />} />
+           <Route path="homepage" element={<Homepage />} />
+           <Route path="login" element={<Login />} />
+           <Route path="signup" element={<Signup />} />
          </Routes>
        </BrowserRouter>
      </div>

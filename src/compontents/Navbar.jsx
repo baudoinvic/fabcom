@@ -72,7 +72,9 @@ const Navbar = () => {
           className=" cursor-pointer flex items-center space-x-10"
           style={{ color: "#03234b" }}
         >
-          <li className="mx-2">Home</li>
+          <Link to="/homepage">
+            <li className="mx-2">Home</li>
+          </Link>
 
           <span className="mx-2">
             <span
@@ -101,9 +103,11 @@ const Navbar = () => {
           <li className="mx-2 text-xl " style={{ color: "#03234b" }}>
             <FontAwesomeIcon icon={faShoppingCart} />
           </li>
-          <li className="mx-2 text-xl " style={{ color: "#03234b" }}>
-            <FontAwesomeIcon icon={faUser} />
-          </li>
+          <Link to="/login">
+            <li className="mx-2 text-xl " style={{ color: "#03234b" }}>
+              <FontAwesomeIcon icon={faUser} />
+            </li>
+          </Link>
         </ul>
       </div>
     </div>
