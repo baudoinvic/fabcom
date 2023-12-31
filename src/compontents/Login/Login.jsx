@@ -40,7 +40,7 @@ const Login = () => {
               </Link>
             </p>
           </div>
-
+        
           <button className="bg-blue-500 rounded-lg w-2/6 px-5 text-xl font-bold text-white text-center pb-2 mt-3 ml-8 py-1 ">
             login
           </button>
