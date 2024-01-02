@@ -77,6 +77,7 @@ const Description = () => {
             their challenges and seize opportunities.
           </p>
         </div>
+   
       </div>
     </div>
   );
