@@ -77,7 +77,7 @@ const Navbar = () => {
           <Link to="/homepage">
             <li className="mx-2">Home</li>
           </Link>
-
+          
           <span className="mx-2">
             <span
               className=" flex items-center"
