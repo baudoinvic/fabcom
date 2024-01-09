@@ -7,15 +7,15 @@ const Footer = () => {
     <div class="flex flex-wrap justify-center w-full md:w-9/12">
     
       <div class="w-full md:w-1/2 lg:w-1/3 mb-8 md:mb-0">
-        <h2 class="font-bold mb-4">About fabcom croelectronics</h2>
+        <h2 class="font-bold mb-4">About FabTechHub</h2>
         <nav>
           <ul class="text-blue-500">
-            <li><a href="#">Who we are</a></li>
-            <li><a href="#">Investor relations</a></li>
-            <li><a href="#">Sustainability</a></li>
-            <li><a href="#">Innovation &amp; Technology</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="">Who we are</a></li>
+            <li><a href="">Investor relations</a></li>
+            <li><a href="">Sustainability</a></li>
+            <li><a href="">Innovation &amp; Technology</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Blog</a></li>
           </ul>
         </nav>
       </div>
@@ -25,7 +25,7 @@ const Footer = () => {
         <h2 class="font-bold mb-4">Connect with us</h2>
         <nav>
           <ul class="text-blue-500">
-            <li><a href="#">Contact ST offices</a></li>
+            <li><a href="#">Contact us</a></li>
             <li><a href="#">Find sales offices &amp; distributors</a></li>
             <li><a href="#">Community</a></li>
             <li><a href="#">Newsroom</a></li>

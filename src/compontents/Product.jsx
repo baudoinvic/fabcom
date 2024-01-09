@@ -59,7 +59,6 @@ const Product = () => {
                   class="w-full max-w-xl"
                 ></img>
                 <div class="text-black bottom-0 left-0 w-full bg-white p-2">
-                  <p class="font-bold text-blue-500">Tiny dual-band GNSS ICs</p>
                   <p>Explore the new features of our Teseo</p>
                   <p>GNSS modules for specific applications with </p>
                   <p>qucik and seamless development tools</p>
@@ -74,7 +73,6 @@ const Product = () => {
                   class="w-full max-w-xl"
                 ></img>
                 <div class="text-black bottom-0 left-0 w-full bg-white p-2">
-                  <p class="font-bold text-blue-500">Tiny dual-band GNSS ICs</p>
                   <p>Explore the new features of our Teseo</p>
                   <p>GNSS modules for specific applications with </p>
                   <p>qucik and seamless development tools</p>

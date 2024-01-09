@@ -11,12 +11,7 @@ const Contact = () => {
         <h2 className="text-4xl font-extrabold mb-6 text-blue-500">
           Contact Us
         </h2>
-        <p className="mb-4">
-          Don't wait any longer to start realizing the benefits of digital
-          <br></br>
-          transformation. Contact us today to schedule a consultation and learn
-          more about how Fabcom can help you succeed.
-        </p>
+       
       </div>
 
       <div className="min-h-screen flex items-center justify-center">

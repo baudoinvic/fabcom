@@ -7,11 +7,23 @@ const Header = () => {
       <div className="fab-com-image-desc">
         <div className="relative">
           <img
-            class="w-full object-cover shadow-md"
+            class="w-full object-cover shadow-md "
             style={{ height: "560px" }}
-            src="https://www.st.com/content/dam/st-crew/edge-ai.jpg"
+            src="https://assets.st.com/is/image/stelectronics/st-edge-artificial-intelligence-products-technology-1920-860-ENG-0x540-2000k"
             alt="Description"
           />
+
+
+          {/* <div className="video">
+            <video controls width="full" height="560">
+              <source
+                src="https://html.geekcodelab.com/holiday-planners/assets/images/highlight-video.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div> */}
+
+          
 
           <div class="absolute inset-0 flex flex-col items-center justify-center ">
             <span
@@ -26,7 +38,6 @@ const Header = () => {
                 Discover More
               </button>
             </Link>
-        
           </div>
         </div>
       </div>

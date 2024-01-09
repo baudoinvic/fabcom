@@ -9,15 +9,14 @@ import Footer from './Footer'
 const Homepage = () => {
   return (
     <>
-     
-     <Navbar />
-     <Header />
-     <Service />
-     <Product />
-     <Description />
-     <Footer />
+      <Navbar />
+      <Header />
+      <Service />
+      <Description />
+      <Product />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default Homepage

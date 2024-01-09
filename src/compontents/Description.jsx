@@ -1,83 +1,61 @@
 import React from 'react'
+import { FaEye, FaCog, FaHeart } from "react-icons/fa";
+
+
 
 const Description = () => {
   return (
-    <div className="">
-      <div
-        className="mx-auto max-w-2xl mt-8 px-4 "
-        style={{ marginTop: "4rem", marginLeft: "2%" }}
-      >
-        <span className="text-gray-500 text-lg font-semibold">
-          ST Highlights
-        </span>
-        <h3 className="text-blue-500 text-2xl lg:text-3xl xl:text-4xl font-bold mt-2">
-          We create technology for a sustainable world, in a sustainable way.
-        </h3>
-        <p className="text-gray-700 text-lg lg:text-xl xl:text-2xl mt-4">
-          We enable safer, smarter, and greener ways of living while acting
-          together to protect the planet.
+    <div className="bg-gray-100 ">
+      <div className="text-center p-8 transition">
+        <h1 className="text-3xl font-bold mb-4">Who we are</h1>
+        <p className="text-gray-600">
+          FabTech Hub, where innovation meets excellence! As a dynamic and
+          <br></br>
+          forward-thinking technology company, we specialize in the seamless
+          integration of hardware, software, and IoT solutions.
         </p>
       </div>
-      <div class="flex flex-wrap -mx-4 mt-20">
-        <div class="w-full py-8 md:w-1/2 lg:w-1/3 px-4 mb-8">
-          <div class="bg-white rounded-lg shadow-md hover:shadow-lg">
-            <div class="p-9">
-              <img src="https://s.alicdn.com/@sc04/kf/Hd3d16b624ae34c91a1c684e6d4626ce3F.jpg_720x720q50.jpg"></img>
-              <p class="text-blue-500 mt-2">
-                Automotive TSZ18x zero-drift, precision op amps for harsh
-                environments and extended mission profiles<br></br> we are here
-                to help you to Troubleshoot your pc and upgrade all software
-                requirement
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="w-full py-8 md:w-1/2 lg:w-1/3 px-4 mb-8">
-          <div class="bg-white rounded-lg shadow-md hover:shadow-lg">
-            <div class="p-9">
-              <img src="https://s.alicdn.com/@sc04/kf/H185802b76dea4e6a98caae28d786bd32E.jpg_720x720q50.jpg"></img>
-              <p class="text-blue-500 mt-2">
-                Automotive TSZ18x zero-drift, precision op amps for harsh
-                environments and extended mission profiles<br></br> we are here
-                to help you to Troubleshoot your pc and upgrade all software
-                requirement
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="w-full py-8 md:w-1/2 lg:w-1/3 px-4 mb-8">
-          <div class="bg-white rounded-lg shadow-md hover:shadow-lg">
-            <div class="p-9">
-              <img src="https://s.alicdn.com/@sc04/kf/Hd0402c755bf24e049aa9b6ecbc7ee11cJ.jpg_720x720q50.jpg"></img>
-              <p class="text-blue-500 mt-2">
-                Automotive TSZ18x zero-drift, precision op amps for harsh
-                environments and extended mission profiles<br></br> we are here
-                to help you to Troubleshoot your pc and upgrade all software
-                requirement
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="relative text-center  object-cover ">
-        <img
-          src="https://www.st.com/content/dam/st-crew/robot-industry-factory-1920x950.jpg"
-          style={{ width: "104rem", height: "570px" }}
-          alt="Robot Factory Image"
-        ></img>
 
-        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-          <p class="text-2xl lg:text-4xl xl:text-5xl font-bold mb-4">
-            Unwavering Commitment to Innovation
-          </p>
-          <p class="text-lg lg:text-xl xl:text-2xl leading-loose">
-            We are dedicated to pushing the boundaries of technology. Through
-            relentless innovation, we create cutting-edge technologies and
-            products that offer our customers unparalleled solutions to meet
-            their challenges and seize opportunities.
+      <div className="flex justify-center items-center space-x-4 p-10">
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+          <FaEye className="text-gray-600 text-4xl  mb-4" />
+          <span className="text-xl font-bold mb-4">Our Vision</span>
+          <p className="text-gray-600">
+            At FabTech Hub, we envision a connected world where cutting-edge
+            technology enhances the way we live, work, and interact. Our goal is
+            <br></br>
+            to be at the forefront of this transformation, driving innovation
+            through the convergence of hardware, software, and IoT.
           </p>
         </div>
-   
+
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+          <FaCog className="text-gray-600 text-4xl mb-4" />
+          <span className="text-xl font-bold mb-4">Our Value</span>
+          <p className="text-gray-600">
+            Our team of highly skilled hardware engineers is dedicated to
+            crafting state-of-the-art devices that not only meet but exceed
+            industry standards. From concept to prototype to final production
+            <br></br>
+            we leverage the latest technologies to design robust and efficient
+            hardware solutions. We ensure that our hardware stands out in terms
+            of performance, durability, and user experience.
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+          <FaHeart className="text-gray-600 text-4xl mb-4" />
+          <span className=" text-xl font-bold mb-4">Our Mission</span>
+          <p className="text-gray-600">
+            Our team of highly skilled hardware engineers is dedicated to
+            crafting state-of-the-art devices that not only meet but exceed
+            industry standards. From concept to prototype to final production
+            <br></br>
+            we leverage the latest technologies to design robust and efficient
+            hardware solutions. We ensure that our hardware stands out in terms
+            of performance, durability, and user experience.
+          </p>
+        </div>
       </div>
     </div>
   );

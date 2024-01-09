@@ -9,6 +9,8 @@ export default {
           "50%": { transform: "translateY(-10px)" },
           "100%": { transform: "translateY(0)" },
         },
+
+        
       },
       animation: {
         moveText: "moveText 4s infinite", // Adjust the duration as needed
@@ -16,4 +18,6 @@ export default {
     },
   },
   plugins: [],
+
+  
 };

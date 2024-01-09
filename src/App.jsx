@@ -35,9 +35,10 @@ import Signup from './compontents/Signup/Signup'
                <CommonLayout>
                  <Header />
                  <Service />
+                 <Description />
                  <Product />
 
-                 <Description />
+              
                </CommonLayout>
              }
            />
