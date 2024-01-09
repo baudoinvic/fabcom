@@ -28,7 +28,7 @@ const About = () => {
           </span>
 
           <button
-            class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-blue-100"
+            class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-black-100"
             style={{
               borderRadius: "30px",
               border: "solid 1px gray",
