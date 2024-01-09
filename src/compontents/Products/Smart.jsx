@@ -13,7 +13,7 @@ const Smart = () => {
         </h1>
       </div>
 
-      <div className=" flex ml-10 mr-10">
+      <div className=" flex ml-10 mr-10 shadow-md">
         <div className="w-1/2">
           <span className="mr-4 mt-4">
             "Smart integration" typically refers to the integration of smart

@@ -14,6 +14,7 @@ import Login from './compontents/Login/Login'
 import Signup from './compontents/Signup/Signup'
 import Products from './compontents/Products/Products'
 import Smart from './compontents/Products/Smart'
+import Automatic from './compontents/Products/Automatic'
 
  const CommonLayout = ({ children }) => {
    return (
@@ -51,6 +52,7 @@ import Smart from './compontents/Products/Smart'
            <Route path="signup" element={<Signup />} />
            <Route path='products'element={<Products/>} />
            <Route path = "smart" element= {<Smart/>} />
+           <Route path='Automatic' element= {<Automatic/>} />
          </Routes>
        </BrowserRouter>
      </div>
