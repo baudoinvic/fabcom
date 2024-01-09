@@ -2,15 +2,48 @@ import React from 'react'
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 
+
 const About = () => {
   return (
     <div className="">
       <Navbar />
+      <div className="relative">
+        <img
+          class="w-full object-cover shadow-md "
+          style={{ height: "560px" }}
+          src="https://fablab.rw/wp-content/uploads/2022/09/fablab-scaled.jpg"
+          alt="Description"
+        />
+
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center "
+          style={{ marginRight: "40rem" }}
+        >
+          <span
+            class="font-bold text-white text-left mb-4 max-w-3/4 animate-moveText"
+            style={{ fontSize: "30px" }}
+          >
+            Welcome to FabTech Hub, <br></br>where innovation meets excellence
+            As a dynamic<br></br> and forward-thinking technology company
+          </span>
+
+          <button
+            class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-blue-100"
+            style={{
+              borderRadius: "30px",
+              border: "solid 1px gray",
+              marginRight: "25rem",
+            }}
+          >
+            See our services
+          </button>
+        </div>
+      </div>
       <div
         class="flex flex-col md:flex-row "
         style={{ marginRight: "3rem", marginLeft: "3rem", marginTop: "7rem" }}
       >
-        <div class=" w-full md:w-1/2 p-8 ">
+        <div class=" w-full md:w-1/2 p-8   ">
           <h1 class="text-blue-500 text-3xl font-bold mb-4">About us</h1>
           <p class="mb-4">
             Welcome to FabTech Hub, where innovation meets excellence! As a
@@ -66,13 +99,13 @@ const About = () => {
             Read More
           </button>
         </div>
-        <div class="w-full  md:w-1/2" style={{marginTop: '7rem'}}>
+        <div class="w-full  md:w-1/2" style={{ marginTop: "7rem" }}>
           {/* <img
             src="https://hardwareforsoftware.com/img/services/Electronics.webp"
             alt="Building"
             class="mt-14 h-auto"
           ></img> */}
-          <div className="video">
+          <div className="video  ">
             <video controls width="740" height="560">
               <source
                 src="https://html.geekcodelab.com/holiday-planners/assets/images/highlight-video.mp4"

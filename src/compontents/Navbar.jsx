@@ -52,17 +52,6 @@ const Navbar = () => {
             />
           </span>
         </span>
-        {/* <span className=" mx-2">
-          <span className=" flex items-center" style={{ color: "#03234b" }}>
-            <FontAwesomeIcon icon={faHeadphones} className="mr-2" />
-            Support&Community
-            <FontAwesomeIcon
-              icon={faChevronDown}
-              className="ml-1 "
-              style={{ color: "#03234b" }}
-            />
-          </span>
-        </span> */}
       </div>
       <div className="flex justify-center items-center px-8 py-5 shadow-md fab-com-navbar">
         <img
@@ -78,19 +67,21 @@ const Navbar = () => {
             <li className="mx-2">Home</li>
           </Link>
 
-          <span className="mx-2">
-            <span
-              className=" flex items-center"
-              style={{
-                color: "#03234b",
-                borderLeft: "0.5px solid gray",
-                paddingLeft: "0.9rem",
-              }}
-            >
-              <FontAwesomeIcon icon={faBars} />
-              <li className="mx-2">Products</li>
+          <Link to="/products">
+            <span className="mx-2">
+              <span
+                className=" flex items-center"
+                style={{
+                  color: "#03234b",
+                  borderLeft: "0.5px solid gray",
+                  paddingLeft: "0.9rem",
+                }}
+              >
+                <FontAwesomeIcon icon={faBars} />
+                <li className="mx-2">Products</li>
+              </span>
             </span>
-          </span>
+          </Link>
 
           <Link to="/about">
             <li className="mx-2 ">About us</li>
