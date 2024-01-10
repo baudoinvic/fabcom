@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from '../Navbar';
+import Footer from '../Footer';
 
 const Automatic = () => {
   return (
     <div>
-      <Navbar />
+    
+    <Navbar />
 
       <div className="ml-10 mr-5">
         <h1 className="text-left text-4xl font-bold mt-8 mb-4">
@@ -31,7 +34,7 @@ const Automatic = () => {
       </div>
       <br></br>
       <br></br>
-      <Footer />
+       <Footer />
     </div>
   );
 }

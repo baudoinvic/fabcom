@@ -15,6 +15,9 @@ import Signup from './compontents/Signup/Signup'
 import Products from './compontents/Products/Products'
 import Smart from './compontents/Products/Smart'
 import Automatic from './compontents/Products/Automatic'
+import Iot from './compontents/Products/Iot'
+import WebApp from './compontents/Products/WebApp'
+
 
  const CommonLayout = ({ children }) => {
    return (
@@ -40,8 +43,6 @@ import Automatic from './compontents/Products/Automatic'
                  <Service />
                  <Description />
                  <Product />
-
-              
                </CommonLayout>
              }
            />
@@ -50,9 +51,16 @@ import Automatic from './compontents/Products/Automatic'
            <Route path="homepage" element={<Homepage />} />
            <Route path="login" element={<Login />} />
            <Route path="signup" element={<Signup />} />
-           <Route path='products'element={<Products/>} />
-           <Route path = "smart" element= {<Smart/>} />
-           <Route path='Automatic' element= {<Automatic/>} />
+           <Route path="products" element={<Products />} />
+
+           <Route path="/products/smart-integration" element={<Smart />} />
+           <Route
+             path="/products/automatic-fare-collection-system"
+             element={<Automatic />}
+           />
+           <Route path="Automatic" element={<Automatic />} />
+           <Route path="/products/iot" element={<Iot />} />
+           <Route path="/products/web-app" element={<WebApp/>} />
          </Routes>
        </BrowserRouter>
      </div>
