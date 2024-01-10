@@ -23,7 +23,7 @@ const Navbar = () => {
     <div className="fab-com-electronics">
       <div className="bg-gray-100 flex items-center justify-center px-4 py-4 shadow-md fab-com-navbar space-x-10">
         <span className="mx-2">
-          <Link to="careers">
+          <Link to="/Career">
             <span
               className="text-decoration-none flex items-center"
               style={{ color: "#03234b" }}

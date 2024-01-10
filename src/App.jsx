@@ -20,6 +20,7 @@ import WebApp from './compontents/Products/WebApp'
 import NetworkDeployment from './compontents/Products/NetworkDeployment'
 import EducationalKit from './compontents/Products/EducationalKit'
 import Ourservices from './compontents/Services/Ourservices'
+import Career from './compontents/Career/Career'
 
 
 
@@ -55,6 +56,7 @@ import Ourservices from './compontents/Services/Ourservices'
            <Route path="homepage" element={<Homepage />} />
            <Route path="login" element={<Login />} />
            <Route path="signup" element={<Signup />} />
+           <Route path="career" element={<Career/>} />
            <Route path="ourservices" element={<Ourservices/>} />
            <Route path="products" element={<Products />} />
 
@@ -75,6 +77,7 @@ import Ourservices from './compontents/Services/Ourservices'
              path="/products/educational-kit"
              element={<EducationalKit />}
            />
+
          </Routes>
        </BrowserRouter>
      </div>
