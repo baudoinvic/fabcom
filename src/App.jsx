@@ -17,6 +17,8 @@ import Smart from './compontents/Products/Smart'
 import Automatic from './compontents/Products/Automatic'
 import Iot from './compontents/Products/Iot'
 import WebApp from './compontents/Products/WebApp'
+import NetworkDeployment from './compontents/Products/NetworkDeployment'
+
 
 
  const CommonLayout = ({ children }) => {
@@ -60,7 +62,11 @@ import WebApp from './compontents/Products/WebApp'
            />
            <Route path="Automatic" element={<Automatic />} />
            <Route path="/products/iot" element={<Iot />} />
-           <Route path="/products/web-app" element={<WebApp/>} />
+           <Route path="/products/web-app" element={<WebApp />} />
+           <Route
+             path="/products/network-deployment"
+             element={<NetworkDeployment />}
+           />
          </Routes>
        </BrowserRouter>
      </div>
