@@ -98,11 +98,13 @@
           </div>
 
           <div className="">
+          
+
             <div className="flex flex-wrap mt-20 ml-10 mr-10 -mx-10 cursor-pointer">
               {filteredProducts.map((product, index) => (
                 <div
                   key={index}
-                  className="first-col flex flex-col items-start w-1/3 shadow-md mb-4 px-2"
+                  className="first-col flex flex-col items-start w-1/3 shadow-md mb-4 px-2 transition-transform transform hover:scale-105"
                   style={{ width: "calc(33.33% - 16px)" }}
                 >
                   <img

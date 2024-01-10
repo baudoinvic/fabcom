@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar';
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -27,16 +28,18 @@ const About = () => {
             As a dynamic<br></br> and forward-thinking technology company
           </span>
 
-          <button
-            class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-black-100"
-            style={{
-              borderRadius: "30px",
-              border: "solid 1px gray",
-              marginRight: "25rem",
-            }}
-          >
-            See our services
-          </button>
+          <Link to="/Ourservices">
+            <button
+              class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-black-100"
+              style={{
+                borderRadius: "30px",
+                border: "solid 1px gray",
+                marginRight: "25rem",
+              }}
+            >
+              See our services
+            </button>
+          </Link>
         </div>
       </div>
       <div
