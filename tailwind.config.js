@@ -4,20 +4,15 @@ export default {
   theme: {
     extend: {
       keyframes: {
-        moveText: {
-          "0%": { transform: "translateY(0)" },
-          "50%": { transform: "translateY(-10px)" },
-          "100%": { transform: "translateY(0)" },
+        slideIn: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
         },
-
-        
       },
       animation: {
-        moveText: "moveText 4s infinite", // Adjust the duration as needed
+        slideIn: "slideIn 10s linear infinite",
       },
     },
   },
   plugins: [],
-
-  
 };

@@ -18,6 +18,8 @@ import Automatic from './compontents/Products/Automatic'
 import Iot from './compontents/Products/Iot'
 import WebApp from './compontents/Products/WebApp'
 import NetworkDeployment from './compontents/Products/NetworkDeployment'
+import EducationalKit from './compontents/Products/EducationalKit'
+import Ourservices from './compontents/Services/Ourservices'
 
 
 
@@ -53,6 +55,7 @@ import NetworkDeployment from './compontents/Products/NetworkDeployment'
            <Route path="homepage" element={<Homepage />} />
            <Route path="login" element={<Login />} />
            <Route path="signup" element={<Signup />} />
+           <Route path="ourservices" element={<Ourservices/>} />
            <Route path="products" element={<Products />} />
 
            <Route path="/products/smart-integration" element={<Smart />} />
@@ -66,6 +69,11 @@ import NetworkDeployment from './compontents/Products/NetworkDeployment'
            <Route
              path="/products/network-deployment"
              element={<NetworkDeployment />}
+           />
+
+           <Route
+             path="/products/educational-kit"
+             element={<EducationalKit />}
            />
          </Routes>
        </BrowserRouter>
