@@ -53,11 +53,13 @@ const Navbar = () => {
           </span>
         </span>
       </div>
+
       <div className="flex justify-center items-center px-8 py-5 shadow-md fab-com-navbar">
         <img
           src="https://jabesautoservice.com/wp-content/uploads/2017/12/lp-fabtech-logo.png"
-          style={{ marginRight: "7rem", width: "100px" }}
-        ></img>
+          style={{ marginRight: "23rem", width: "100px" }}
+          alt="Logo"
+        />
 
         <ul
           className=" cursor-pointer flex items-center space-x-10"
@@ -104,6 +106,7 @@ const Navbar = () => {
           </Link>
         </ul>
       </div>
+     
     </div>
   );
 };

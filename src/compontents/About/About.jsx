@@ -103,17 +103,18 @@ const About = () => {
           </button>
         </div>
         <div class="w-full  md:w-1/2" style={{ marginTop: "7rem" }}>
-          {/* <img
-            src="https://hardwareforsoftware.com/img/services/Electronics.webp"
-            alt="Building"
-            class="mt-14 h-auto"
-          ></img> */}
-          <div className="video  ">
-            <video controls width="740" height="560">
+          {/* <div className="video">
+            <video controls width="740" height="360">
               <source
                 src="https://html.geekcodelab.com/holiday-planners/assets/images/highlight-video.mp4"
                 type="video/mp4"
               />
+            </video>
+          </div> */}
+
+          <div>
+            <video controls width="full" height="560">
+              <source src="/anima.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
