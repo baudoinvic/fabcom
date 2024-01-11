@@ -32,16 +32,7 @@ const Ourservices = () => {
             forward-thinking technology company
           </span>
 
-          {/* <button
-            class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-black-100"
-            style={{
-              borderRadius: "30px",
-              border: "solid 1px gray",
-              marginRight: "25rem",
-            }}
-          >
-            Our services
-          </button> */}
+        
         </div>
       </div>
 

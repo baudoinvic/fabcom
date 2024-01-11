@@ -28,7 +28,7 @@ const Header = () => {
               class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-black-100"
               style={{
                 borderRadius: "30px",
-                border: "solid 4px gray",
+                border: "solid 4px white",
                 marginRight: "5rem",
               }}
             >
