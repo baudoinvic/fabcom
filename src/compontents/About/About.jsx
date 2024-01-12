@@ -47,7 +47,7 @@ const About = () => {
         style={{ marginRight: "3rem", marginLeft: "3rem", marginTop: "7rem" }}
       >
         <div class=" w-full md:w-1/2 p-8   ">
-          <h1 class="text-blue-500 text-3xl font-bold mb-4">About us</h1>
+          <h1 class="text-gray-800 text-3xl font-bold mb-4">About us</h1>
           <p class="mb-4">
             Welcome to FabTech Hub, where innovation meets excellence! As a
             dynamic and forward-thinking technology company, we specialised in
@@ -98,9 +98,7 @@ const About = () => {
             we continue to design the future through the seamless integration of
             hardware, software, and IoT at FabTech Hub.
           </p>
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Read More
-          </button>
+       
         </div>
         <div class="w-full  md:w-1/2" style={{ marginTop: "7rem" }}>
           {/* <div className="video">

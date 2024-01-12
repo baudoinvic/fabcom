@@ -7,8 +7,8 @@ const Contact = () => {
     <div className="bg-gray-100">
       <Navbar />
 
-      <div className=" text-center text-gray-800" style={{ marginTop: "5rem" }}>
-        <h2 className="text-4xl font-extrabold mb-6 text-blue-500">
+      <div className="text-center text-gray-800" style={{ marginTop: "5rem" }}>
+        <h2 className="text-4xl font-extrabold mb-6 text-gray-800">
           Contact Us
         </h2>
        
@@ -98,7 +98,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+            className="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-blue-600"
           >
             Send Message
           </button>

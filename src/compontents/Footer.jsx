@@ -2,11 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div class="bg-gray-100 p-8" id="Footer">
+    <div class="bg-gray-800 p-8" id="Footer">
       <div class="flex justify-center">
         <div class="flex flex-wrap justify-center w-full md:w-9/12">
           <div class="w-full md:w-1/2 lg:w-1/3 mb-8 md:mb-0">
-            <h2 class="font-bold mb-4">About FabTechHub</h2>
+            <h2 class="text-white font-bold mb-4">About FabTechHub</h2>
             <nav>
               <ul class="text-blue-500">
                 <li>
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
 
           <div class="w-full md:w-1/2 lg:w-1/3 mb-8 md:mb-0">
-            <h2 class="font-bold mb-4">Connect with us</h2>
+            <h2 class="text-white font-bold mb-4">Connect with us</h2>
             <nav>
               <ul class="text-blue-500">
                 <li>
@@ -56,7 +56,7 @@ const Footer = () => {
 
           <div class="w-full md:w-1/2 lg:w-1/3">
             <div id="subscriptionContainer" class="mb-8">
-              <h2 class="font-bold mb-4">Subscribe to Our Newsletter</h2>
+              <h2 class="text-white font-bold mb-4">Subscribe to Our Newsletter</h2>
               <form action="#" class="subscription-form">
                 <div class="flex items-center">
                   <input

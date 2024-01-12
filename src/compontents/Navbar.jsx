@@ -1,114 +1,83 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEnvelope,
-  faPhone,
-  faShoppingCart,
-  faSearch,
-   faHeadphones,
+
+ import React from "react";
+ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+ import {
+   faGlobe,
+   faShoppingCart,
    faBars,
    faChevronDown,
-   faGlobe,
-   faCaretDown,
-  faUser,
+   faUser,
+ } from "@fortawesome/free-solid-svg-icons";
+ import { Link } from "react-router-dom";
 
-} from "@fortawesome/free-solid-svg-icons";
+ const Navbar = () => {
+   return (
+     <div className="fab-com-electronics bg-gray-900 text-white">
+       <div className="bg-gray-800 flex items-center justify-between px-4 py-4 shadow-md fab-com-navbar space-x-10">
+         <span className="mx-2 flex items-center space-x-8 ml-auto">
+           <span className="text-white">
+             <FontAwesomeIcon icon={faShoppingCart} className="mr-2 ml-1" />
+             Sample&Buy
+             <FontAwesomeIcon icon={faChevronDown} className="ml-1" />
+           </span>
 
+           <Link to="/Career" className="text-white">
+             <span className="text-decoration-none flex items-center">
+               <FontAwesomeIcon icon={faGlobe} className="mr-2" />
+               Careers
+             </span>
+           </Link>
+         </span>
+       </div>
 
-import { Link } from "react-router-dom";
-// import { Link } from "react-router-dom";
+    
+       <div className="flex justify-between items-center px-8 py-5 shadow-md fab-com-navbar">
+         <Link to="/homepage" className="text-white">
+           <img
+             src="https://jabesautoservice.com/wp-content/uploads/2017/12/lp-fabtech-logo.png"
+             style={{ width: "100px" }}
+             alt="Logo"
+           />
+         </Link>
 
-const Navbar = () => {
-  return (
-    <div className="fab-com-electronics">
-      <div className="bg-gray-100 flex items-center justify-center px-4 py-4 shadow-md fab-com-navbar space-x-10">
-        <span className="mx-2">
-          <Link to="/Career">
-            <span
-              className="text-decoration-none flex items-center"
-              style={{ color: "#03234b" }}
-            >
-              <FontAwesomeIcon
-                icon={faGlobe}
-                className="mr-2"
-                style={{ color: "#03234b" }}
-              />
-              Careers
-            </span>
-          </Link>
-        </span>
-        <span className="mx-2">
-          <span className=" flex items-center" style={{ color: "#03234b" }}>
-            <FontAwesomeIcon
-              icon={faShoppingCart}
-              className="mr-2 ml-1 "
-              style={{ color: "#03234b" }}
-            />
-            Sample&Buy
-            <FontAwesomeIcon
-              icon={faChevronDown}
-              className="ml-1"
-              style={{ color: "#03234b" }}
-            />
-          </span>
-        </span>
-      </div>
+         <ul className="cursor-pointer flex items-center space-x-10 text-white">
+           <Link to="/homepage" className="text-white">
+             <li className="mx-2">Home</li>
+           </Link>
 
-      <div className="flex justify-center items-center px-8 py-5 shadow-md fab-com-navbar">
-        <img
-          src="https://jabesautoservice.com/wp-content/uploads/2017/12/lp-fabtech-logo.png"
-          style={{ marginRight: "23rem", width: "100px" }}
-          alt="Logo"
-        />
+           <Link to="/products" className="text-white">
+             <span className="flex items-center">
+               <FontAwesomeIcon icon={faBars} />
+               <li className="mx-2">Products</li>
+             </span>
+           </Link>
 
-        <ul
-          className=" cursor-pointer flex items-center space-x-10"
-          style={{ color: "#03234b" }}
-        >
-          <Link to="/homepage">
-            <li className="mx-2">Home</li>
-          </Link>
+           <Link to="/about" className="text-white">
+             <li className="mx-2">About us</li>
+           </Link>
 
-          <Link to="/products">
-            <span className="mx-2">
-              <span
-                className=" flex items-center"
-                style={{
-                  color: "#03234b",
-                  borderLeft: "0.5px solid gray",
-                  paddingLeft: "0.9rem",
-                }}
-              >
-                <FontAwesomeIcon icon={faBars} />
-                <li className="mx-2">Products</li>
-              </span>
-            </span>
-          </Link>
+           <Link to="/ourservices" className="text-white">
+             <li className="mx-2">Our Services</li>
+           </Link>
 
-          <Link to="/about">
-            <li className="mx-2 ">About us</li>
-          </Link>
+           <Link to="/contact" className="text-white">
+             <li className="mx-2 mr-8">Contact us</li>
+           </Link>
 
-          <Link to="/ourservices">
-            <li className="mx-2 ">Our Services</li>
-          </Link>
+           <li className="mx-2 text-xl">
+             <FontAwesomeIcon icon={faShoppingCart} />
+           </li>
 
-          <Link to="/contact">
-            <li className="mx-2 mr-8">Contact us</li>
-          </Link>
-          <li className="mx-2 text-xl " style={{ color: "#03234b" }}>
-            <FontAwesomeIcon icon={faShoppingCart} />
-          </li>
-          <Link to="/login">
-            <li className="mx-2 text-xl " style={{ color: "#03234b" }}>
-              <FontAwesomeIcon icon={faUser} />
-            </li>
-          </Link>
-        </ul>
-      </div>
-     
-    </div>
-  );
-};
+           <Link to="/login" className="text-white">
+             <li className="mx-2 text-xl">
+               <FontAwesomeIcon icon={faUser} />
+             </li>
+           </Link>
+         </ul>
+       </div>
+     </div>
+   );
+ };
 
-export default Navbar;
+ export default Navbar;
+

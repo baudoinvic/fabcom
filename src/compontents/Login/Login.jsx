@@ -10,7 +10,7 @@ const Login = () => {
       <Navbar />
       <div className="flex items-center justify-center">
         <div className="border shadow-md  pb-10 m-12 overflow-hidden md:w-1/3 w-full">
-          <h1 className=" font-extrabold uppercase text-2xl w-full bg-blue-500 px-4 py-8 text-left text-white">
+          <h1 className=" font-extrabold uppercase text-2xl w-full bg-gray-800 px-4 py-8 text-left text-white">
             Login
           </h1>
           <div className="mt-4 mb-2  font-semibold md:ml-8 ml-4">
@@ -41,7 +41,7 @@ const Login = () => {
             </p>
           </div>
         
-          <button className="bg-blue-500 rounded-lg w-2/6 px-5 text-xl font-bold text-white text-center pb-2 mt-3 ml-8 py-1 ">
+          <button className="bg-gray-800 rounded-lg w-2/6 px-5 text-xl font-bold text-white text-center pb-2 mt-3 ml-8 py-1 ">
             login
           </button>
         </div>
