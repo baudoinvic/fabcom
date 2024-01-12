@@ -14,7 +14,7 @@
    return (
      <div className="fab-com-electronics bg-gray-900 text-white">
        <div className="bg-gray-800 flex items-center justify-between px-4 py-4 shadow-md fab-com-navbar space-x-10">
-         <span className="mx-2 flex items-center space-x-8 ml-auto">
+         <span className="mx-2 flex items-center space-x-8 ml-auto" style={{marginRight: '2rem'}}>
            <span className="text-white">
              <FontAwesomeIcon icon={faShoppingCart} className="mr-2 ml-1" />
              Sample&Buy

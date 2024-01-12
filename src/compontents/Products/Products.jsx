@@ -75,7 +75,7 @@
           <div className="flex flex-col items-center mt-20">
             <div className="flex space-x-2 filter-buttons">
               <button
-                className={`bg-gray-400 text-white py-2 px-4 ${
+                className={`bg-gray-900 text-white py-2 px-4 ${
                   selectedCategory === "All" ? "active" : ""
                 }`}
                 onClick={() => filterProducts("All")}
@@ -86,7 +86,7 @@
               {productsData.map((product, index) => (
                 <button
                   key={index}
-                  className={`bg-blue-500 text-white py-2 px-4 ${
+                  className={`bg-gray-800 text-white py-2 px-4 ${
                     selectedCategory === product.category ? "active" : ""
                   }`}
                   onClick={() => filterProducts(product.category)}
@@ -114,7 +114,7 @@
                   />
                   <span>{product.description}</span>
                   <Link to={generateProductLink(product.category)}>
-                    <button className="mt-2 bg-blue-500 text-white py-2 px-10 hover:bg-blue-600">
+                    <button className="mt-2 bg-gray-800 text-white py-2 px-10 hover:bg-blue-600">
                       View
                     </button>
                   </Link>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 const Career = () => {
   return (
@@ -25,34 +26,39 @@ const Career = () => {
               <h3 class="text-xl font-semibold mb-2">Software Engineer</h3>
               <p class="text-gray-700 mb-4">
                 We are seeking a talented software engineer to join our
-                innovative team. The ideal candidate will have experience<br></br> in web
-                development and a passion for creating robust and scalable
-                solutions.
+                innovative team. The ideal candidate will have experience
+                <br></br> in web development and a passion for creating robust
+                and scalable solutions.
               </p>
               <p class="text-gray-500">
                 Qualifications: Bachelor's degree in Computer Science, 3+ years
                 of experience in full-stack development.
               </p>
-              <a href="#" class="text-blue-500 mt-4 inline-block">
-                Apply Now
-              </a>
+              <Link to="/apply">
+                <a href="#" class="text-blue-500 mt-4 inline-block">
+                  Apply Now
+                </a>
+              </Link>
             </div>
 
             <div class="bg-white p-6 rounded-md shadow-md mb-6">
               <h3 class="text-xl font-semibold mb-2">Marketing Specialist</h3>
               <p class="text-gray-700 mb-4">
                 Join our marketing team and help drive brand awareness and
-                customer engagement.<br></br> The ideal candidate will have experience in
-                digital marketing, content creation, and social media
-                management.
+                customer engagement.<br></br> The ideal candidate will have
+                experience in digital marketing, content creation, and social
+                media management.
               </p>
               <p class="text-gray-500">
                 Qualifications: Bachelor's degree in Marketing, 2+ years of
                 experience in digital marketing.
               </p>
-              <a href="#" class="text-blue-500 mt-4 inline-block">
-                Apply Now
-              </a>
+
+              <Link to="/apply">
+                <a href="#" class="text-blue-500 mt-4 inline-block">
+                  Apply Now
+                </a>
+              </Link>
             </div>
 
             {/*add more cards*/}
@@ -101,10 +107,8 @@ const Career = () => {
           </section>
         </div>
       </div>
-       <br>
-      </br>
-      <br>
-      </br>
+      <br></br>
+      <br></br>
       <Footer />
     </div>
   );

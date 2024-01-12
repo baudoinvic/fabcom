@@ -22,6 +22,7 @@ import NetworkDeployment from './compontents/Products/NetworkDeployment'
 import EducationalKit from './compontents/Products/EducationalKit'
 import Ourservices from './compontents/Services/Ourservices'
 import Career from './compontents/Career/Career'
+import Apply from './compontents/Apply/Apply'
 
 
 
@@ -60,6 +61,7 @@ import Career from './compontents/Career/Career'
            <Route path="career" element={<Career/>} />
            <Route path="ourservices" element={<Ourservices/>} />
            <Route path="products" element={<Products />} />
+           <Route path="apply" element={<Apply/>} />
 
            <Route path="/products/smart-integration" element={<Smart />} />
            <Route
