@@ -7,19 +7,15 @@ const Contact = () => {
     <div className="bg-gray-100">
       <Navbar />
 
-      <div className="text-center text-gray-800" style={{ marginTop: "5rem" }}>
+      <div className="text-center text-gray-800 mt-10">
         <h2 className="text-4xl font-extrabold mb-6 text-gray-800">
           Contact Us
         </h2>
-       
       </div>
 
-      <div className="min-h-screen flex items-center justify-center">
-        <div
-          className="bg-white p-8 rounded shadow-md"
-          style={{ marginTop: "-14rem", width: "800px" }}
-        >
-          <div className="grid grid-cols-2 gap-4">
+      <div className="min-h-screen flex items-center justify-center" style={{marginTop: '-2rem'}}>
+        <div className="bg-white p-8 rounded shadow-md w-full md:w-3/4 lg:w-1/2 xl:w-1/3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="mb-4">
               <label
                 htmlFor="firstName"
@@ -98,16 +94,16 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+            className="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-blue-600 w-full"
           >
             Send Message
           </button>
         </div>
       </div>
-      <div className="items-center p-4" style={{ marginTop: "-8rem" }}>
+      <div className="items-center p-4 mt-10">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30607.79514638295!2d30.066595630129367!3d-1.9550632439832505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssp rwanda!5e0!3m2!1sen!2srw!4v1663256798141!5m2!1sen!2srw"
-          width="1550px"
+          width="100%"
           height="600px"
         />
       </div>

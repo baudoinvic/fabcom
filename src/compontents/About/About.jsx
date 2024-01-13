@@ -32,7 +32,7 @@ const About = () => {
       <div class="flex flex-col md:flex-row md:mr-3 md:ml-3 md:mt-7">
         <div class="w-full md:w-1/2 p-8">
           <h1 class="text-gray-800 text-3xl font-bold mb-4">About us</h1>
-          <p class="mb-4 text-base md:text-lg lg:text-xl">
+          <p class="mb-4 text-base ">
             Welcome to FabTech Hub, where innovation meets excellence! As a
             dynamic and forward-thinking technology company, we specialize in
             the seamless integration of hardware, software, and IoT solutions.
@@ -49,7 +49,7 @@ const About = () => {
             user experience.
           </p>
 
-          <p className="mb-4 text-base md:text-lg lg:text-xl">
+          <p className="mb-4 text-base ">
             Pioneering Software Development: Software is the heart and soul of
             any technological ecosystem, and at FabTech Hub, we take pride in
             our software development prowess. Our team of software engineers is
