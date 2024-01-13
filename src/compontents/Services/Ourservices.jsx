@@ -10,35 +10,29 @@ import Footer from '../Footer';
 
 const Ourservices = () => {
   return (
-    <div>
+    <div class="">
       <Navbar />
-      <div className="relative">
+      <div class="relative">
         <img
-          class="w-full object-cover shadow-md "
+          class="w-full object-cover shadow-md"
           style={{ height: "560px" }}
           src="https://fablab.rw/wp-content/uploads/2022/09/fablab-scaled.jpg"
           alt="Description"
         />
 
-        <div
-          class="absolute inset-0 flex flex-col items-center justify-center "
-          style={{ marginRight: "40rem" }}
-        >
-          <span
-            class="font-bold text-white text-left mb-4 max-w-3/4 animate-moveText"
-            style={{ fontSize: "30px" }}
-          >
-            FabTech Hub <br></br>this is our services As a dynamic<br></br> and
+       
+
+        <div class="absolute inset-0 flex flex-col items-center justify-center md:justify-start text-center md:text-left p-8 md:p-16 mt-8 md:mt-16">
+          <span class="font-bold text-white mb-4 max-w-3/4 animate-moveText text-lg md:text-2xl lg:text-3xl">
+            FabTech Hub <br /> this is our services As a dynamic <br /> and
             forward-thinking technology company
           </span>
-
-        
         </div>
       </div>
 
-      <div className="bg-gray-100">
-        <div className="flex justify-center items-center space-x-4 p-10">
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+      <div class="bg-gray-100">
+        <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiSimilarweb className="text-gray-600 text-4xl  mb-4" />
             <span className="text-xl font-bold mb-4">Smart integration</span>
             <p className="text-gray-600">
@@ -49,7 +43,7 @@ const Ourservices = () => {
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <GrIntegration className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">Internet Of Things</span>
             <p className="text-gray-600">
@@ -58,11 +52,11 @@ const Ourservices = () => {
               industry standards. From concept to prototype to final production,
               we leverage the latest technologies to design robust and efficient
               hardware solutions. We ensure that our hardware stands out in
-              terms of performance, durability, and user experience.
+              terms of performance
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
             <AiOutlineFieldTime className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">
               Network deployment and design
@@ -73,18 +67,17 @@ const Ourservices = () => {
               industry standards. From concept to prototype to final production,
               we leverage the latest technologies to design robust and efficient
               hardware solutions. We ensure that our hardware stands out in
-              terms of performance, durability, and user experience.
+              terms of performance.
             </p>
           </div>
         </div>
       </div>
 
-      {/*second row*/}
-
-      <br></br>
-      <div className="bg-gray-100">
-        <div className="flex justify-center items-center space-x-4 p-10">
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+      {/* Second row */}
+      <br />
+      <div class="bg-gray-100">
+        <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiWebmoney className="text-gray-600 text-4xl  mb-4" />
             <span className="text-xl font-bold mb-4">Web development</span>
             <p className="text-gray-600">
@@ -96,25 +89,22 @@ const Ourservices = () => {
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiKasasmart className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">
               Innovative Automatic Fare Collection Solutions
             </span>
             <p className="text-gray-600">
               Experience cutting-edge automatic fare collection with our team of
-              highly skilled hardware engineers at [Your Company Name]. We are
-              committed to designing state-of-the-art devices that set new
-              industry standards. From initial concept to prototype and final
-              production, we harness the latest technologies to create robust
-              and efficient hardware solutions for automatic fare collection
-              systems. Our focus is on delivering hardware that excels in
-              performance, durability, and user experience, ensuring seamless
-              and reliable operations for your transit systems.
+              highly skilled hardware engineers at FabtechHub. We are committed
+              to designing state-of-the-art devices that set new industry
+              standards. From initial concept to prototype and final production,
+              we harness the latest technologies to create robust and efficient
+              hardware solutions for automatic fare collection systems.
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
             <LiaUikit className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">Educational Kit</span>
             <p className="text-gray-600">
@@ -123,17 +113,14 @@ const Ourservices = () => {
               kits. We go beyond industry standards, from the conceptualization
               phase to prototype development and final production. Leveraging
               the latest technologies, we design robust and efficient hardware
-              solutions to enhance the educational experience. Our commitment is
-              to deliver educational kits that stand out in terms of
-              .
+              solutions to enhance the educational experience.
             </p>
           </div>
         </div>
       </div>
-       <br>
-      </br>
-      <br>
-      </br>
+
+      <br />
+      <br />
       <Footer />
     </div>
   );

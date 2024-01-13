@@ -16,7 +16,7 @@ const About = () => {
           alt="Description"
         />
 
-        <div class="absolute inset-0 flex flex-col items-center justify-center md:justify-start text-center md:text-left p-8 md:p-16">
+        <div class="absolute inset-0 flex flex-col items-center justify-center md:justify-start text-center md:text-left p-8 md:p-16 mt-8 md:mt-16">
           <span class="font-bold text-white mb-4 max-w-3/4 animate-moveText text-lg md:text-2xl lg:text-3xl">
             Welcome to FabTech Hub, <br /> where innovation meets excellence. As
             a dynamic <br /> and forward-thinking technology company
