@@ -65,7 +65,7 @@ const Career = () => {
           </section>
 
           {/*Benefits section*/}
-          <section class="mb-12">
+          <section class="mb-12 ml-4">
             <h2 class="text-2xl font-semibold mb-6">Why Choose Us?</h2>
             <ul class="list-disc list-inside">
               <li>Competitive salary</li>
@@ -76,7 +76,7 @@ const Career = () => {
           </section>
 
           {/*Application process*/}
-          <section class="mb-12">
+          <section class="mb-12 ml-4">
             <h2 class="text-2xl font-semibold mb-6">Application Process</h2>
             <p class="text-gray-700">
               To apply for a position, please follow these steps:
@@ -95,7 +95,7 @@ const Career = () => {
           </section>
 
           {/*Contact section*/}
-          <section>
+          <section class="ml-4">
             <h2 class="text-2xl font-semibold mb-6">Contact Us</h2>
             <p class="text-gray-700">
               For any inquiries related to careers, please contact us at{" "}
