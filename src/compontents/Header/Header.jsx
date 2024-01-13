@@ -25,14 +25,13 @@ const Header = () => {
           </span>
           <Link to="/about">
             <button
-              class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-black-100"
+              class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-black-100 md:px-6"
               style={{
                 borderRadius: "30px",
                 border: "solid 4px white",
-                marginRight: "5rem",
               }}
             >
-             Discover More
+              Discover More
             </button>
           </Link>
         </div>
