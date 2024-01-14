@@ -1,14 +1,14 @@
 
-    import React, { useState } from "react";
-    import Navbar from "../Navbar";
-    import Footer from "../Footer";
-    import { Link } from "react-router-dom";
+       import React, { useState } from "react";
+       import Navbar from "../Navbar";
+       import Footer from "../Footer";
+       import { Link } from "react-router-dom";
 
-    const Products = () => {
-      const [selectedCategory, setSelectedCategory] = useState("All");
+       const Products = () => {
+         const [selectedCategory, setSelectedCategory] = useState("All");
 
-      const productsData = [
-        {
+         const productsData = [
+            {
           category: "Smart integration",
           image:
             "https://www.iotallknow.com/wp-content/uploads/2022/11/%E6%99%BA%E8%83%BD%E7%81%8C%E6%BA%89%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E4%BE%8B.webp",
@@ -50,85 +50,86 @@
           description:
             "Educational KIT programs, or data that enable a computer or a system to perform specific tasks or operations.",
         },
-      ];
+         ];
 
-      const filterProducts = (category) => {
-        setSelectedCategory(category);
-      };
+         const filterProducts = (category) => {
+           setSelectedCategory(category);
+         };
 
-      const generateProductLink = (category) => {
-        const formattedCategory = category.replace(/\s+/g, "-").toLowerCase();
-        return `/products/${formattedCategory}`;
-      };
+         const generateProductLink = (category) => {
+           const formattedCategory = category
+             .replace(/\s+/g, "-")
+             .toLowerCase();
+           return `/products/${formattedCategory}`;
+         };
 
-      const filteredProducts =
-        selectedCategory === "All"
-          ? productsData
-          : productsData.filter(
-              (product) => product.category === selectedCategory
-            );
+         const filteredProducts =
+           selectedCategory === "All"
+             ? productsData
+             : productsData.filter(
+                 (product) => product.category === selectedCategory
+               );
 
-      return (
-        <div className="">
-          <Navbar />
+         return (
+           <div className="">
+             <Navbar />
 
-          <div className="flex flex-col items-center mt-20">
-            <div className="flex space-x-2 filter-buttons">
-              <button
-                className={`bg-gray-900 text-white py-2 px-4 ${
-                  selectedCategory === "All" ? "active" : ""
-                }`}
-                onClick={() => filterProducts("All")}
-              >
-                All
-              </button>
+             <div className="flex flex-col items-center mt-20">
+               <div className="flex space-x-2 sm:space-x-4 filter-buttons">
+                 <button
+                   className={`bg-gray-900 text-white py-2 px-4 ${
+                     selectedCategory === "All" ? "active" : ""
+                   }`}
+                   onClick={() => filterProducts("All")}
+                 >
+                   All
+                 </button>
 
-              {productsData.map((product, index) => (
-                <button
-                  key={index}
-                  className={`bg-gray-800 text-white py-2 px-4 ${
-                    selectedCategory === product.category ? "active" : ""
-                  }`}
-                  onClick={() => filterProducts(product.category)}
-                >
-                  {product.category}
-                </button>
-              ))}
-            </div>
-          </div>
+                 {productsData.map((product, index) => (
+                   <button
+                     key={index}
+                     className={`bg-gray-800 text-white py-2 px-4 ${
+                       selectedCategory === product.category ? "active" : ""
+                     }`}
+                     onClick={() => filterProducts(product.category)}
+                   >
+                     {product.category}
+                   </button>
+                 ))}
+               </div>
+             </div>
 
-          <div className="">
-          
+             <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                 {filteredProducts.map((product, index) => (
+                   <div
+                     key={index}
+                     className="bg-white rounded-lg shadow-md p-4 transition-transform transform hover:scale-105"
+                   >
+                     <img
+                       src={product.image}
+                       className="w-full h-40 sm:h-56 object-cover rounded-lg mb-4"
+                       alt={`Image ${index + 1}`}
+                     />
+                     <p className="text-gray-800 text-lg font-semibold mb-2">
+                       {product.category}
+                     </p>
+                     <p className="text-gray-600">{product.description}</p>
+                     <Link to={generateProductLink(product.category)}>
+                       <button className="mt-4 bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
+                         View
+                       </button>
+                     </Link>
+                   </div>
+                 ))}
+               </div>
+             </div>
+         
+             <br />
+             <br />
+             <Footer />
+           </div>
+         );
+       };
 
-            <div className="flex flex-wrap mt-20 ml-10 mr-10 -mx-10 cursor-pointer">
-              {filteredProducts.map((product, index) => (
-                <div
-                  key={index}
-                  className="first-col flex flex-col items-start w-1/3 shadow-md mb-4 px-2 transition-transform transform hover:scale-105"
-                  style={{ width: "calc(33.33% - 16px)" }}
-                >
-                  <img
-                    src={product.image}
-                    className="w-full h-64 object-cover"
-                    alt={`Image ${index + 1}`}
-                  />
-                  <span>{product.description}</span>
-                  <Link to={generateProductLink(product.category)}>
-                    <button className="mt-2 bg-gray-800 text-white py-2 px-10 hover:bg-blue-600">
-                      View
-                    </button>
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <br />
-          <br />
-          <Footer />
-        </div>
-      );
-    };
-
-    export default Products;
-
+       export default Products;
