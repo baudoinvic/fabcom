@@ -27,44 +27,7 @@ const Description = () => {
         </p>
       </div>
 
-      {/* <div className="flex justify-center items-center space-x-4 p-10">
-        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-          <FaEye className="text-gray-600 text-4xl  mb-4" />
-          <span className="text-xl font-bold mb-4">Our Vision</span>
-          <p className="text-gray-600">
-            At FabTech Hub, we envision a connected world where cutting-edge
-            technology enhances the way we live, work, and interact. Our goal is
-            to be at the forefront of this transformation, driving innovation
-            through the convergence of hardware, software, and IoT.
-          </p>
-        </div>
-
-        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-          <FaCog className="text-gray-600 text-4xl mb-4" />
-          <span className="text-xl font-bold mb-4">Our Value</span>
-          <p className="text-gray-600">
-            Our team of highly skilled hardware engineers is dedicated to
-            crafting state-of-the-art devices that not only meet but exceed
-            industry standards. From concept to prototype to final production we
-            leverage the latest technologies to design robust and efficient
-            hardware solutions. We ensure that our hardware stands out in terms
-            of performance, durability, and user experience.
-          </p>
-        </div>
-
-        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-          <PiLampBold className="text-gray-600 text-4xl mb-4" />
-          <span className="text-xl font-bold mb-4">Our Mission</span>
-          <p className="text-gray-600">
-            Our team of highly skilled hardware engineers is dedicated to
-            crafting state-of-the-art devices that not only meet but exceed
-            industry standards. From concept to prototype to final production we
-            leverage the latest technologies to design robust and efficient
-            hardware solutions. We ensure that our hardware stands out in terms
-            of performance, durability, and user experience.
-          </p>
-        </div>
-      </div> */}
+    
 
       <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10">
         <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
