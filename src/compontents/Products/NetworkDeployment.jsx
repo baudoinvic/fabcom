@@ -5,35 +5,38 @@ import Footer from "../Footer";
 
 const NetworkDeployment = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <Navbar />
 
-      <div className="ml-10 mr-5">
+      <div className="mx-4 md:mx-10 lg:mx-20 xl:mx-32">
         <h1 className="text-left text-4xl font-bold mt-8 mb-4">
-          Network deployment
+          Network Deployment
         </h1>
       </div>
 
-      <div className=" flex ml-10 mr-10 shadow-md">
-        <div className="w-1/2">
+      <div className="flex flex-col lg:flex-row mx-4 md:mx-10 lg:mx-20 xl:mx-32 shadow-md">
+        <div className="w-full lg:w-1/2 lg:mr-5">
           <span className="mr-4 mt-4">
             It is no myth that the right network design and deployment for any
             business increase its customer base, employee efficiency, and
-            revenue. There ensuring that you start with that you carry out
-            network design in a way that is holistic, yet precise and is
-            critically tailored to the goals of the business is very important.
+            revenue. Ensuring that you start with carrying out network design in
+            a way that is holistic, yet precise, and is critically tailored to
+            the goals of the business is very important.
           </span>
         </div>
-        <div className="w-1/2 ml-10">
+
+        <div className="w-full lg:w-1/2 lg:ml-5">
           <img
             src="https://vietec.co.uk/wp-content/uploads/2023/07/Network-Design-600.jpg"
-            alt="Smart Integration"
-            className="w-4/5 h-auto"
+            alt="Network Deployment"
+            className="w-full h-auto"
           />
         </div>
       </div>
-      <br></br>
-      <br></br>
+
+      <br />
+      <br />
+
       <Footer />
     </div>
   );

@@ -4,18 +4,17 @@ import Footer from '../Footer';
 
 const Automatic = () => {
   return (
-    <div>
-    
-    <Navbar />
+    <div className="container mx-auto">
+      <Navbar />
 
-      <div className="ml-10 mr-5">
+      <div className="mx-4 md:mx-10 lg:mx-20 xl:mx-32">
         <h1 className="text-left text-4xl font-bold mt-8 mb-4">
-          Automatic fare collection system
+          Automatic Fare Collection System
         </h1>
       </div>
 
-      <div className=" flex ml-10 mr-10 shadow-md">
-        <div className="w-1/2">
+      <div className="flex flex-col lg:flex-row mx-4 md:mx-10 lg:mx-20 xl:mx-32 shadow-md">
+        <div className="w-full lg:w-1/2 lg:mr-5">
           <span className="mr-4 mt-4">
             An automatic fare collection system is designed to allow passengers
             to board public transportation vehicles without having to visit a
@@ -24,17 +23,20 @@ const Automatic = () => {
             passes on an electronic device.
           </span>
         </div>
-        <div className="w-1/2 ml-10">
+
+        <div className="w-full lg:w-1/2 lg:ml-5">
           <img
             src="https://www.masstrans.in/wp-content/uploads/automatic-fare-collection-system-in-bus.jpg"
             alt="Automatic"
-            className="w-4/5 h-auto"
+            className="w-full h-auto"
           />
         </div>
       </div>
-      <br></br>
-      <br></br>
-       <Footer />
+
+      <br />
+      <br />
+
+      <Footer />
     </div>
   );
 }
