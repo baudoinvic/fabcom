@@ -2,7 +2,10 @@ import React from 'react'
 
 const Product = () => {
   return (
-    <div class="relative text-center  object-cover shadow-lg" style={{marginTop: '4rem'}}>
+    <div
+      class="relative text-center  object-cover shadow-lg"
+      style={{ marginTop: "4rem" }}
+    >
       <img
         src="https://www.st.com/content/dam/crew/solar-panel-blue-sky.jpg"
         style={{ width: "104rem", height: "890px" }}
@@ -42,7 +45,7 @@ const Product = () => {
 
         <div
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white "
-          style={{ marginTop: "-6rem", marginLeft: "15rem" }}
+          style={{ marginTop: "-6rem", marginLeft: "12rem" }}
         >
           <p class="text-4xl font-bold ">Smart Mobility</p>
           <p class="w-full text-2xl  mb-4 mt-5">
@@ -53,11 +56,21 @@ const Product = () => {
           <div class="flex space-x-9">
             <div class="flex-none">
               <div class="relative">
-                <img
+                {/* <img
                   src="https://www.st.com/content/dam/0hp/2023-11/products-and-innovation/lora-device-provisioning-with-nfc.jpg"
                   alt="Image 1"
                   class="w-full max-w-xl"
-                ></img>
+                ></img> */}
+                <video
+                  style={{ width: "400px", height: "260px" }}
+                  className="object-cover"
+                  autoPlay
+                  muted
+                  loop
+                >
+                  <source src="/techVideo.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
                 <div class="text-black bottom-0 left-0 w-full bg-white p-2">
                   <p>Explore the new features of our Teseo</p>
                   <p>GNSS modules for specific applications with </p>
@@ -67,11 +80,23 @@ const Product = () => {
             </div>
             <div class="flex-none">
               <div class="relative">
-                <img
+                {/* <img
                   src="https://www.st.com/content/dam/0hp/2023-11/products-and-innovation/webinar-ame-easily-implement-gnss.jpg"
                   alt="Image 2"
                   class="w-full max-w-xl"
-                ></img>
+                ></img> */}
+
+                <video
+                  style={{ width: "400px", height: "260px" }}
+                  className="object-cover"
+                  autoPlay
+                  muted
+                  loop
+                >
+                  <source src="/anima.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+
                 <div class="text-black bottom-0 left-0 w-full bg-white p-2">
                   <p>Explore the new features of our Teseo</p>
                   <p>GNSS modules for specific applications with </p>
