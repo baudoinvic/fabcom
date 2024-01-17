@@ -1,8 +1,57 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import { useState,useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
 
 const Contact = () => {
+
+        const [formData, setFormData] = useState({
+          FirstName: "",
+          LastName: "",
+          email: "",
+          phoneNumber: "",
+          message: "",
+        });
+
+        const handleChange = (e) => {
+          setFormData({
+            ...formData,
+            [e.target.name]: e.target.value,
+          });
+        };
+
+        const handleSubmit = async (e) => {
+          e.preventDefault();
+
+          try {
+            let token = localStorage.getItem("token");
+           console.log(formData)
+
+
+            const response = await axios({
+              url: "https://fabtechhub.onrender.com/FabtechHub/contacts/makecontact",
+              method: "POST", // Assuming this should be a POST request
+              headers: {
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${token}`,
+              },
+              data: JSON.stringify(formData),
+            });
+
+            console.log(response.data);
+            toast.success(response.data.message);
+          } catch (error) {
+            console.error(error);
+            toast.error("Failed to send message. Please try again later.");
+          }
+        };
+
+
+
+
   return (
     <div className="bg-gray-100">
       <Navbar />
@@ -13,93 +62,108 @@ const Contact = () => {
         </h2>
       </div>
 
-      <div className="min-h-screen flex items-center justify-center" style={{marginTop: '-2rem'}}>
+      <div
+        className="min-h-screen flex items-center justify-center"
+        style={{ marginTop: "-2rem" }}
+      >
         <div className="bg-white p-8 rounded shadow-md w-full md:w-3/4 lg:w-1/2 xl:w-1/3">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="mb-4">
-              <label
-                htmlFor="firstName"
-                className="block text-sm font-medium text-gray-600"
-              >
-                First Name
-              </label>
-              <input
-                type="text"
-                id="firstName"
-                name="firstName"
-                className="mt-1 p-2 w-full border rounded-md"
-                placeholder="Your First Name"
-              />
+          <form onSubmit={handleSubmit}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="mb-4">
+                <label
+                  htmlFor="firstName"
+                  className="block text-sm font-medium text-gray-600"
+                >
+                  First Name
+                </label>
+                <input
+                  type="text"
+                  id="FirstName"
+                  name="FirstName"
+                  className="mt-1 p-2 w-full border rounded-md"
+                  placeholder="Your First Name"
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  htmlFor="LastName"
+                  className="block text-sm font-medium text-gray-600"
+                >
+                  Last Name
+                </label>
+                <input
+                  type="text"
+                  id="LastName"
+                  name="LastName"
+                  className="mt-1 p-2 w-full border rounded-md"
+                  placeholder="Your Last Name"
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-gray-600"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  className="mt-1 p-2 w-full border rounded-md"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  htmlFor="phoneNumber"
+                  className="block text-sm font-medium text-gray-600"
+                >
+                  Phone Number
+                </label>
+                <input
+                  type="tel"
+                  id="phoneNumber"
+                  name="phoneNumber"
+                  className="mt-1 p-2 w-full border rounded-md"
+                  placeholder="Your Phone Number"
+                  onChange={handleChange}
+                  required
+                />
+              </div>
             </div>
             <div className="mb-4">
               <label
-                htmlFor="lastName"
+                htmlFor="message"
                 className="block text-sm font-medium text-gray-600"
               >
-                Last Name
+                Message
               </label>
-              <input
-                type="text"
-                id="lastName"
-                name="lastName"
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
                 className="mt-1 p-2 w-full border rounded-md"
-                placeholder="Your Last Name"
-              />
+                placeholder="Your Message"
+                onChange={handleChange}
+                required
+              ></textarea>
             </div>
-            <div className="mb-4">
-              <label
-                htmlFor="email"
-                className="block text-sm font-medium text-gray-600"
-              >
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="mt-1 p-2 w-full border rounded-md"
-                placeholder="Your Email"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                htmlFor="phoneNumber"
-                className="block text-sm font-medium text-gray-600"
-              >
-                Phone Number
-              </label>
-              <input
-                type="tel"
-                id="phoneNumber"
-                name="phoneNumber"
-                className="mt-1 p-2 w-full border rounded-md"
-                placeholder="Your Phone Number"
-              />
-            </div>
-          </div>
-          <div className="mb-4">
-            <label
-              htmlFor="message"
-              className="block text-sm font-medium text-gray-600"
+            <button
+              type="submit"
+              className="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-blue-600 w-full"
             >
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows="4"
-              className="mt-1 p-2 w-full border rounded-md"
-              placeholder="Your Message"
-            ></textarea>
-          </div>
-          <button
-            type="submit"
-            className="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-blue-600 w-full"
-          >
-            Send Message
-          </button>
+              Send Message
+            </button>
+          </form>
+          <ToastContainer />
         </div>
       </div>
+
       <div className="items-center p-4 mt-10">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30607.79514638295!2d30.066595630129367!3d-1.9550632439832505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssp rwanda!5e0!3m2!1sen!2srw!4v1663256798141!5m2!1sen!2srw"
