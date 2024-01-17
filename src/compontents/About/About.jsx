@@ -29,10 +29,13 @@ const About = () => {
           </Link>
         </div>
       </div>
-      <div class="flex flex-col md:flex-row md:mr-3 md:ml-3 md:mt-7">
+
+   
+
+      <div class="flex flex-col md:flex-row md:mr-3 md:ml-3 md:mt-7 shadow-md">
         <div class="w-full md:w-1/2 p-8">
           <h1 class="text-gray-800 text-3xl font-bold mb-4">About us</h1>
-          <p class="mb-4 text-base ">
+          <p class="mb-4 text-base text-gray-500">
             Welcome to FabTech Hub, where innovation meets excellence! As a
             dynamic and forward-thinking technology company, we specialize in
             the seamless integration of hardware, software, and IoT solutions.
@@ -49,7 +52,7 @@ const About = () => {
             user experience.
           </p>
 
-          <p className="mb-4 text-base ">
+          <p class="mb-4 text-base text-gray-500">
             Pioneering Software Development: Software is the heart and soul of
             any technological ecosystem, and at FabTech Hub, we take pride in
             our software development prowess. Our team of software engineers is
@@ -58,12 +61,12 @@ const About = () => {
             believe in user-centric design, ensuring that our software solutions
             are not only powerful but also intuitive and user-friendly.
             Innovative IoT Solutions: The Internet of Things (IoT) has
-            revolutionised the way devices communicate and interact. At FabTech
+            revolutionized the way devices communicate and interact. At FabTech
             Hub, we harness the potential of IoT to create intelligent and
             connected ecosystems. From smart home devices to industrial IoT
             solutions, we design and develop systems that enable seamless
             connectivity, data exchange, and automation. Our IoT solutions are
-            geared towards enhancing efficiency, optimising processes, and
+            geared towards enhancing efficiency, optimizing processes, and
             providing valuable insights through real-time data analytics.
             Customer-Centric Approach: At the core of our company is a
             commitment to customer satisfaction. We work closely with our
@@ -72,7 +75,7 @@ const About = () => {
             expectations. Our dedication to quality, reliability, and continuous
             improvement ensures that our products and services stand the test of
             time. A Tradition of Excellence: With a legacy of innovation and a
-            passion for pushing technological boundaries,FabTech Hub has
+            passion for pushing technological boundaries, FabTech Hub has
             established itself as a reliable partner for businesses and
             individuals seeking comprehensive solutions. We pride ourselves on
             our ability to stay ahead of the curve, anticipating future trends
@@ -82,7 +85,7 @@ const About = () => {
             hardware, software, and IoT at FabTech Hub.
           </p>
         </div>
-        <div class="w-full md:w-1/2 mt-7">
+        <div class="w-full md:w-1/2 mt-7 flex justify-center items-center" style={{marginTop: '-2rem'}}>
           <div class="aspect-w-16 aspect-h-9">
             <video controls class="w-full h-full" width="full" height="560">
               <source src="/anima.mp4" type="video/mp4" />
@@ -90,6 +93,7 @@ const About = () => {
           </div>
         </div>
       </div>
+
       <Footer />
     </div>
   );
