@@ -47,36 +47,7 @@
 
         {/* Mobile navigation */}
 
-        {/* Mobile menu */}
-        {openModal && (
-          <div className="md:hidden bg-white absolute w-full h-full border-t-2 top-28">
-            <div className="text-black flex flex-col w-full mx-10 my-10 space-y-4">
-              <Link to="/homepage" className="block md:inline-block mr-4">
-                Home
-              </Link>
-              <Link to="/products" className="block md:inline-block mr-4">
-                Products
-              </Link>
-              <Link to="/about" className="block md:inline-block mr-4">
-                About us
-              </Link>
-              <Link to="/ourservices" className="block md:inline-block mr-4">
-                Our Services
-              </Link>
-              <Link to="/contact" className="block md:inline-block mr-4">
-                Contact us
-              </Link>
-              <li className="mx-2 text-xl">
-                <FontAwesomeIcon icon={faShoppingCart} />
-              </li>
-              <Link to="/login" className="text-white">
-                <li className="mx-2 text-xl">
-                  <FontAwesomeIcon icon={faUser} />
-                </li>
-              </Link>
-            </div>
-          </div>
-        )}
+      
 
         {/* The rest of your desktop navigation */}
         <div className="hidden md:flex justify-between items-center px-8 py-5 shadow-md fab-com-navbar">
@@ -113,7 +84,7 @@
               <li className="mx-2 mr-8">Contact us</li>
             </Link>
 
-            <li className="mx-2 text-xl">
+            {/* <li className="mx-2 text-xl">
               <FontAwesomeIcon icon={faShoppingCart} />
             </li>
 
@@ -121,7 +92,7 @@
               <li className="mx-2 text-xl">
                 <FontAwesomeIcon icon={faUser} />
               </li>
-            </Link>
+            </Link> */}
           </ul>
         </div>
       </div>
