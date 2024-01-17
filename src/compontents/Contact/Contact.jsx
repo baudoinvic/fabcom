@@ -33,7 +33,7 @@ const Contact = () => {
 
             const response = await axios({
               url: "https://fabtechhub.onrender.com/FabtechHub/contacts/makecontact",
-              method: "POST", // Assuming this should be a POST request
+              method: "POST", 
               headers: {
                 "Content-Type": "application/json",
                 Authorization: `Bearer ${token}`,

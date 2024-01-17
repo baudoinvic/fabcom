@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Description = () => {
   return (
-    <div className="bg-gray-100 ">
+    <div className="bg-gray-100">
       <div className="text-center p-8">
         <h1 className="text-3xl font-bold mb-4">Who we are</h1>
         <p className="t text-gray-600 mx-auto max-w-2xl">
@@ -27,10 +27,8 @@ const Description = () => {
         </p>
       </div>
 
-    
-
       <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10">
-        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+        <div className="bg-white p-6 rounded-lg shadow-md  transition-transform transform hover:scale-105 cursor-pointer">
           <FaEye className="text-gray-600 text-4xl mb-4" />
           <span className="text-xl font-bold mb-4">Our Vision</span>
           <p className="text-gray-600">
@@ -41,7 +39,7 @@ const Description = () => {
           </p>
         </div>
 
-        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+        <div className="bg-white p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 cursor-pointer">
           <FaCog className="text-gray-600 text-4xl mb-4" />
           <span className="text-xl font-bold mb-4">Our Value</span>
           <p className="text-gray-600">
@@ -54,7 +52,7 @@ const Description = () => {
           </p>
         </div>
 
-        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+        <div className="bg-white p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 cursor-pointer">
           <PiLampBold className="text-gray-600 text-4xl mb-4" />
           <span className="text-xl font-bold mb-4">Our Mission</span>
           <p className="text-gray-600">

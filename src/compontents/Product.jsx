@@ -12,96 +12,69 @@ const Product = () => {
         alt="Robot Factory Image"
       ></img>
 
-      <div className="justify-center">
-        <div
-          className="absolute top-1/2  transform  -translate-y-1/2 text-white "
-          style={{ marginLeft: "15rem", marginTop: "-7rem" }}
-        >
-          <p
-            className="text-lg lg:text-xl xl:text-4xl font-bold "
-            style={{ textAlign: "left" }}
-          >
-            Products & <br></br> innovations for you
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-white mt-5">
+        <div className="text-center">
+          <p className="text-2xl lg:text-3xl xl:text-4xl font-bold leading-tight text-white">
+            Products & Innovations for You
           </p>
-          <p
-            className="text-lg lg:text-xl xl:text-2xl mt-5 "
-            style={{ textAlign: "left" }}
-          >
+          <p className="text-base lg:text-lg xl:text-xl mt-5 text-white">
             Smart Mobility
           </p>
-          <p
-            className="text-lg lg:text-xl xl:text-2xl mt-5 "
-            style={{ textAlign: "left" }}
-          >
+          <p className="text-base lg:text-lg xl:text-xl mt-5 text-white">
             Power & Energy
           </p>
-          <p
-            className="text-lg lg:text-xl xl:text-2xl mt-5"
-            style={{ textAlign: "left" }}
-          >
-            Cloud-connected<br></br> Autonomous Things
+          <p className="text-base lg:text-lg xl:text-xl mt-5 text-white">
+            Cloud-connected Autonomous Things
           </p>
         </div>
 
-        <div
-          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white "
-          style={{ marginTop: "-6rem", marginLeft: "12rem" }}
-        >
-          <p class="text-4xl font-bold ">Smart Mobility</p>
-          <p class="w-full text-2xl  mb-4 mt-5">
-            We are supporting the proliferation of secure, connected, autonomous
-            devices enabled by edge AI.
-          </p>
+        <div className="text-center mt-5 md:text-left md:ml-4">
+          {/* <div
+            className="text-center  md:text-left md:ml-4"
+            style={{ marginTop: "-2rem" }}
+          >
+            <p className="text-3xl lg:text-2xl xl:text-3xl font-bold text-white mt-2">
+              Smart Mobility
+            </p>
+            <p className="text-base lg:text-lg xl:text-xl mt-5 text-white">
+              We are supporting the proliferation of secure, connected,
+              autonomous devices enabled by edge AI.
+            </p>
+          </div> */}
 
-          <div class="flex space-x-9">
-            <div class="flex-none">
-              <div class="relative">
-                {/* <img
-                  src="https://www.st.com/content/dam/0hp/2023-11/products-and-innovation/lora-device-provisioning-with-nfc.jpg"
-                  alt="Image 1"
-                  class="w-full max-w-xl"
-                ></img> */}
-                <video
-                  style={{ width: "400px", height: "260px" }}
-                  className="object-cover"
-                  autoPlay
-                  muted
-                  loop
-                >
-                  <source src="/techVideo.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-                <div class="text-black bottom-0 left-0 w-full bg-white p-2">
-                  <p>Explore the new features of our Teseo</p>
-                  <p>GNSS modules for specific applications with </p>
-                  <p>qucik and seamless development tools</p>
-                </div>
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+            <div className="relative">
+              <video
+                style={{ width: "100%", height: "auto", maxWidth: "500px" }}
+                className="object-cover"
+                autoPlay
+                muted
+                loop
+              >
+                <source src="/techVideo.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="text-black bottom-0 left-0 w-full bg-white p-2">
+                <p>Explore the new features of our Teseo</p>
+                <p>GNSS modules for specific applications with </p>
+                <p>quick and seamless development tools</p>
               </div>
             </div>
-            <div class="flex-none">
-              <div class="relative">
-                {/* <img
-                  src="https://www.st.com/content/dam/0hp/2023-11/products-and-innovation/webinar-ame-easily-implement-gnss.jpg"
-                  alt="Image 2"
-                  class="w-full max-w-xl"
-                ></img> */}
-
-                <video
-                  style={{ width: "400px", height: "260px" }}
-                  className="object-cover"
-                  autoPlay
-                  muted
-                  loop
-                >
-                  <source src="/anima.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-
-                <div class="text-black bottom-0 left-0 w-full bg-white p-2">
-                  <p>Explore the new features of our Teseo</p>
-                  <p>GNSS modules for specific applications with </p>
-                  <p>qucik and seamless development tools</p>
-                </div>
+            <div className="relative">
+              <video
+                style={{ width: "100%", height: "auto", maxWidth: "500px" }}
+                className="object-cover"
+                autoPlay
+                muted
+                loop
+              >
+                <source src="/anima.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="text-black bottom-0 left-0 w-full bg-white p-2">
+                <p>Explore the new features of our Teseo</p>
+                <p>GNSS modules for specific applications with </p>
+                <p>quick and seamless development tools</p>
               </div>
             </div>
           </div>
@@ -112,3 +85,7 @@ const Product = () => {
 }
 
 export default Product
+
+
+
+   
