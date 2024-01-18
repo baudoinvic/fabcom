@@ -10,36 +10,52 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
  import { LiaUikit } from "react-icons/lia";
 
 
+
 const Description = () => {
   return (
     <div className="bg-gray-100">
+    
+
       <div className="text-center p-8">
-        <h1 className="text-3xl font-bold mb-4">Who we are</h1>
-        <p className="t text-gray-500 mx-auto max-w-2xl">
+        <h1 className="text-4xl font-bold mb-6 text-gray-800">Who We Are</h1>
+        <p className="text-gray-500 mx-auto max-w-2xl leading-relaxed">
           Welcome to FabTechHub – the nexus of innovation where ideas transcend
           into tangible hardware solutions. As a premier tech company, we
           specialize in empowering visionaries to craft cutting-edge products in
-          the realms of hardware and electronics. FabTechHub serves as a dynamic
-          space, fostering creativity and collaboration. We go beyond
-          traditional boundaries, providing a platform that seamlessly
-          integrates hardware expertise with software knowledge, propelling our
-          community into the forefront of the Internet of Things (IoT) era. Our
-          mission is clear: to accelerate congolese innovators towards global
-          competitiveness. Within our vibrant ecosystem, FabTechHub offers more
-          than just workspace; it's a knowledge hub where skills are honed,
-          ideas flourish, and collaborations thrive. We are committed to
-          elevating congolese standing in Design, Engineering, Electronics,
-          Fabrication, and High-Tech innovation. We provide not only the
-          collaborative space but also a knowledge base and expert guidance. Our
-          approach extends beyond the individual, shaping a community that
+          the realms of hardware and electronics.
+          <br />
+          <br />
+          FabTechHub serves as a dynamic space, fostering creativity and
+          collaboration. We go beyond traditional boundaries, providing a
+          platform that seamlessly integrates hardware expertise with software
+          knowledge, propelling our community into the forefront of the Internet
+          of Things (IoT) era.
+          <br />
+          <br />
+          Our mission is clear: to accelerate Congolese innovators towards
+          global competitiveness. Within our vibrant ecosystem, FabTechHub
+          offers more than just workspace; it's a knowledge hub where skills are
+          honed, ideas flourish, and collaborations thrive.
+          <br />
+          <br />
+          We are committed to elevating Congolese standing in Design,
+          Engineering, Electronics, Fabrication, and High-Tech innovation. We
+          provide not only the collaborative space but also a knowledge base and
+          expert guidance.
+          <br />
+          <br />
+          Our approach extends beyond the individual, shaping a community that
           collectively pushes the boundaries of what's possible. We aspire to be
           a beacon of inspiration, not just within our community but also for
-          national leaders in policy, government, and industry. FabTechHub is
-          not just a space; it's a testament to the grassroots approach in
-          developing technical education, promoting innovation, and transforming
-          traditional industries into digital fabrication leaders. Join us at
-          FabTechHub, where innovation meets collaboration, and ideas transform
-          into reality. Together, let's shape the future of technology.
+          national leaders in policy, government, and industry.
+          <br />
+          <br />
+          FabTechHub is not just a space; it's a testament to the grassroots
+          approach in developing technical education, promoting innovation, and
+          transforming traditional industries into digital fabrication leaders.
+          Join us at FabTechHub, where innovation meets collaboration, and ideas
+          transform into reality. Together, let's shape the future of
+          technology.
         </p>
       </div>
 
@@ -89,9 +105,9 @@ const Description = () => {
         </span>
       </div>
 
-      <div class="bg-gray-100">
-        <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
-          <div class="p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
+      <div class="bg-gray-100 ">
+        <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10  ">
+          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer ">
             <SiSimilarweb className="text-gray-600 text-4xl  mb-4" />
             <span className="text-xl font-bold mb-4">Smart integration</span>
             <p className="text-gray-600">
@@ -102,7 +118,7 @@ const Description = () => {
             </p>
           </div>
 
-          <div class="p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
+          <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
             <GrIntegration className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">Internet Of Things</span>
             <p className="text-gray-600">
@@ -115,7 +131,7 @@ const Description = () => {
             </p>
           </div>
 
-          <div class="p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
+          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
             <AiOutlineFieldTime className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">
               Network deployment and design
@@ -136,7 +152,7 @@ const Description = () => {
 
       <div class="bg-gray-100">
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
-          <div class=" p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
+          <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
             <SiWebmoney className="text-gray-600 text-4xl  mb-4" />
             <span className="text-xl font-bold mb-4">Web development</span>
             <p className="text-gray-600">
@@ -148,7 +164,7 @@ const Description = () => {
             </p>
           </div>
 
-          <div class=" p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
+          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
             <SiKasasmart className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">
               Innovative Automatic Fare Collection Solutions
@@ -163,7 +179,7 @@ const Description = () => {
             </p>
           </div>
 
-          <div class=" p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
+          <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
             <LiaUikit className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">Educational Kit</span>
             <p className="text-gray-600">
