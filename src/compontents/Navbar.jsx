@@ -15,9 +15,13 @@
   const Navbar = () => {
     const [openModal, setOpenModal] = useState(false);
 
-    const toggleModal = () => {
-      setOpenModal(!openModal);
-    };
+    // const toggleModal = () => {
+    //   setOpenModal(!openModal);
+    // };
+
+      const toggleModal = () => {
+        setOpenModal((prev) => !prev);
+      };
 
     return (
       <div className="fab-com-electronics bg-gray-900 text-white">
@@ -38,16 +42,81 @@
                 Careers
               </span>
             </Link>
-            {/* <IoMdMenu
-              className="flex text-[2rem] mb-5 mr-2"
-              onClick={toggleModal}
-            /> */}
           </span>
         </div>
 
         {/* Mobile navigation */}
+        <div
+          className={`md:hidden flex items-center justify-end px-4 py-4 bg-gray-800 text-white`}
+        >
+          {/* Menu Icon */}
+          <IoMdMenu
+            className="text-[2rem] cursor-pointer"
+            onClick={toggleModal}
+          />
+        </div>
 
-      
+        {/* Mobile navigation menu */}
+        {openModal && (
+          <div className="md:hidden fixed inset-0 bg-gray-800 bg-opacity-55 z-50">
+            <div className="flex justify-end p-4">
+              {/* Close Icon */}
+              <IoMdMenu
+                className="text-[2rem] text-white cursor-pointer"
+                onClick={toggleModal}
+              />
+            </div>
+            <div className="flex flex-col items-stretch text-white">
+              <Link
+                to="/homepage"
+                className="my-2 px-8 py-4 "
+                onClick={toggleModal}
+              >
+                Home
+              </Link>
+              <Link
+                to="/products"
+                className="my-2 px-8 py-4 "
+                onClick={toggleModal}
+              >
+                Products
+              </Link>
+              <Link
+                to="/about"
+                className="my-2 px-8 py-4 "
+                onClick={toggleModal}
+              >
+                About us
+              </Link>
+              <Link
+                to="/ourservices"
+                className="my-2 px-8 py-4 "
+                onClick={toggleModal}
+              >
+                Our Services
+              </Link>
+              <Link
+                to="/contact"
+                className="my-2 px-8 py-4 "
+                onClick={toggleModal}
+              >
+                Contact us
+              </Link>
+
+              <Link to="/Career" className="my-2 px-8 py-4">
+                <span className="text-decoration-none flex items-center">
+                  <FontAwesomeIcon icon={faUser} className="mr-2" />
+                  Careers
+                </span>
+              </Link>
+
+              <span className="my-2 px-8 py-4">
+                <FontAwesomeIcon icon={faShoppingCart} className="mr-2 ml-1" />
+                Sample&Buy
+              </span>
+            </div>
+          </div>
+        )}
 
         {/* The rest of your desktop navigation */}
         <div className="hidden md:flex justify-between items-center px-8 py-5 shadow-md fab-com-navbar">
@@ -60,7 +129,6 @@
           </Link>
 
           <ul className="cursor-pointer flex items-center space-x-10 text-white">
-           
             <Link to="/homepage" className="text-white">
               <li className="mx-2">Home</li>
             </Link>

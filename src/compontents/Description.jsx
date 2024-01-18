@@ -29,7 +29,7 @@ const Description = () => {
           collaboration. We go beyond traditional boundaries, providing a
           platform that seamlessly integrates hardware expertise with software
           knowledge, propelling our community into the forefront of the Internet
-          of Things (IoT) era.
+          of Things 
           <br />
           <br />
           Our mission is clear: to accelerate Congolese innovators towards

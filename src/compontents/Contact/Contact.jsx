@@ -8,48 +8,55 @@ import axios from "axios";
 
 const Contact = () => {
 
-        const [formData, setFormData] = useState({
-          FirstName: "",
-          LastName: "",
-          email: "",
-          phoneNumber: "",
-          message: "",
-        });
-
-        const handleChange = (e) => {
-          setFormData({
-            ...formData,
-            [e.target.name]: e.target.value,
-          });
-        };
-
-        const handleSubmit = async (e) => {
-          e.preventDefault();
-
-          try {
-            let token = localStorage.getItem("token");
-           console.log(formData)
+//sending information by filling the form//
 
 
-            const response = await axios({
-              url: "https://fabtechhub.onrender.com/FabtechHub/contacts/makecontact",
-              method: "POST", 
-              headers: {
-                "Content-Type": "application/json",
-                Authorization: `Bearer ${token}`,
-              },
-              data: JSON.stringify(formData),
-            });
+  const [formData, setFormData] = useState({
+    Firstname: "",
+    Lastname: "",
+    email: "",
+    phoneNumber: "",
+    message: "",
+  });
 
-            console.log(response.data);
-            toast.success(response.data.message);
-          } catch (error) {
-            console.error(error);
-            toast.error("Failed to send message. Please try again later.");
-          }
-        };
+  const handleChange = (e) => {
+    const fieldName = e.target.name;
+    const formattedFieldName =
+      fieldName.charAt(0).toUpperCase() + fieldName.slice(1);
+
+    setFormData({
+      ...formData,
+      [formattedFieldName]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      let token = localStorage.getItem("token");
+      console.log("Request Data:", formData);
+
+      const response = await axios({
+        url: "https://fabtechhub.onrender.com/FabtechHub/contacts/makecontact",
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        data: JSON.stringify(formData),
+      });
+
+      console.log("Response Data:", response.data);
+      toast.success("Thank you for your feedback");
+    } catch (error) {
+      console.error("Error:", error.response ? error.response.data : error);
+      toast.error("Failed to send message. Please try again later.");
+    }
+  };
 
 
+  // it's end up by here //
 
 
   return (
@@ -71,15 +78,15 @@ const Contact = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="mb-4">
                 <label
-                  htmlFor="firstName"
+                  htmlFor="firstname"
                   className="block text-sm font-medium text-gray-600"
                 >
                   First Name
                 </label>
                 <input
                   type="text"
-                  id="FirstName"
-                  name="FirstName"
+                  id="Firstname"
+                  name="Firstname"
                   className="mt-1 p-2 w-full border rounded-md"
                   placeholder="Your First Name"
                   onChange={handleChange}
@@ -88,15 +95,15 @@ const Contact = () => {
               </div>
               <div className="mb-4">
                 <label
-                  htmlFor="LastName"
+                  htmlFor="Lastname"
                   className="block text-sm font-medium text-gray-600"
                 >
                   Last Name
                 </label>
                 <input
                   type="text"
-                  id="LastName"
-                  name="LastName"
+                  id="Lastname"
+                  name="Lastname"
                   className="mt-1 p-2 w-full border rounded-md"
                   placeholder="Your Last Name"
                   onChange={handleChange}
@@ -110,12 +117,14 @@ const Contact = () => {
                 >
                   Email
                 </label>
+
                 <input
                   type="email"
                   id="email"
                   name="email"
                   className="mt-1 p-2 w-full border rounded-md"
                   placeholder="Your Email"
+                  onChange={handleChange}
                 />
               </div>
               <div className="mb-4">
@@ -143,6 +152,7 @@ const Contact = () => {
               >
                 Message
               </label>
+             
               <textarea
                 id="message"
                 name="message"
