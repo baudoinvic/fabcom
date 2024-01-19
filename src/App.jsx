@@ -23,6 +23,7 @@ import EducationalKit from './compontents/Products/EducationalKit'
 import Ourservices from './compontents/Services/Ourservices'
 import Career from './compontents/Career/Career'
 import Apply from './compontents/Apply/Apply'
+import Buy from './compontents/Sample/Buy'
 
 
 
@@ -62,6 +63,7 @@ import Apply from './compontents/Apply/Apply'
            <Route path="ourservices" element={<Ourservices/>} />
            <Route path="products" element={<Products />} />
            <Route path="apply" element={<Apply/>} />
+           <Route path='buy' element = {<Buy/>} />
 
            <Route path="/products/smart-integration" element={<Smart />} />
            <Route

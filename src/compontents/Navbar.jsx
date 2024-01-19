@@ -31,10 +31,12 @@
             className="mx-2 flex items-center space-x-8 ml-auto"
             style={{ marginRight: "2rem" }}
           >
-            <span className="text-white">
-              <FontAwesomeIcon icon={faShoppingCart} className="mr-2 ml-1" />
-              Sample&Buy
-            </span>
+            <Link to="/Buy">
+              <span className="text-white">
+                <FontAwesomeIcon icon={faShoppingCart} className="mr-2 ml-1" />
+                Sample&Buy
+              </span>
+            </Link>
 
             <Link to="/Career" className="text-white">
               <span className="text-decoration-none flex items-center">
