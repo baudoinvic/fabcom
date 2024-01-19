@@ -112,10 +112,15 @@
                 </span>
               </Link>
 
-              <span className="my-2 px-8 py-4">
-                <FontAwesomeIcon icon={faShoppingCart} className="mr-2 ml-1" />
-                Sample&Buy
-              </span>
+              <Link to="/Buy">
+                <span className="my-2 px-8 py-4">
+                  <FontAwesomeIcon
+                    icon={faShoppingCart}
+                    className="mr-2 ml-1"
+                  />
+                  Sample&Buy
+                </span>
+              </Link>
             </div>
           </div>
         )}
