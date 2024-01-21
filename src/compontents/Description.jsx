@@ -44,18 +44,6 @@ const Description = () => {
           expert guidance.
           <br />
           <br />
-          Our approach extends beyond the individual, shaping a community that
-          collectively pushes the boundaries of what's possible. We aspire to be
-          a beacon of inspiration, not just within our community but also for
-          national leaders in policy, government, and industry.
-          <br />
-          <br />
-          FabTechHub is not just a space; it's a testament to the grassroots
-          approach in developing technical education, promoting innovation, and
-          transforming traditional industries into digital fabrication leaders.
-          Join us at FabTechHub, where innovation meets collaboration, and ideas
-          transform into reality. Together, let's shape the future of
-          technology.
         </p>
       </div>
 
