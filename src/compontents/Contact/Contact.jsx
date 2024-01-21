@@ -20,13 +20,11 @@ const Contact = () => {
   });
 
   const handleChange = (e) => {
-    const fieldName = e.target.name;
-    const formattedFieldName =
-      fieldName.charAt(0).toUpperCase() + fieldName.slice(1);
+     const fieldName = e.target.name;
 
     setFormData({
       ...formData,
-      [formattedFieldName]: e.target.value,
+      [fieldName]: e.target.value,
     });
   };
 
@@ -36,6 +34,7 @@ const Contact = () => {
     try {
       let token = localStorage.getItem("token");
       console.log("Request Data:", formData);
+ 
 
       const response = await axios({
         url: "https://fabtechhub.onrender.com/FabtechHub/contacts/makecontact",
