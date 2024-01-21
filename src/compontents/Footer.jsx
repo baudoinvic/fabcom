@@ -3,8 +3,56 @@ import { Link } from 'react-router-dom';
 import { CiFacebook } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import axios from 'axios';
+import { ToastContainer,toast } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
+import { useState} from 'react';
 
 const Footer = () => {
+
+
+   
+
+  const [email, setEmail] = useState("");
+
+  const handleChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      let token = localStorage.getItem("token");
+      console.log("Newsletter Subscription Email:", email);
+
+      const response = await axios({
+        url: "https://fabtechhub.onrender.com/FabtechHub/subscribes/makeSubscribe",
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        data: JSON.stringify({ email }),
+      });
+
+      console.log("Subscription Response Data:", response.data);
+      toast.success("Thank you for subscribing!");
+    } catch (error) {
+      console.error("Error:", error.response ? error.response.data : error);
+      toast.error("Failed to subscribe. Please try again later.");
+    }
+  };
+
+
+
+
+
+
+
+
+
+
   return (
     <footer class="bg-gray-800 p-8">
       <div class="container mx-auto">
@@ -85,10 +133,13 @@ const Footer = () => {
             <h2 class="text-white font-bold mb-4">
               Subscribe to Our Newsletter
             </h2>
-            <form action="#" class="subscription-form">
+            <form onClick={handleSubmit} action="#" class="subscription-form">
               <div class="flex items-center">
                 <input
                   type="text"
+                  name="email"
+                  value={email}
+                  onChange={handleChange}
                   id="placenewsletter"
                   placeholder="Your email address"
                   class="border border-gray-300 rounded-md py-2 px-3 mr-2"
@@ -102,6 +153,7 @@ const Footer = () => {
                 </button>
               </div>
             </form>
+            <ToastContainer />
           </div>
         </div>
       </div>
