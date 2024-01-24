@@ -11,8 +11,6 @@ import { useState} from 'react';
 const Footer = () => {
 
 
-   
-
   const [email, setEmail] = useState("");
 
   const handleChange = (e) => {

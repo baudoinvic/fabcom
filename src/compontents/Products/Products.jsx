@@ -74,31 +74,6 @@
            <div className="">
              <Navbar />
 
-             {/* <div className="flex flex-col items-center mt-20">
-               <div className="flex space-x-2 sm:space-x-4 filter-buttons">
-                 <button
-                   className={`bg-gray-900 text-white py-2 px-4 ${
-                     selectedCategory === "All" ? "active" : ""
-                   }`}
-                   onClick={() => filterProducts("All")}
-                 >
-                   All
-                 </button>
-
-                 {productsData.map((product, index) => (
-                   <button
-                     key={index}
-                     className={`bg-gray-800 text-white py-2 px-4 ${
-                       selectedCategory === product.category ? "active" : ""
-                     }`}
-                     onClick={() => filterProducts(product.category)}
-                   >
-                     {product.category}
-                   </button>
-                 ))}
-               </div>
-
-             </div> */}
 
              <div className="flex flex-col items-center mt-8 sm:mt-12 md:mt-16 lg:mt-20">
                <div className="flex space-x-2 sm:space-x-4 flex-col sm:flex-row filter-buttons">
