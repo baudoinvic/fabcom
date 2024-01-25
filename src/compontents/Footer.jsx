@@ -89,16 +89,24 @@ const Footer = () => {
                   <a href="/contact">Contact us</a>
                 </li>
                 <li>
-                  <a href="#">Contact the owner</a>
+                  <a href="https://www.linkedin.com/in/fabrice-itulamya-masumbuko-044478161/">
+                    Contact the owner
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Our offices</a>
+                  <a href="https://maps.app.goo.gl/3MyetuoWSYdzTF4L8">
+                    Our office
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Our branch</a>
+                  <a href="https://maps.app.goo.gl/xnbi2ChsSfgWUb9s5">
+                    Our branch
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Location</a>
+                  <a href="https://maps.app.goo.gl/3MyetuoWSYdzTF4L8">
+                    Location
+                  </a>
                 </li>
               </ul>
             </nav>

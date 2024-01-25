@@ -16,18 +16,16 @@
 
   const Navbar = () => {
 
-     const { t, i18n } = useTranslation();
+    //  const { t, i18n } = useTranslation();
 
-     const handleChangeLanguage = (languageCode) => {
-       i18n
-         .changeLanguage(languageCode)
-         .then(() => console.log(`Language changed to ${languageCode}`))
-         .catch((error) => console.error("Error changing language:", error));
-     };
+    //  const handleChangeLanguage = (languageCode) => {
+    //    i18n
+    //      .changeLanguage(languageCode)
+    //      .then(() => console.log(`Language changed to ${languageCode}`))
+    //      .catch((error) => console.error("Error changing language:", error));
+    //  };
   
  
-
-
     const [openModal, setOpenModal] = useState(false);
 
    
@@ -59,7 +57,7 @@
             </Link>
           </span>
 
-          <div class="flex items-center space-x-2">
+          {/* <div class="flex items-center space-x-2">
             <button
               class="border border-solid border-gray-400 rounded px-3 py-2"
               onClick={() => handleChangeLanguage("en")}
@@ -72,7 +70,8 @@
             >
               Fr
             </button>
-          </div>
+          </div> */}
+          
         </div>
 
         {/* Mobile navigation */}
@@ -97,7 +96,7 @@
               />
             </div>
             <div className="flex flex-col items-stretch text-white">
-              <div class="flex flex-col items-start space-y-2 md:flex-row md:space-y-0 md:space-x-2 ml-5">
+              {/* <div class="flex flex-col items-start space-y-2 md:flex-row md:space-y-0 md:space-x-2 ml-5">
                 <button
                   class="border border-solid border-gray-400 rounded  py-4 px-8 my-2"
                   onClick={() => handleChangeLanguage("en")}
@@ -110,7 +109,7 @@
                 >
                   Fr
                 </button>
-              </div>
+              </div> */}
 
               <Link
                 to="/homepage"
