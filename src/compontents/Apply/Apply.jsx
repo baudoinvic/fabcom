@@ -84,14 +84,14 @@ const Apply = () => {
   return (
     <div className="job-applications">
       <Navbar />
-      <div className="bg-gray-100">
+      <div className="">
         <div class="bg-white container  mx-auto p-8 max-w-md shadow-lg">
           <h2 class="text-2xl font-semibold mb-6">Job Application Form</h2>
 
           <form onClick={handleSubmit} action="/submit_application" method="post" class="space-y-4">
             <div class="flex flex-col">
               <label for="name" class="mb-1">
-                Firstname:
+                Firstname
               </label>
               <input
                 type="text"
@@ -106,7 +106,7 @@ const Apply = () => {
 
             <div class="flex flex-col">
               <label for="name" class="mb-1">
-                LastName:
+                LastName
               </label>
               <input
                 type="text"

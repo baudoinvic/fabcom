@@ -17,7 +17,7 @@ const Description = () => {
     
 
       <div className="text-center p-8">
-        <h1 className="text-4xl font-bold mb-6 text-gray-800">Who We Are</h1>
+        <h1 className="text-3xl font-bold mb-6 text-gray-800">Who We Are</h1>
         <p className="text-gray-500 mx-auto max-w-2xl leading-relaxed">
           Welcome to FabTechHub – the nexus of innovation where ideas transcend
           into tangible hardware solutions. As a premier tech company, we
@@ -87,8 +87,8 @@ const Description = () => {
       </div>
 
       <div class="flex flex-col items-center justify-center">
-        <span class="block text-center text-lg mb-4">FabTechhub services</span>
-        <span class="block text-center text-lg mt-4 font-bold">
+        <span class="block text-center text-3xl font-bold mb-6 text-gray-800">FabTechhub services</span>
+        <span class="block text-center text-2xl mt-4 ">
           Our services
         </span>
       </div>

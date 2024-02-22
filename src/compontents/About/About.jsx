@@ -74,7 +74,7 @@ const About = () => {
             our hardware, software, and IoT solutions to meet and exceed
             expectations. Our dedication to quality, reliability, and continuous
             improvement ensures that our products and services stand the test of
-            time. A Tradition of Excellence: With a legacy of innovation and a
+            {/* time. A Tradition of Excellence: With a legacy of innovation and a
             passion for pushing technological boundaries, FabTech Hub has
             established itself as a reliable partner for businesses and
             individuals seeking comprehensive solutions. We pride ourselves on
@@ -82,7 +82,7 @@ const About = () => {
             and adapting our offerings to meet the evolving needs of the digital
             age. Join us on the journey of transforming ideas into reality, as
             we continue to design the future through the seamless integration of
-            hardware, software, and IoT at FabTech Hub.
+            hardware, software, and IoT at FabTech Hub. */}
           </p>
         </div>
         <div class="w-full md:w-1/2 mt-7 flex justify-center items-center" style={{marginTop: '-2rem'}}>
