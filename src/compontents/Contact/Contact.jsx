@@ -62,7 +62,7 @@ const Contact = () => {
 
 
   return (
-    <div className="bg-gray-100">
+    <div className="">
       <Navbar />
 
       <div className="text-center text-gray-800 mt-10">
