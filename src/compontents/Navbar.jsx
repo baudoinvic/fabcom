@@ -16,14 +16,7 @@
 
   const Navbar = () => {
 
-    //  const { t, i18n } = useTranslation();
-
-    //  const handleChangeLanguage = (languageCode) => {
-    //    i18n
-    //      .changeLanguage(languageCode)
-    //      .then(() => console.log(`Language changed to ${languageCode}`))
-    //      .catch((error) => console.error("Error changing language:", error));
-    //  };
+   
   
  
     const [openModal, setOpenModal] = useState(false);
@@ -201,15 +194,6 @@
               <li className="mx-2 mr-8">Contact us</li>
             </Link>
 
-            {/* <li className="mx-2 text-xl">
-              <FontAwesomeIcon icon={faShoppingCart} />
-            </li>
-
-            <Link to="/login" className="text-white">
-              <li className="mx-2 text-xl">
-                <FontAwesomeIcon icon={faUser} />
-              </li>
-            </Link> */}
           </ul>
         </div>
       </div>
