@@ -33,7 +33,7 @@
         <div className="bg-gray-800 hidden md:flex items-center justify-between px-4 py-4 shadow-md fab-com-navbar space-x-10">
           <span
             className="mx-2 flex items-center space-x-8 ml-auto"
-            style={{ marginRight: "2rem" }}
+            style={{ marginRight: "4rem" }}
           >
             <Link to="/Buy">
               <span className="text-white">
