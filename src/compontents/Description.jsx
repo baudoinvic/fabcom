@@ -51,7 +51,11 @@ const Description = () => {
             To be the premier provider of comprehensive educational kits for
             engineering schools, empowering the next generation of innovators,
             while delivering cutting-edge engineering solutions to businesses
-            globally.
+            globally. Our commitment extends beyond mere products; we strive to
+            foster a culture of creativity, critical thinking, and collaboration
+            ensuring that students and professionals alike are equipped with the
+            skills and knowledge needed to thrive in an ever-evolving
+            technological landscape.
           </p>
         </div>
 
@@ -67,7 +71,7 @@ const Description = () => {
             solve complex challenges for our clients. Integrity: We uphold the
             highest standards of integrity in everything we do, fostering trust
             and transparency with our customers, partners, and employees.
-            Collaboration: We believe in the power of collaboration, working
+            {/* Collaboration: We believe in the power of collaboration, working
             closely with engineering schools, students, and businesses to
             achieve mutual success and innovation. Continuous Learning: We
             promote a culture of continuous learning and improvement,
@@ -78,7 +82,7 @@ const Description = () => {
             that drive value and satisfaction. Social Responsibility: We are
             committed to making a positive impact on society and the
             environment, leveraging our resources and expertise to contribute to
-            a sustainable future.
+            a sustainable future. */}
           </p>
         </div>
 
