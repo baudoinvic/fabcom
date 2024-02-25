@@ -1,23 +1,19 @@
-import React from 'react'
+import React from "react";
 import { FaEye, FaCog, FaHeart } from "react-icons/fa";
- import { PiLampBold } from "react-icons/pi";
+import { PiLampBold } from "react-icons/pi";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
- import { SiSimilarweb } from "react-icons/si";
- import { GrIntegration } from "react-icons/gr";
- import { AiOutlineFieldTime } from "react-icons/ai";
- import { SiWebmoney } from "react-icons/si";
- import { SiKasasmart } from "react-icons/si";
- import { LiaUikit } from "react-icons/lia";
-
-
+import { SiSimilarweb } from "react-icons/si";
+import { GrIntegration } from "react-icons/gr";
+import { AiOutlineFieldTime } from "react-icons/ai";
+import { SiWebmoney } from "react-icons/si";
+import { SiKasasmart } from "react-icons/si";
+import { LiaUikit } from "react-icons/lia";
 
 const Description = () => {
   return (
     <div className="bg-gray-100">
-    
-
-      <div className="text-center p-8">
-        <h1 className="text-3xl font-bold mb-6 text-gray-800">Who We Are</h1>
+      {/* <div className="text-center p-8">
+        <h1 className="text-3xl font-bold mb-6 text-gray-800"></h1>
         <p className="text-gray-500 mx-auto max-w-2xl leading-relaxed">
           Welcome to FabTechHub – the nexus of innovation where ideas transcend
           into tangible hardware solutions. As a premier tech company, we
@@ -29,7 +25,7 @@ const Description = () => {
           collaboration. We go beyond traditional boundaries, providing a
           platform that seamlessly integrates hardware expertise with software
           knowledge, propelling our community into the forefront of the Internet
-          of Things 
+          of Things
           <br />
           <br />
           Our mission is clear: to accelerate Congolese innovators towards
@@ -45,7 +41,7 @@ const Description = () => {
           <br />
           <br />
         </p>
-      </div>
+      </div> */}
 
       <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10">
         <div className="bg-white p-6 rounded-lg shadow-md  transition-transform transform hover:scale-105 cursor-pointer">
@@ -87,10 +83,10 @@ const Description = () => {
       </div>
 
       <div class="flex flex-col items-center justify-center">
-        <span class="block text-center text-3xl font-bold mb-6 text-gray-800">FabTechhub services</span>
-        <span class="block text-center text-2xl mt-4 ">
-          Our services
+        <span class="block text-center text-3xl font-bold mb-6 text-gray-800">
+          FabTechhub services
         </span>
+        <span class="block text-center text-2xl mt-4 ">Our services</span>
       </div>
 
       <div class="bg-gray-100 ">
@@ -183,6 +179,6 @@ const Description = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Description
+export default Description;

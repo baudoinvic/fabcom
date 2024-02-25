@@ -43,14 +43,6 @@ const Footer = () => {
   };
 
 
-
-
-
-
-
-
-
-
   return (
     <footer class="bg-gray-800 p-8">
       <div class="container mx-auto">
