@@ -161,11 +161,11 @@ const Footer = () => {
     // </footer>
 
     <>
-      <section className="newletter">
+      <section className="newletter bg-gray-800">
         <div className="container flexSB">
           <div className="left row ml-10">
             <h1>Subsribe to Our Newsletter</h1>
-            <span>Far far away, behind the word mountains</span>
+            <span>to stay update with our events and informations</span>
           </div>
           <div className="flex items-center space-x-2 mt-5 ml-10">
             <input
@@ -188,9 +188,9 @@ const Footer = () => {
             </p>
 
             <div className="flex items-center space-x-4">
-              <i className="fab fa-facebook-f text-blue-600 hover:text-blue-800 text-lg"></i>
-              <i className="fab fa-twitter text-blue-400 hover:text-blue-600 text-lg"></i>
-              <i className="fab fa-instagram text-pink-600 hover:text-pink-800 text-lg"></i>
+              <i className="fab fa-facebook-f text-gray-800  text-xl"></i>
+              <i className="fab fa-twitter text-gray-800  text-xl"></i>
+              <i className="fab fa-instagram text-gray-800 text-xl"></i>
             </div>
           </div>
           <div className="box link">
