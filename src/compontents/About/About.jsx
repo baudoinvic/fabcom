@@ -1,8 +1,7 @@
-import React from 'react'
-import Navbar from '../Navbar';
-import Footer from '../Footer';
-import { Link } from 'react-router-dom';
-
+import React from "react";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -29,8 +28,6 @@ const About = () => {
           </Link>
         </div>
       </div>
-
-   
 
       <div class="flex flex-col md:flex-row md:mr-3 md:ml-3 md:mt-7 shadow-md">
         <div class="w-full md:w-1/2 p-8">
@@ -74,18 +71,13 @@ const About = () => {
             our hardware, software, and IoT solutions to meet and exceed
             expectations. Our dedication to quality, reliability, and continuous
             improvement ensures that our products and services stand the test of
-            {/* time. A Tradition of Excellence: With a legacy of innovation and a
-            passion for pushing technological boundaries, FabTech Hub has
-            established itself as a reliable partner for businesses and
-            individuals seeking comprehensive solutions. We pride ourselves on
-            our ability to stay ahead of the curve, anticipating future trends
-            and adapting our offerings to meet the evolving needs of the digital
-            age. Join us on the journey of transforming ideas into reality, as
-            we continue to design the future through the seamless integration of
-            hardware, software, and IoT at FabTech Hub. */}
+            time.
           </p>
         </div>
-        <div class="w-full md:w-1/2 mt-7 flex justify-center items-center" style={{marginTop: '-2rem'}}>
+        <div
+          class="w-full md:w-1/2 mt-7 flex justify-center items-center"
+          style={{ marginTop: "-2rem" }}
+        >
           <div class="aspect-w-16 aspect-h-9">
             <video controls class="w-full h-full" width="full" height="560">
               <source src="/anima.mp4" type="video/mp4" />
@@ -97,6 +89,6 @@ const About = () => {
       <Footer />
     </div>
   );
-}
+};
 
-export default About
+export default About;
