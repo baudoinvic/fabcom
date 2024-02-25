@@ -48,10 +48,10 @@ const Description = () => {
           <FaEye className="text-gray-600 text-4xl mb-4" />
           <span className="text-xl font-bold mb-4">Our Vision</span>
           <p className="text-gray-500">
-            At FabTech Hub, we envision a connected world where cutting-edge
-            technology enhances the way we live, work, and interact. Our goal is
-            to be at the forefront of this transformation, driving innovation
-            through the convergence of hardware, software, and IoT.
+            To be the premier provider of comprehensive educational kits for
+            engineering schools, empowering the next generation of innovators,
+            while delivering cutting-edge engineering solutions to businesses
+            globally.
           </p>
         </div>
 
@@ -59,12 +59,26 @@ const Description = () => {
           <FaCog className="text-gray-600 text-4xl mb-4" />
           <span className="text-xl font-bold mb-4">Our Value</span>
           <p className="text-gray-500">
-            Our team of highly skilled hardware engineers is dedicated to
-            crafting state-of-the-art devices that not only meet but exceed
-            industry standards. From concept to prototype to final production we
-            leverage the latest technologies to design robust and efficient
-            hardware solutions. We ensure that our hardware stands out in terms
-            of performance, durability, and user experience.
+            Excellence: We strive for excellence in all aspects of our
+            operations, from the quality of our educational kits to the
+            solutions we deliver to our clients. Innovation: We embrace
+            innovation as the driving force behind progress, continuously
+            seeking new and creative ways to enhance engineering education and
+            solve complex challenges for our clients. Integrity: We uphold the
+            highest standards of integrity in everything we do, fostering trust
+            and transparency with our customers, partners, and employees.
+            Collaboration: We believe in the power of collaboration, working
+            closely with engineering schools, students, and businesses to
+            achieve mutual success and innovation. Continuous Learning: We
+            promote a culture of continuous learning and improvement,
+            recognizing that knowledge and skills are essential assets in a
+            rapidly evolving technological landscape. Customer Centricity: We
+            are dedicated to understanding and exceeding the needs of our
+            customers, delivering tailored solutions and exceptional service
+            that drive value and satisfaction. Social Responsibility: We are
+            committed to making a positive impact on society and the
+            environment, leveraging our resources and expertise to contribute to
+            a sustainable future.
           </p>
         </div>
 
@@ -72,12 +86,14 @@ const Description = () => {
           <PiLampBold className="text-gray-600 text-4xl mb-4" />
           <span className="text-xl font-bold mb-4">Our Mission</span>
           <p className="text-gray-500">
-            Our team of highly skilled hardware engineers is dedicated to
-            crafting state-of-the-art devices that not only meet but exceed
-            industry standards. From concept to prototype to final production we
-            leverage the latest technologies to design robust and efficient
-            hardware solutions. We ensure that our hardware stands out in terms
-            of performance, durability, and user experience.
+            Our mission is to revolutionize engineering education by offering
+            dynamic educational kits that foster hands-on learning and practical
+            skill development. Simultaneously, we are committed to providing
+            top-tier engineering support to companies, specializing in web
+            design, hardware design, and Internet of Things solutions. Through
+            innovation, expertise, and a dedication to excellence, we aim to
+            empower both students and businesses to thrive in a rapidly evolving
+            technological landscape.
           </p>
         </div>
       </div>
@@ -91,14 +107,16 @@ const Description = () => {
 
       <div class="bg-gray-100 ">
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10  ">
-          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer ">
-            <SiSimilarweb className="text-gray-600 text-4xl  mb-4" />
-            <span className="text-xl font-bold mb-4">Smart integration</span>
+          <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
+            <LiaUikit className="text-gray-600 text-4xl mb-4" />
+            <span className="text-xl font-bold mb-4">Educational Kit</span>
             <p className="text-gray-600">
-              At FabTech Hub, we envision a connected world where cutting-edge
-              technology enhances the way we live, work, and interact. Our goal
-              is to be at the forefront of this transformation, driving
-              innovation through the convergence of hardware, software, and IoT.
+              Explore the world of learning with our team of highly skilled
+              hardware engineers dedicated to creating cutting-edge educational
+              kits. We go beyond industry standards, from the conceptualization
+              phase to prototype development and final production. Leveraging
+              the latest technologies, we design robust and efficient hardware
+              solutions
             </p>
           </div>
 
@@ -163,16 +181,14 @@ const Description = () => {
             </p>
           </div>
 
-          <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
-            <LiaUikit className="text-gray-600 text-4xl mb-4" />
-            <span className="text-xl font-bold mb-4">Educational Kit</span>
+          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer ">
+            <SiSimilarweb className="text-gray-600 text-4xl  mb-4" />
+            <span className="text-xl font-bold mb-4">Smart integration</span>
             <p className="text-gray-600">
-              Explore the world of learning with our team of highly skilled
-              hardware engineers dedicated to creating cutting-edge educational
-              kits. We go beyond industry standards, from the conceptualization
-              phase to prototype development and final production. Leveraging
-              the latest technologies, we design robust and efficient hardware
-              solutions
+              At FabTech Hub, we envision a connected world where cutting-edge
+              technology enhances the way we live, work, and interact. Our goal
+              is to be at the forefront of this transformation, driving
+              innovation through the convergence of hardware, software, and IoT.
             </p>
           </div>
         </div>
