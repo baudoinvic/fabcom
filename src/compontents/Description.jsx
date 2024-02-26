@@ -12,37 +12,6 @@ import { LiaUikit } from "react-icons/lia";
 const Description = () => {
   return (
     <div className="bg-gray-100">
-      {/* <div className="text-center p-8">
-        <h1 className="text-3xl font-bold mb-6 text-gray-800"></h1>
-        <p className="text-gray-500 mx-auto max-w-2xl leading-relaxed">
-          Welcome to FabTechHub – the nexus of innovation where ideas transcend
-          into tangible hardware solutions. As a premier tech company, we
-          specialize in empowering visionaries to craft cutting-edge products in
-          the realms of hardware and electronics.
-          <br />
-          <br />
-          FabTechHub serves as a dynamic space, fostering creativity and
-          collaboration. We go beyond traditional boundaries, providing a
-          platform that seamlessly integrates hardware expertise with software
-          knowledge, propelling our community into the forefront of the Internet
-          of Things
-          <br />
-          <br />
-          Our mission is clear: to accelerate Congolese innovators towards
-          global competitiveness. Within our vibrant ecosystem, FabTechHub
-          offers more than just workspace; it's a knowledge hub where skills are
-          honed, ideas flourish, and collaborations thrive.
-          <br />
-          <br />
-          We are committed to elevating Congolese standing in Design,
-          Engineering, Electronics, Fabrication, and High-Tech innovation. We
-          provide not only the collaborative space but also a knowledge base and
-          expert guidance.
-          <br />
-          <br />
-        </p>
-      </div> */}
-
       <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10">
         <div className="bg-white p-6 rounded-lg shadow-md  transition-transform transform hover:scale-105 cursor-pointer">
           <FaEye className="text-gray-600 text-4xl mb-4" />
@@ -71,18 +40,6 @@ const Description = () => {
             solve complex challenges for our clients. Integrity: We uphold the
             highest standards of integrity in everything we do, fostering trust
             and transparency with our customers, partners, and employees.
-            {/* Collaboration: We believe in the power of collaboration, working
-            closely with engineering schools, students, and businesses to
-            achieve mutual success and innovation. Continuous Learning: We
-            promote a culture of continuous learning and improvement,
-            recognizing that knowledge and skills are essential assets in a
-            rapidly evolving technological landscape. Customer Centricity: We
-            are dedicated to understanding and exceeding the needs of our
-            customers, delivering tailored solutions and exceptional service
-            that drive value and satisfaction. Social Responsibility: We are
-            committed to making a positive impact on society and the
-            environment, leveraging our resources and expertise to contribute to
-            a sustainable future. */}
           </p>
         </div>
 
@@ -104,51 +61,37 @@ const Description = () => {
 
       <div class="flex flex-col items-center justify-center">
         <span class="block text-center text-3xl font-bold mb-6 text-gray-800">
-          FabTechhub services
+          What we offer
         </span>
-        <span class="block text-center text-2xl mt-4 ">Our services</span>
       </div>
 
-      <div class="bg-gray-100 ">
-        <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10  ">
+      <div class="bg-white">
+        <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-7  ">
           <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
-            <LiaUikit className="text-gray-600 text-4xl mb-4" />
-            <span className="text-xl font-bold mb-4">Educational Kit</span>
+            <img src="https://media.istockphoto.com/id/166103292/photo/electronic-technician-holding-tweezers-and-assemblin-a-circuit-board.jpg?s=612x612&w=0&k=20&c=RMEUBForljOSxMEf6OpOatLnpuhDv7CqVxAvKs2a_wM="></img>
+            <span className="text-xl font-bold mb-4">Hardware Repairing</span>
             <p className="text-gray-600">
-              Explore the world of learning with our team of highly skilled
-              hardware engineers dedicated to creating cutting-edge educational
-              kits. We go beyond industry standards, from the conceptualization
-              phase to prototype development and final production. Leveraging
-              the latest technologies, we design robust and efficient hardware
-              solutions
+              We provide comprehensive hardware repairing services
+              <br /> ensuring the swift and efficient resolution
             </p>
           </div>
 
           <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
-            <GrIntegration className="text-gray-600 text-4xl mb-4" />
-            <span className="text-xl font-bold mb-4">Internet Of Things</span>
+            <img src="https://media.istockphoto.com/id/1200023257/photo/the-macro-view-of-thye-hdd-drive-with-information-data-magnetic-disc-electronic-board.jpg?s=612x612&w=0&k=20&c=ybrZbTLTb3xjPg8pyQash268KXFdMY2_vjwa93sqOtA="></img>
+            <span className="text-xl font-bold mb-4">Data recovery</span>
             <p className="text-gray-600">
-              Our team of highly skilled hardware engineers is dedicated to
-              crafting state-of-the-art devices that not only meet but exceed
-              industry standards. From concept to prototype to final production,
-              we leverage the latest technologies to design robust and efficient
-              hardware solutions. We ensure that our hardware stands out in
-              terms of performance
+              Our data recovery services are designed to retrieve lost or
+              <br />
+              corrupted data from various storage devices
             </p>
           </div>
 
           <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
-            <AiOutlineFieldTime className="text-gray-600 text-4xl mb-4" />
-            <span className="text-xl font-bold mb-4">
-              Network deployment and design
-            </span>
+            <img src="https://media.istockphoto.com/id/1347972947/photo/computer-technician-fixing-a-network-server-at-the-office.jpg?s=612x612&w=0&k=20&c=MAmJiYCgHyM4qkj4JZAsehB8hzbWAZnH7ZtA89EAaE4="></img>
+            <span className="text-xl font-bold mb-4">Network Support</span>
             <p className="text-gray-600">
-              Our team of highly skilled hardware engineers is dedicated to
-              crafting state-of-the-art devices that not only meet but exceed
-              industry standards. From concept to prototype to final production,
-              we leverage the latest technologies to design robust and efficient
-              hardware solutions. We ensure that our hardware stands out in
-              terms of performance.
+              Our network support services offer comprehensive assistance
+              <br /> to optimize your network
             </p>
           </div>
         </div>
@@ -156,43 +99,35 @@ const Description = () => {
 
       {/* Second row */}
 
-      <div class="bg-gray-100">
+      <div class="bg-white">
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
           <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
-            <SiWebmoney className="text-gray-600 text-4xl  mb-4" />
-            <span className="text-xl font-bold mb-4">Web development</span>
+            <img src="https://media.istockphoto.com/id/1066995748/photo/repair-of-computer-hard-drives.jpg?s=612x612&w=0&k=20&c=LxlSulxNxVR5aeYLGBoilDFF59jt355j2GkYr4MTQPU="></img>
+            <span className="text-xl font-bold mb-4">Laptop Repair</span>
             <p className="text-gray-600">
-              Elevate your online presence with our expert web development
-              services at FabTech Hub. We are dedicated to creating seamless
-              digital experiences that empower your business. From innovative
-              designs to robust backend solutions, we specialize in crafting
-              websites that not only meet but exceed your expectations.
+              We offer affrodable laptop repair services to indivudual and
+              coporate clients ensuring budget-friendly solutions without
+              compromising 
             </p>
           </div>
 
           <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
-            <SiKasasmart className="text-gray-600 text-4xl mb-4" />
-            <span className="text-xl font-bold mb-4">
-              Innovative Automatic Fare Collection Solutions
-            </span>
+            <img src="https://media.istockphoto.com/id/1335050732/photo/businessman-using-a-computer-to-document-management-concept-online-documentation-database-and.jpg?s=612x612&w=0&k=20&c=5zAzuOclaBXMudc56RisW9yNyGxLt3wO8Xh2wtShmo0="></img>
+            <span className="text-xl font-bold mb-4">Cloud Services</span>
             <p className="text-gray-600">
-              Experience cutting-edge automatic fare collection with our team of
-              highly skilled hardware engineers at FabtechHub. We are committed
-              to designing state-of-the-art devices that set new industry
-              standards. From initial concept to prototype and final production,
-              we harness the latest technologies to create robust and efficient
-              hardware solutions .
+              A perfect way to store your data, our cloud services provide
+              secure and reliable storage solutions designed to meet the demands
+              of modern businesses.
             </p>
           </div>
 
           <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer ">
-            <SiSimilarweb className="text-gray-600 text-4xl  mb-4" />
+            <img src="https://media.istockphoto.com/id/1177116437/photo/innovation-and-science-concept.jpg?s=612x612&w=0&k=20&c=o1EXN6uyL91JlTGwGCdSiup_cjRYz6mRMwZPHTRI7QM="></img>
             <span className="text-xl font-bold mb-4">Smart integration</span>
             <p className="text-gray-600">
-              At FabTech Hub, we envision a connected world where cutting-edge
-              technology enhances the way we live, work, and interact. Our goal
-              is to be at the forefront of this transformation, driving
-              innovation through the convergence of hardware, software, and IoT.
+              Seamless integration is key to our approach, as we tailor smart
+              solutions to seamlessly integrate with your existing systems
+              optimizing performance
             </p>
           </div>
         </div>

@@ -187,7 +187,7 @@ const Footer = () => {
               To help you solve the problems in your company and elevate it to a
               very high level.
             </p>
-
+            <span>Follow us on</span>
             <div className="flex items-center space-x-4">
               <a
                 href="https://www.facebook.com/profile.php?id=100088689596878"
