@@ -160,7 +160,7 @@ const Footer = () => {
     //   </div>
     // </footer>
 
-    <div className='Fab-footer'>
+    <div className="Fab-footer">
       <section className="newletter bg-gray-800">
         <div className="container flexSB">
           <div className="left row ml-10">
@@ -187,18 +187,29 @@ const Footer = () => {
               very big high level
             </p>
 
+
             <div className="flex items-center space-x-4">
-              <i className="fab fa-facebook-f text-gray-800  text-xl">
-                <a href="https://www.facebook.com/profile.php?id=100088689596878"></a>
-              </i>
-
-              <i className="fab fa-linkedin text-gray-800 text-xl">
-                <a href="https://www.linkedin.com/in/fabrice-itulamya-masumbuko-044478161/"></a>
-              </i>
-
-              <i className="fab fa-instagram text-gray-800 text-xl">
-                <a href="https://www.instagram.com/lepieux_1/"></a>
-              </i>
+              <a
+                href="https://www.facebook.com/profile.php?id=100088689596878"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-facebook-f text-gray-800 text-xl"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/fabrice-itulamya-masumbuko-044478161/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin text-gray-800 text-xl"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/lepieux_1/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-instagram text-gray-800 text-xl"></i>
+              </a>
             </div>
           </div>
           <div className="box link">
@@ -229,22 +240,24 @@ const Footer = () => {
               </Link>
 
               <li>
-                <a href="https://www.linkedin.com/in/fabrice-itulamya-masumbuko-044478161/"></a>
-                Contact the owner
+                <a href="https://www.linkedin.com/in/fabrice-itulamya-masumbuko-044478161/">
+                  Contact the owner
+                </a>
               </li>
               <li>
-                <a href="https://maps.app.goo.gl/3MyetuoWSYdzTF4L8"></a>
-                Our office
-              </li>
-
-              <li>
-                <a href="https://maps.app.goo.gl/xnbi2ChsSfgWUb9s5"></a>
-                Our branch
+                <a href="https://maps.app.goo.gl/3MyetuoWSYdzTF4L8">
+                  Our office
+                </a>
               </li>
 
               <li>
-                <a href="https://maps.app.goo.gl/3MyetuoWSYdzTF4L8"></a>
-                Location
+                <a href="https://maps.app.goo.gl/xnbi2ChsSfgWUb9s5">
+                  Our branch
+                </a>
+              </li>
+
+              <li>
+                <a href="https://maps.app.goo.gl/3MyetuoWSYdzTF4L8">Location</a>
               </li>
             </ul>
           </div>
@@ -265,8 +278,7 @@ const Footer = () => {
             <ul>
               <li>
                 <i className="fa fa-map"></i>
-                 Fabtechhub
-                 technology
+                Fabtechhub technology
               </li>
               <li>
                 <i className="fa fa-phone-alt"></i>
