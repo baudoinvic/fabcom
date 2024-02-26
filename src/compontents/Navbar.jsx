@@ -25,7 +25,7 @@
       };
 
     return (
-      <div className="fab-com-electronics bg-gray-900 text-white fixed top-0 w-full z-50 ">
+      <div className="fab-com-electronics bg-gray-900 text-white  ">
         {/* Desktop navigation */}
 
         <div className="bg-gray-800 hidden md:flex items-center justify-end px-4 py-4 shadow-md fab-com-navbar space-x-10 ">
