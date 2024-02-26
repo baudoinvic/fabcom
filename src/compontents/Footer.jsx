@@ -252,11 +252,11 @@ const Footer = () => {
           <div className="box link">
             <h3>Address</h3>
             <ul>
-              <li>Congo Drc</li>
-              <li>Kalemie 240 street</li>
-              <li>Terms & Conditions</li>
-              <li>Tanganyika Province</li>
-              <li>Kalemie city</li>
+              <li>Naples & Italy</li>
+              <li>Rwanda & kigali</li>
+              <li>kimirhura 160 St</li>
+              <li>Kigali Province</li>
+              <li>Kigali city</li>
             </ul>
           </div>
 
@@ -265,7 +265,8 @@ const Footer = () => {
             <ul>
               <li>
                 <i className="fa fa-map"></i>
-                institut. Technique, International,lepieux, DRC
+                 Fabtechhub
+                 technology
               </li>
               <li>
                 <i className="fa fa-phone-alt"></i>
@@ -273,7 +274,7 @@ const Footer = () => {
               </li>
               <li>
                 <i className="fa fa-paper-plane"></i>
-                lepieuxinternationalschool.com
+                fabtechhub@gmail.com
               </li>
             </ul>
           </div>
