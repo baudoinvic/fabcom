@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaCheckCircle, FaClock, FaShieldAlt } from "react-icons/fa";
 
 const Product = () => {
   return (
@@ -9,17 +10,21 @@ const Product = () => {
         alt="Robot Factory Image"
         class="object-cover shadow-lg"
       />
-      <div class="absolute inset-0 flex flex-col justify-center items-center">
-        <h1 class="text-white text-4xl font-bold mb-8">WHY CHOOSE US</h1>
-        <div class="flex justify-center">
-          <div class="border border-solid border-white rounded-md mx-2 p-4">
-            <span class="text-white">80% OF SATISFIED CLIENTS</span>
+
+      <div className="absolute inset-0 flex flex-col justify-center items-center">
+        <h1 className="text-white text-4xl font-bold mb-8">WHY CHOOSE US</h1>
+        <div className="flex flex-wrap justify-center">
+          <div className="border border-solid border-white rounded-md mx-2 my-2 p-4 w-1/2 sm:w-auto">
+            <FaCheckCircle className="text-white mr-2" />
+            <span className="text-white">80% OF SATISFIED CLIENTS</span>
           </div>
-          <div class="border border-solid border-white rounded-md mx-2 p-4">
-            <span class="text-white">QUICK REPAIR PROCESS</span>
+          <div className="border border-solid border-white rounded-md mx-2 my-2 p-4 w-1/2 sm:w-auto">
+            <FaClock className="text-white mr-2" />
+            <span className="text-white">QUICK REPAIR PROCESS</span>
           </div>
-          <div class="border border-solid border-white rounded-md mx-2 p-4">
-            <span class="text-white">100% GUARANTEE</span>
+          <div className="border border-solid border-white rounded-md mx-2 my-2 p-4 w-1/2 sm:w-auto">
+            <FaShieldAlt className="text-white mr-2" />
+            <span className="text-white">100% GUARANTEE</span>
           </div>
         </div>
       </div>
