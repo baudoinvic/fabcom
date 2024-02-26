@@ -160,7 +160,7 @@ const Footer = () => {
     //   </div>
     // </footer>
 
-    <>
+    <div className='Fab-footer'>
       <section className="newletter bg-gray-800">
         <div className="container flexSB">
           <div className="left row ml-10">
@@ -178,7 +178,7 @@ const Footer = () => {
         </div>
       </section>
       <footer>
-        <div className="container padding ml-10">
+        <div className="container padding ml-6">
           <div className="box logo">
             <h1>FabTechHub</h1>
             <span>We are here</span>
@@ -286,7 +286,7 @@ const Footer = () => {
           <i className="fa fa-heart"></i> by BaudoinCoder
         </p>
       </div>
-    </>
+    </div>
   );
 }
 
