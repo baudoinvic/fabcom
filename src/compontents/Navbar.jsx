@@ -7,21 +7,18 @@
     faUser,
   } from "@fortawesome/free-solid-svg-icons";
   import { IoMdMenu } from "react-icons/io";
+  import { FaPhone } from "react-icons/fa";
+  import { MdLocationPin } from "react-icons/md";
+  import { MdOutlineMail } from "react-icons/md";
 
   import { Link } from "react-router-dom";
 
- import { useTranslation } from "react-i18next";
+//  import { useTranslation } from "react-i18next";
  
  
 
   const Navbar = () => {
-
-   
-  
- 
     const [openModal, setOpenModal] = useState(false);
-
-   
 
       const toggleModal = () => {
         setOpenModal((prev) => !prev);
@@ -30,27 +27,41 @@
     return (
       <div className="fab-com-electronics bg-gray-900 text-white">
         {/* Desktop navigation */}
-        {/* <div className="bg-gray-800 hidden md:flex items-center justify-between px-4 py-4 shadow-md fab-com-navbar space-x-10">
-          <span
-            className="mx-2 flex items-center space-x-8 ml-auto"
-            style={{ marginRight: "4rem" }}
-          >
-            <Link to="/Buy">
-              <span className="text-white">
-                <FontAwesomeIcon icon={faShoppingCart} className="mr-2 ml-1" />
-                Sample&Buy
-              </span>
-            </Link>
 
-            <Link to="/Career" className="text-white">
-              <span className="text-decoration-none flex items-center">
-                <FontAwesomeIcon icon={faUser} className="mr-2" />
-                Careers
-              </span>
-            </Link>
-          </span>
-          =
-        </div> */}
+        <div className="bg-gray-800 hidden md:flex items-center justify-end px-4 py-4 shadow-md fab-com-navbar space-x-10">
+          <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2">
+              <MdOutlineMail className="text-gray-300"/>
+              <span className="text-gray-300">fabtechhub@gmail.com</span>
+              <FaPhone className="text-gray-300" />
+              <span className="text-gray-300">+250 783 012 138</span>
+              <MdLocationPin className="text-gray-300" />
+              <span className="text-gray-300">Naples&Italy 240st</span>
+            </div>
+
+            <a
+              href="https://www.facebook.com/profile.php?id=100088689596878"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-facebook-f text-gray-300 text-xl"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/fabrice-itulamya-masumbuko-044478161/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin text-gray-300 text-xl"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/lepieux_1/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-instagram text-gray-300 text-xl"></i>
+            </a>
+          </div>
+        </div>
 
         {/* Mobile navigation */}
         <div

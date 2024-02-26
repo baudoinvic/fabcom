@@ -24,7 +24,7 @@ const Product = () => {
           </div>
           <div className="border border-solid border-white rounded-md mx-2 my-2 p-4 w-1/2 sm:w-auto">
             <FaShieldAlt className="text-white mr-2" />
-            <span className="text-white">100% GUARANTEE</span>
+            <span className="text-white">70% PROJECTS DONE</span>
           </div>
         </div>
       </div>
