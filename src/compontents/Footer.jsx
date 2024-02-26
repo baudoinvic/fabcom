@@ -188,9 +188,17 @@ const Footer = () => {
             </p>
 
             <div className="flex items-center space-x-4">
-              <i className="fab fa-facebook-f text-gray-800  text-xl"></i>
-              <i className="fab fa-twitter text-gray-800  text-xl"></i>
-              <i className="fab fa-instagram text-gray-800 text-xl"></i>
+              <i className="fab fa-facebook-f text-gray-800  text-xl">
+                <a href="https://www.facebook.com/profile.php?id=100088689596878"></a>
+              </i>
+
+              <i className="fab fa-linkedin text-gray-800 text-xl">
+                <a href="https://www.linkedin.com/in/fabrice-itulamya-masumbuko-044478161/"></a>
+              </i>
+
+              <i className="fab fa-instagram text-gray-800 text-xl">
+                <a href="https://www.instagram.com/lepieux_1/"></a>
+              </i>
             </div>
           </div>
           <div className="box link">
