@@ -196,11 +196,21 @@ const Footer = () => {
           <div className="box link">
             <h3>Explore</h3>
             <ul>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Courses</li>
-              <li>Blog</li>
-              <li>Contact us</li>
+              <Link to="/homepage">
+                <li>Home</li>
+              </Link>
+              <Link to="/about">
+                <li>About Us</li>
+              </Link>
+              <Link to="/our services">
+                <li>Services</li>
+              </Link>
+              <Link to="/products">
+                <li>Our products</li>
+              </Link>
+              <Link to="/career">
+                <li>Careers</li>
+              </Link>
             </ul>
           </div>
           <div className="box link">
