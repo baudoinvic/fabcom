@@ -216,11 +216,28 @@ const Footer = () => {
           <div className="box link">
             <h3>Quick Links</h3>
             <ul>
-              <li>Contact Us</li>
-              <li>Pricing</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy</li>
-              <li>Feedbacks</li>
+              <Link to="/contact">
+                <li>Contact Us</li>
+              </Link>
+
+              <li>
+                <a href="https://www.linkedin.com/in/fabrice-itulamya-masumbuko-044478161/"></a>
+                Contact the owner
+              </li>
+              <li>
+                <a href="https://maps.app.goo.gl/3MyetuoWSYdzTF4L8"></a>
+                Our office
+              </li>
+
+              <li>
+                <a href="https://maps.app.goo.gl/xnbi2ChsSfgWUb9s5"></a>
+                Our branch
+              </li>
+
+              <li>
+                <a href="https://maps.app.goo.gl/3MyetuoWSYdzTF4L8"></a>
+                Location
+              </li>
             </ul>
           </div>
 
