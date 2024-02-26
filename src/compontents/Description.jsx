@@ -11,7 +11,7 @@ import { LiaUikit } from "react-icons/lia";
 
 const Description = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="">
       <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10">
         <div className="bg-white p-6 rounded-lg shadow-md  transition-transform transform hover:scale-105 cursor-pointer">
           <FaEye className="text-gray-600 text-4xl mb-4" />
@@ -59,13 +59,13 @@ const Description = () => {
         </div>
       </div>
 
-      <div class="flex flex-col items-center justify-center">
-        <span class="block text-center text-3xl font-bold mb-6 text-gray-800">
-          What we offer
-        </span>
-      </div>
-
       <div class="bg-white">
+        <div class="flex flex-col items-center justify-center mt-10">
+          <span class="block text-center text-3xl font-bold mb-6 text-gray-800 mt-10">
+            What we offer
+          </span>
+        </div>
+
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-7  ">
           <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
             <img src="https://media.istockphoto.com/id/166103292/photo/electronic-technician-holding-tweezers-and-assemblin-a-circuit-board.jpg?s=612x612&w=0&k=20&c=RMEUBForljOSxMEf6OpOatLnpuhDv7CqVxAvKs2a_wM="></img>
@@ -107,7 +107,7 @@ const Description = () => {
             <p className="text-gray-600">
               We offer affrodable laptop repair services to indivudual and
               coporate clients ensuring budget-friendly solutions without
-              compromising 
+              compromising
             </p>
           </div>
 
