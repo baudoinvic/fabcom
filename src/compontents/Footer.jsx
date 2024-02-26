@@ -165,15 +165,16 @@ const Footer = () => {
         <div className="container flexSB">
           <div className="left row ml-10">
             <h1>Subsribe to Our Newsletter</h1>
-            <span>to stay update with our events and informations</span>
+            <span>To stay updated with our events and information</span>
           </div>
-          <div className="flex items-center space-x-2 mt-5 ml-10">
+
+          <div class="flex items-center space-x-2 mt-5 ml-10">
             <input
               type="text"
               placeholder="Enter email address"
-              className="w-80 border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:border-blue-500"
+              class="w-80 border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:border-blue-500 text-gray-800"
             />
-            <i className="fa fa-paper-plane text-gray-500"></i>
+            <i class="fa fa-paper-plane text-gray-500 cursor-pointer"></i>
           </div>
         </div>
       </section>
@@ -183,10 +184,9 @@ const Footer = () => {
             <h1>FabTechHub</h1>
             <span>We are here</span>
             <p>
-              to help you to solve the problems in your company and make it in
-              very big high level
+              To help you solve the problems in your company and elevate it to a
+              very high level.
             </p>
-
 
             <div className="flex items-center space-x-4">
               <a
