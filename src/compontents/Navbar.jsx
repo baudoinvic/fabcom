@@ -25,18 +25,18 @@
       };
 
     return (
-      <div className="fab-com-electronics bg-gray-900 text-white">
+      <div className="fab-com-electronics bg-gray-900 text-white fixed top-0 w-full z-50 ">
         {/* Desktop navigation */}
 
-        <div className="bg-gray-800 hidden md:flex items-center justify-end px-4 py-4 shadow-md fab-com-navbar space-x-10">
-          <div className="flex items-center space-x-4">
+        <div className="bg-gray-800 hidden md:flex items-center justify-end px-4 py-4 shadow-md fab-com-navbar space-x-10 ">
+          <div className="flex items-center space-x-4 mr-10">
             <div className="flex items-center space-x-2">
-              <MdOutlineMail className="text-gray-300"/>
+              <MdOutlineMail className="text-gray-300" />
               <span className="text-gray-300">fabtechhub@gmail.com</span>
               <FaPhone className="text-gray-300" />
               <span className="text-gray-300">+250 783 012 138</span>
               <MdLocationPin className="text-gray-300" />
-              <span className="text-gray-300">Naples&Italy 240st</span>
+              <span className="text-gray-300">Naples & Italy 240st</span>
             </div>
 
             <a
