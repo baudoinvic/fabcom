@@ -30,7 +30,7 @@
     return (
       <div className="fab-com-electronics bg-gray-900 text-white">
         {/* Desktop navigation */}
-        <div className="bg-gray-800 hidden md:flex items-center justify-between px-4 py-4 shadow-md fab-com-navbar space-x-10">
+        {/* <div className="bg-gray-800 hidden md:flex items-center justify-between px-4 py-4 shadow-md fab-com-navbar space-x-10">
           <span
             className="mx-2 flex items-center space-x-8 ml-auto"
             style={{ marginRight: "4rem" }}
@@ -49,23 +49,8 @@
               </span>
             </Link>
           </span>
-
-          {/* <div class="flex items-center space-x-2">
-            <button
-              class="border border-solid border-gray-400 rounded px-3 py-2"
-              onClick={() => handleChangeLanguage("en")}
-            >
-              En
-            </button>
-            <button
-              class="border border-solid border-gray-400 rounded px-3 py-2"
-              onClick={() => handleChangeLanguage("Fr")}
-            >
-              Fr
-            </button>
-          </div> */}
-          
-        </div>
+          =
+        </div> */}
 
         {/* Mobile navigation */}
         <div
@@ -89,21 +74,6 @@
               />
             </div>
             <div className="flex flex-col items-stretch text-white">
-              {/* <div class="flex flex-col items-start space-y-2 md:flex-row md:space-y-0 md:space-x-2 ml-5">
-                <button
-                  class="border border-solid border-gray-400 rounded  py-4 px-8 my-2"
-                  onClick={() => handleChangeLanguage("en")}
-                >
-                  En
-                </button>
-                <button
-                  class="border border-solid border-gray-400 rounded px-8 py-4 my-2"
-                  onClick={() => handleChangeLanguage("Fr")}
-                >
-                  Fr
-                </button>
-              </div> */}
-
               <Link
                 to="/homepage"
                 className="my-2 px-8 py-4 "
@@ -147,7 +117,7 @@
                 </span>
               </Link>
 
-              <Link to="/Buy">
+              {/* <Link to="/Buy">
                 <span className="my-2 px-8 py-4">
                   <FontAwesomeIcon
                     icon={faShoppingCart}
@@ -155,7 +125,7 @@
                   />
                   Sample&Buy
                 </span>
-              </Link>
+              </Link> */}
             </div>
           </div>
         )}
@@ -189,11 +159,15 @@
             <Link to="/ourservices" className="text-white">
               <li className="mx-2">Our Services</li>
             </Link>
-
+            <Link to="/Career" className="text-white">
+              <span className="text-decoration-none flex items-center">
+                <FontAwesomeIcon icon={faUser} className="mr-2" />
+                Careers
+              </span>
+            </Link>
             <Link to="/contact" className="text-white">
               <li className="mx-2 mr-8">Contact us</li>
             </Link>
-
           </ul>
         </div>
       </div>
