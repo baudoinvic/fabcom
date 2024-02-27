@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaCheckCircle, FaClock, FaShieldAlt } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Product = () => {
   return (
@@ -30,10 +31,14 @@ const Product = () => {
           </div>
         </div>
       </div>
-     
 
       <div class="p-20 flex flex-row items-start bg-gray-100 shadow-md">
-        <span class="mr-6 text-gray-600">
+        <span class="mr-6 text-gray-600" style={{ marginTop: "-2rem" }}>
+          <span className="text-3xl font-bold text-gray-800 mb-4">
+            Get in touch for collaboration
+          </span>
+          <br />
+          <br />
           Hey there! This is the best way we can get in touch to collaborate on
           your new project.
           <br />
@@ -46,9 +51,11 @@ const Product = () => {
           We look forward to hearing from you and exploring opportunities for
           collaboration!
         </span>
-        <button class="px-6 py-3 bg-gray-900 text-white rounded hover:bg-blue-600 ml-40">
-          Get In Touch
-        </button>
+        <Link to="/contact">
+          <button class="px-6 py-3 bg-gray-900 text-white rounded hover:bg-blue-600 ml-40">
+            Get In Touch
+          </button>
+        </Link>
       </div>
     </div>
   );
