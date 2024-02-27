@@ -7,36 +7,34 @@ import { Link } from "react-router-dom";
 const Description = () => {
   return (
     <div className="">
-      <div
-        class="about-us flex flex-row items-center"
-        style={{ marginTop: "8rem" }}
-      >
+    
+      <div class="about-us flex flex-col lg:flex-row items-center" style={{marginTop: '8rem'}}>
         <div class="flex flex-col justify-left">
-          <h2 class="block text-left text-3xl font-bold text-gray-800 mb-4 ml-12">
+          <h2 class="block text-left text-3xl font-bold text-gray-800 mb-4 lg:ml-12">
             About us
           </h2>
-          <span class="block text-left text-3xl font-bold text-gray-800 mb-4 ml-12">
+          <span class="block text-left text-3xl font-bold text-gray-800 mb-4 lg:ml-12">
             FabTechHub <br /> Here to serve you technology better
           </span>
-          <span class="block text-left text-1xl mb-4 ml-12 mt-10">
-            we provide technology where innovation meets excellence! As a
+          <span class="block text-left text-base mb-4 lg:ml-12 lg:mt-10">
+            We provide technology where innovation meets excellence! As a
             dynamic <br /> and forward-thinking technology company, we
             specialize in the seamless integration <br /> of hardware, software,
-            and IoT solutions. and we envision a connected world where
-            <br />
+            and IoT solutions. And we envision a connected world where <br />{" "}
             cutting-edge technology enhances the way we live, work, and
             interact.
           </span>
-          <Link to="/about">
-            <button class="px-4 py-2 bg-gray-900 text-white rounded-md w-44 ml-12">
+          <a href="/about">
+            <button class="px-4 py-2 bg-gray-900 text-white rounded-md w-44 lg:ml-12">
               Read More
             </button>
-          </Link>
+          </a>
+        
         </div>
 
         <img
           src="https://media.istockphoto.com/id/1347310666/photo/processor-chip-tech-environment-blockchain-concept.jpg?s=612x612&w=0&k=20&c=Z_3spFThU3whPdUJkV66s1b0KT6VQMIl7zJZtvEN2KI="
-          class="w-2/5 ml-8 rounded-lg"
+          class="w-full lg:w-2/5 mt-8  ml-12 lg:mt-0 rounded-lg"
         ></img>
       </div>
 
