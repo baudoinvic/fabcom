@@ -31,6 +31,25 @@ const Product = () => {
         </div>
       </div>
      
+
+      <div class="p-20 flex flex-row items-start bg-gray-100 shadow-md">
+        <span class="mr-6 text-gray-600">
+          Hey there! This is the best way we can get in touch to collaborate on
+          your new project.
+          <br />
+          If you have any questions, feel free to reach out to us through our
+          official email address or phone number.
+          <br />
+          We're also active on various social media platforms, so connect with
+          us on Facebook, Instagram, or LinkedIn.
+          <br />
+          We look forward to hearing from you and exploring opportunities for
+          collaboration!
+        </span>
+        <button class="px-6 py-3 bg-gray-900 text-white rounded hover:bg-blue-600 ml-40">
+          Get In Touch
+        </button>
+      </div>
     </div>
   );
 }
