@@ -1,13 +1,16 @@
 import React from "react";
 import { FaEye, FaCog, FaHeart } from "react-icons/fa";
 import { PiLampBold } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 
 const Description = () => {
   return (
     <div className="">
-    
-      <div class="about-us flex flex-row items-center">
+      <div
+        class="about-us flex flex-row items-center"
+        style={{ marginTop: "8rem" }}
+      >
         <div class="flex flex-col justify-left">
           <h2 class="block text-left text-3xl font-bold text-gray-800 mb-4 ml-12">
             About us
@@ -19,13 +22,16 @@ const Description = () => {
             we provide technology where innovation meets excellence! As a
             dynamic <br /> and forward-thinking technology company, we
             specialize in the seamless integration <br /> of hardware, software,
-            and IoT solutions. and we envision a connected world where<br />
-            cutting-edge  technology enhances the way we live, work, and
+            and IoT solutions. and we envision a connected world where
+            <br />
+            cutting-edge technology enhances the way we live, work, and
             interact.
           </span>
-          <button class="px-4 py-2 bg-gray-900 text-white rounded-md w-44 ml-12">
-            Read More
-          </button>
+          <Link to="/about">
+            <button class="px-4 py-2 bg-gray-900 text-white rounded-md w-44 ml-12">
+              Read More
+            </button>
+          </Link>
         </div>
 
         <img
@@ -34,7 +40,10 @@ const Description = () => {
         ></img>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10">
+      <div
+        className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10"
+        style={{ marginTop: "7rem" }}
+      >
         <div className="bg-white p-6 rounded-lg shadow-md  transition-transform transform hover:scale-105 cursor-pointer">
           <FaEye className="text-gray-600 text-4xl mb-4" />
           <span className="text-xl font-bold mb-4">Our Vision</span>
