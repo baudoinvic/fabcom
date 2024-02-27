@@ -7,8 +7,10 @@ import { Link } from "react-router-dom";
 const Description = () => {
   return (
     <div className="">
-    
-      <div class="about-us flex flex-col lg:flex-row items-center" style={{marginTop: '8rem'}}>
+      <div
+        class="about-us flex flex-col lg:flex-row items-center"
+        style={{ marginTop: "8rem" }}
+      >
         <div class="flex flex-col justify-left">
           <h2 class="block text-left text-3xl font-bold text-gray-800 mb-4 lg:ml-12">
             About us
@@ -24,12 +26,11 @@ const Description = () => {
             cutting-edge technology enhances the way we live, work, and
             interact.
           </span>
-          <a href="/about">
+          <Link to="/about">
             <button class="px-4 py-2 bg-gray-900 text-white rounded-md w-44 lg:ml-12">
               Read More
             </button>
-          </a>
-        
+          </Link>
         </div>
 
         <img
