@@ -1,23 +1,40 @@
 import React from "react";
 import { FaEye, FaCog, FaHeart } from "react-icons/fa";
 import { PiLampBold } from "react-icons/pi";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { SiSimilarweb } from "react-icons/si";
-import { GrIntegration } from "react-icons/gr";
-import { AiOutlineFieldTime } from "react-icons/ai";
-import { SiWebmoney } from "react-icons/si";
-import { SiKasasmart } from "react-icons/si";
-import { LiaUikit } from "react-icons/lia";
+
 
 const Description = () => {
   return (
     <div className="">
-      
+    
+      <div class="about-us flex flex-row items-center">
+        <div class="flex flex-col justify-left">
+          <h2 class="block text-left text-3xl font-bold text-gray-800 mb-4 ml-12">
+            About us
+          </h2>
+          <span class="block text-left text-3xl font-bold text-gray-800 mb-4 ml-12">
+            FabTechHub <br /> Here to serve you technology better
+          </span>
+          <span class="block text-left text-1xl mb-4 ml-12 mt-10">
+            we provide technology where innovation meets excellence! As a
+            dynamic <br /> and forward-thinking technology company, we
+            specialize in the seamless integration <br /> of hardware, software,
+            and IoT solutions. and we envision a connected world where<br />
+            cutting-edge  technology enhances the way we live, work, and
+            interact.
+          </span>
+          <button class="px-4 py-2 bg-gray-900 text-white rounded-md w-44 ml-12">
+            Read More
+          </button>
+        </div>
 
-      <div
-        className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10"
-        
-      >
+        <img
+          src="https://media.istockphoto.com/id/1347310666/photo/processor-chip-tech-environment-blockchain-concept.jpg?s=612x612&w=0&k=20&c=Z_3spFThU3whPdUJkV66s1b0KT6VQMIl7zJZtvEN2KI="
+          class="w-2/5 ml-8 rounded-lg"
+        ></img>
+      </div>
+
+      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10">
         <div className="bg-white p-6 rounded-lg shadow-md  transition-transform transform hover:scale-105 cursor-pointer">
           <FaEye className="text-gray-600 text-4xl mb-4" />
           <span className="text-xl font-bold mb-4">Our Vision</span>
