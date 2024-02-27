@@ -51,7 +51,7 @@ const Product = () => {
           official email address or phone number. We're also active on various
           social media platforms, so connect with us on Facebook, Instagram, or
           LinkedIn. We look forward to hearing from you and exploring
-          opportunities for collaboration!
+          opportunities for collaboration
         </span>
         <Link to="/contact">
           <button className="px-6 py-3 bg-gray-900 text-white rounded hover:bg-blue-600 md:ml-40 mt-4 md:mt-0">
