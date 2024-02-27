@@ -32,7 +32,7 @@ const Product = () => {
         </div>
       </div>
 
-      <div class="p-20 flex flex-row items-start bg-gray-100 shadow-md">
+      {/* <div class="p-20 flex flex-row items-start bg-gray-100 shadow-md">
         <span class="mr-6 text-gray-600" style={{ marginTop: "-2rem" }}>
           <span className="text-3xl font-bold text-gray-800 mb-4">
             Get in touch for collaboration
@@ -53,6 +53,32 @@ const Product = () => {
         </span>
         <Link to="/contact">
           <button class="px-6 py-3 bg-gray-900 text-white rounded hover:bg-blue-600 ml-40">
+            Get In Touch
+          </button>
+        </Link>
+      </div> */}
+
+      <div className="p-20 flex flex-col md:flex-row items-start bg-gray-100 shadow-md">
+        <span
+          className="mr-6 text-gray-600 md:mr-0 md:w-1/2"
+          style={{ marginTop: "-2rem" }}
+        >
+          <span className="text-3xl font-bold text-gray-800 mb-4">
+            Get in touch for collaboration
+          </span>
+          <br />
+          <br />
+          Hey there! This is the best way we can get in touch to collaborate on
+          your new project.
+          <br />
+          If you have any questions, feel free to reach out to us through our
+          official email address or phone number. We're also active on various
+          social media platforms, so connect with us on Facebook, Instagram, or
+          LinkedIn. We look forward to hearing from you and exploring
+          opportunities for collaboration!
+        </span>
+        <Link to="/contact">
+          <button className="px-6 py-3 bg-gray-900 text-white rounded hover:bg-blue-600 md:ml-40 mt-4 md:mt-0">
             Get In Touch
           </button>
         </Link>
