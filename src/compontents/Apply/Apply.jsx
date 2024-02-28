@@ -7,63 +7,6 @@ import axios from 'axios';
 
 const Apply = () => {
 
-    //   const [formData, setFormData] = useState({
-    //     Firstname: "",
-    //     Lastname: "",
-    //     email: "",
-    //     phoneNumber: "",
-    //     file: "",
-    //     yearsOfExperience: "",
-    //     description: ""
-    //   });
-
-
-    //    const handleChange = (e) => {
-    //      const fieldName = e.target.name;
-
-    //      if (fieldName === "file") {
-    //        const selectedFile = e.target.files[0];
-
-    //        setFormData({
-    //          ...formData,
-    //          [fieldName]: selectedFile,
-    //        });
-    //      } else {
-    //        setFormData({
-    //          ...formData,
-    //          [fieldName]: e.target.value,
-    //        });
-    //      }
-    //    };
-
-    //  const handleSubmit = async (e) => {
-    //    e.preventDefault();
-
-    //    try{
-    //      let token = localStorage.getItem("Token");
-    //      console.log("Request Data", formData);
-
-
-    //      const response = await axios({
-    //         url: "https://fabtechhub.onrender.com/FabtechHub/application/newApplication",
-    //         method: "POST",
-    //         headers: {
-    //           "Content-Type": "application/json",
-    //           Authorization: `Bearer ${token}`,
-    //         },
-       
-    //         data: JSON.stringify(formData)
-    //      });
-
-    //      console.log("Response Data:", response.data);
-    //      toast.success("your application was submitted successfully")
-    //    } catch (error){
-    //       console.error("Error:", error.response ? error.response.data : error);
-    //      toast.error("Failed to apply. Please try again later.");
-    //    }
-    //  };
- 
-
     const [formData, setFormData] = useState({
       Firstname: "",
       Lastname: "",
