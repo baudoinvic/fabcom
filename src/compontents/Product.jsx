@@ -22,7 +22,7 @@ const Product = () => {
             </div>
             <div className="border border-solid border-white rounded-md mx-2 my-2 p-4 w-1/2 sm:w-auto">
               <FaClock className="text-white mr-2" />
-              <span className="text-white">QUICK REPAIR PROCESS</span>
+              <span className="text-white">60% CLIENTS TESTIMONIALS</span>
             </div>
             <div className="border border-solid border-white rounded-md mx-2 my-2 p-4 w-1/2 sm:w-auto">
               <FaShieldAlt className="text-white mr-2" />
