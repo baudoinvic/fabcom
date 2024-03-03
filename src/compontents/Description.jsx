@@ -3,7 +3,6 @@ import { FaEye, FaCog, FaHeart } from "react-icons/fa";
 import { PiLampBold } from "react-icons/pi";
 import { Link } from "react-router-dom";
 
-
 const Description = () => {
   return (
     <div className="">
@@ -81,7 +80,7 @@ const Description = () => {
             dynamic educational kits that foster hands-on learning and practical
             skill development. Simultaneously, we are committed to providing
             top-tier engineering support to companies, specializing in web
-            design, hardware design, and Internet of Things solutions. Through
+            design, re design, and Internet of Things solutions. Through
             innovation, expertise, and a dedication to excellence, we aim to
             empower both students and businesses to thrive in a rapidly evolving
             technological landscape.
@@ -99,9 +98,9 @@ const Description = () => {
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-7  ">
           <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
             <img src="https://media.istockphoto.com/id/166103292/photo/electronic-technician-holding-tweezers-and-assemblin-a-circuit-board.jpg?s=612x612&w=0&k=20&c=RMEUBForljOSxMEf6OpOatLnpuhDv7CqVxAvKs2a_wM="></img>
-            <span className="text-xl font-bold mb-4">Hardware Repairing</span>
+            <span className="text-xl font-bold mb-4">Hardware Design</span>
             <p className="text-gray-600">
-              We provide comprehensive hardware repairing services
+              We provide comprehensive hardware design services
               <br /> ensuring the swift and efficient resolution
             </p>
           </div>
