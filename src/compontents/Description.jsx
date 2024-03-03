@@ -106,12 +106,12 @@ const Description = () => {
           </div>
 
           <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
-            <img src="https://media.istockphoto.com/id/1200023257/photo/the-macro-view-of-thye-hdd-drive-with-information-data-magnetic-disc-electronic-board.jpg?s=612x612&w=0&k=20&c=ybrZbTLTb3xjPg8pyQash268KXFdMY2_vjwa93sqOtA="></img>
-            <span className="text-xl font-bold mb-4">Data recovery</span>
+            <img src="https://media.istockphoto.com/id/1488308267/photo/engineer-working-with-database-for-digital-data-design-or-cyberspace-network-and-connection.jpg?s=612x612&w=0&k=20&c=2uL7YiG8eXgNaf8Oaseiz7yXZaGi6p_JVGWp-QPUhrA="></img>
+            <span className="text-xl font-bold mb-4">Software Development</span>
             <p className="text-gray-600">
-              Our data recovery services are designed to retrieve lost or
+              we provide the best of solutions of software development
               <br />
-              corrupted data from various storage devices
+             mostly we do web applications and mobile apps for our clients 
             </p>
           </div>
 
