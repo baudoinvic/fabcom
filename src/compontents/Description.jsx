@@ -92,7 +92,7 @@ const Description = () => {
       <div class="bg-white">
         <div class="flex flex-col items-center justify-center mt-10">
           <span class="block text-center text-3xl font-bold mb-6 text-gray-800 mt-10">
-            What we offer
+            What we do
           </span>
         </div>
 
