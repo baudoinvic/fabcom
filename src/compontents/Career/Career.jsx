@@ -87,7 +87,7 @@ const Career = () => {
               <li>
                 Submit your application through our online portal or send it to{" "}
                 <a href="fabtechhub@gmail.com" class="text-blue-500">
-                  fabtechhub@gmail.com
+                  info@fabtechhubgmail.com
                 </a>
                 .
               </li>
@@ -100,7 +100,7 @@ const Career = () => {
             <p class="text-gray-700">
               For any inquiries related to careers, please contact us at{" "}
               <a href="fabtech@gmail.com" class="text-blue-500">
-                fabtechhub@gmail.com
+                info@fabtechhub@gmail.com
               </a>
               .
             </p>
