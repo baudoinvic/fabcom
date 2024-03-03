@@ -26,7 +26,7 @@
         {/* Desktop navigation */}
 
         <div className="bg-gray-800 hidden md:flex items-center justify-end px-4 py-4 shadow-md fab-com-navbar space-x-10 ">
-          <div className="flex items-center space-x-4 mr-10">
+          {/* <div className="flex items-center space-x-4 mr-10">
             <div className="flex items-center space-x-2" style={{fontFamily: "Times new roman sans serif"}}>
 
               <FaPhone className="text-gray-300" />
@@ -56,7 +56,7 @@
             >
               <i className="fab fa-instagram text-gray-300 text-xl"></i>
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Mobile navigation */}
