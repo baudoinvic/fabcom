@@ -26,37 +26,7 @@
         {/* Desktop navigation */}
 
         <div className="bg-gray-800 hidden md:flex items-center justify-end px-4 py-4 shadow-md fab-com-navbar space-x-10 ">
-          {/* <div className="flex items-center space-x-4 mr-10">
-            <div className="flex items-center space-x-2" style={{fontFamily: "Times new roman sans serif"}}>
-
-              <FaPhone className="text-gray-300" />
-              <span className="text-gray-300">+250 783 012 138</span>
-              <MdLocationPin className="text-gray-300" />
-              <span className="text-gray-300">Naples & Italy 240th Street</span>
-            </div>
-
-            <a
-              href="https://www.facebook.com/profile.php?id=100088689596878"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-facebook-f text-gray-300 text-xl"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/fabrice-itulamya-masumbuko-044478161/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-linkedin text-gray-300 text-xl"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/lepieux_1/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-instagram text-gray-300 text-xl"></i>
-            </a>
-          </div> */}
+         
         </div>
 
         {/* Mobile navigation */}
