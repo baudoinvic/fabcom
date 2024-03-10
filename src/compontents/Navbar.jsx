@@ -7,9 +7,7 @@
     faUser,
   } from "@fortawesome/free-solid-svg-icons";
   import { IoMdMenu } from "react-icons/io";
-  // import { FaPhone } from "react-icons/fa";
-  // import { MdLocationPin } from "react-icons/md";
-  // import { MdOutlineMail } from "react-icons/md";
+ 
 
   import { Link } from "react-router-dom";
 
