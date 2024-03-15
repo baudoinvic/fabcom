@@ -1,5 +1,6 @@
 import React from "react";
 import { FaEye, FaCog, FaHeart } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa6";
 import { PiLampBold } from "react-icons/pi";
 import { Link } from "react-router-dom";
 
@@ -7,15 +8,15 @@ const Description = () => {
   return (
     <div className="">
       <div
-        class="about-us flex flex-col lg:flex-row items-center"
+        class="flex items-center justify-center"
         style={{ marginTop: "8rem" }}
       >
-        <div class="flex flex-col justify-left">
-          <h2 class="block text-left text-3xl font-bold text-gray-800 mb-4 lg:ml-12">
-            About us
+        <div class="flex flex-col justify-left mr-10">
+          <h2 class=" text-left text-4xl text-purple-800  mb-4 lg:ml-12">
+            WH0 WE ARE
           </h2>
           <span class="block text-left text-3xl font-bold text-gray-800 mb-4 lg:ml-12">
-            FabTechHub <br /> Here to serve you technology better
+            We Help To Innovate
           </span>
           <span class="block text-left text-base mb-4 lg:ml-12 lg:mt-10">
             We provide technology where innovation meets excellence! As a
@@ -26,19 +27,20 @@ const Description = () => {
             interact.
           </span>
           <Link to="/about">
-            <button class="px-4 py-2 bg-gray-900 text-white rounded-md w-44 lg:ml-12">
-              Read More
-            </button>
+            <span className="flex items-center ml-10 text-lg text-gray-800">
+              <span className="mr-2 text-purple-800">See more information</span>
+              <FaArrowRight size={20} className="text-purple-800" />
+            </span>
           </Link>
         </div>
 
         <img
-          src="https://media.istockphoto.com/id/1347310666/photo/processor-chip-tech-environment-blockchain-concept.jpg?s=612x612&w=0&k=20&c=Z_3spFThU3whPdUJkV66s1b0KT6VQMIl7zJZtvEN2KI="
+          src="https://media.istockphoto.com/id/1422478091/photo/close-up-of-a-hands-on-a-laptop-keyboard.jpg?s=612x612&w=0&k=20&c=TNGJooImQwsqodIC8vZB4e0r60RN989t0H9lmBmz60Y="
           class="w-full lg:w-2/5 mt-8  ml-12 lg:mt-0 rounded-lg"
         ></img>
       </div>
 
-      <div
+      {/* <div
         className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10"
         style={{ marginTop: "7rem" }}
       >
@@ -86,13 +88,13 @@ const Description = () => {
             technological landscape.
           </p>
         </div>
-      </div>
+      </div> */}
 
       <div class="bg-white">
-        <div class="flex flex-col items-center justify-center mt-10">
-          <span class="block text-center text-3xl font-bold mb-6 text-gray-800 mt-10">
-            What we do
-          </span>
+        <div class="p-8 ml-10">
+          <span class="text-4xl font-bold block">What we do</span>
+          <br />
+          <span class="text-lg ">We design hardwares and innovate the youth</span>
         </div>
 
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-7  ">
@@ -111,7 +113,7 @@ const Description = () => {
             <p className="text-gray-600">
               we provide the best of solutions of software development
               <br />
-             mostly we do web applications and mobile apps for our clients 
+              mostly we do web applications and mobile apps for our clients
             </p>
           </div>
 
