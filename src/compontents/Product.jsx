@@ -59,7 +59,10 @@ const Product = () => {
         </div>
       </div>
 
-      <div className="p-20 flex flex-col md:flex-row items-start bg-gray-100 shadow-md">
+      <div
+        className="ml-10 mr-10 p-20 flex flex-col md:flex-row items-start bg-gray-100 shadow-md rounded"
+        style={{ marginTop: "4rem" }}
+      >
         <span
           className="mr-6 text-gray-600 md:mr-0 md:w-1/2"
           style={{ marginTop: "-2rem" }}
@@ -79,7 +82,7 @@ const Product = () => {
           opportunities for collaboration
         </span>
         <Link to="/contact">
-          <button className="px-6 py-3 bg-gray-900 text-white rounded hover:bg-blue-600 md:ml-40 mt-4 md:mt-0">
+          <button className="px-6 py-3 md:ml-40 mt-4 md:mt-0 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
             Get In Touch
           </button>
         </Link>
