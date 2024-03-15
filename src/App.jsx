@@ -11,8 +11,6 @@ import Contact from './compontents/Contact/Contact'
 import Header from './compontents/Header/Header'
 import Product from './compontents/Product'
 import Homepage from './compontents/Homepage'
-import Login from './compontents/Login/Login'
-import Signup from './compontents/Signup/Signup'
 import Products from './compontents/Products/Products'
 import Smart from './compontents/Products/Smart'
 import Automatic from './compontents/Products/Automatic'
@@ -23,7 +21,7 @@ import EducationalKit from './compontents/Products/EducationalKit'
 import Ourservices from './compontents/Services/Ourservices'
 import Career from './compontents/Career/Career'
 import Apply from './compontents/Apply/Apply'
-import Buy from './compontents/Sample/Buy'
+
 
 
 
@@ -57,8 +55,6 @@ import Buy from './compontents/Sample/Buy'
            <Route path="/Contact" element={<Contact />} />
            <Route path="About" element={<About />} />
            <Route path="homepage" element={<Homepage />} />
-           <Route path="login" element={<Login />} />
-           <Route path="signup" element={<Signup />} />
            <Route path="career" element={<Career/>} />
            <Route path="ourservices" element={<Ourservices/>} />
            <Route path="products" element={<Products />} />
