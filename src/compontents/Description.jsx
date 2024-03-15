@@ -56,18 +56,22 @@ const Description = () => {
 
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-7  ">
           <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <IoHardwareChipOutline />
-            <span class="text-xl font-bold mb-4">Hardware Design</span>
-            <p class="text-gray-600 mt-10">
+            <IoHardwareChipOutline className="text-2xl text-purple-800" />
+            <span class="text-xl font-bold mb-4 text-purple-800">
+              Hardware Design
+            </span>
+            <p class="text-gray-600 mt-5">
               We provide comprehensive hardware design services
               <br /> ensuring the swift and efficient resolution
             </p>
           </div>
 
           <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <SiSimilarweb />
-            <span className="text-xl font-bold mb-4">Software Development</span>
-            <p className="text-gray-600 mt-10">
+            <SiSimilarweb className="text-2xl text-purple-800" />
+            <span className="text-xl font-bold mb-4 text-purple-800">
+              Software Development
+            </span>
+            <p className="text-gray-600 mt-5">
               we provide the best of solutions of software development
               <br />
               mostly we do web applications and mobile apps for our clients
@@ -75,9 +79,11 @@ const Description = () => {
           </div>
 
           <div class="h-48 bg-white shadow-md p-6  rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <BiNetworkChart />
-            <span className="text-xl font-bold mb-4">Network Support</span>
-            <p className="text-gray-600 mt-10">
+            <BiNetworkChart className="text-2xl text-purple-800" />
+            <span className="text-xl font-bold mb-4 text-purple-800">
+              Network Support
+            </span>
+            <p className="text-gray-600 mt-5">
               Our network support services offer comprehensive assistance
               <br /> to optimize your network
             </p>
@@ -90,32 +96,38 @@ const Description = () => {
       <div class="bg-white">
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
           <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <FaLaptopCode />
-            <span className="text-xl font-bold mb-4">Laptop Repair</span>
-            <p className="text-gray-600 mt-10">
+            <FaLaptopCode className="text-2xl text-purple-800" />
+            <span className="text-xl font-bold mb-4 text-purple-800 ">
+              Laptop Repair
+            </span>
+            <p className="text-gray-600 mt-5">
               We offer affrodable laptop repair services to indivudual and
-              coporate clients ensuring budget-friendly solutions without
+              coporate clients ensuring budget-friendly solutions 
               compromising
             </p>
           </div>
 
           <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <FaCloudUploadAlt />
-            <span className="text-xl font-bold mb-4">Cloud Services</span>
-            <p className="text-gray-600 mt-10">
+            <FaCloudUploadAlt className="text-2xl text-purple-800" />
+            <span className="text-xl font-bold mb-4 text-purple-800">
+              Cloud Services
+            </span>
+            <p className="text-gray-600 mt-5">
               A perfect way to store your data, our cloud services provide
               secure and reliable storage solutions designed to meet the demands
-              of modern businesses.
+              of  businesses.
             </p>
           </div>
 
           <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <SiKasasmart />
-            <span className="text-xl font-bold mb-4">Smart integration</span>
-            <p className="text-gray-600 mt-10">
+            <SiKasasmart className="text-2xl text-purple-800" />
+            <span className="text-xl font-bold mb-4 text-purple-800">
+              Smart integration
+            </span>
+            <p className="text-gray-600 mt-5">
               Seamless integration is key to our approach as we tailor smart
               solutions to seamlessly integrate with your existing systems
-              optimizing performance
+              performance
             </p>
           </div>
         </div>
