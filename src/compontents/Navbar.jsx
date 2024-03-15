@@ -125,7 +125,10 @@
                 Careers
               </span>
             </Link>
-            <Link to="/contact" className="text-white bg-blue-500 p-3">
+            <Link
+              to="/contact"
+              className="text-white bg-purple-800 font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out p-3"
+            >
               <li className="mx-2 mr-8">Contact us</li>
             </Link>
           </ul>

@@ -11,17 +11,18 @@ const Header = () => {
     >
       <div class="w-1/2 ml-10">
         <h1 class="text-6xl font-bold mb-8 text-purple-800">
-          FabtechHub<h1 className='text-black'> Innovation</h1>
+          FabtechHub<h1 className="text-black"> Innovation</h1>
         </h1>
-         <h4 class="text-2xl font-bold  text-purple-800">
-          Meets Excellence
-        </h4>
-        <span class="text-lg block leading-relaxed mb-12">
+        <h4 class="text-2xl font-bold  text-purple-800">Meets Excellence</h4>
+        <span class="text-lg block leading-relaxed ">
           <br />
           <br />
           FabTech Hub is a dynamic and forward-thinking technology
           <br /> company where innovation meets excellence
         </span>
+        <button class="mt-10 px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
+          Let's get started
+        </button>
       </div>
       <div class="w-1/2">
         <img
