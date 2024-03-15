@@ -59,7 +59,7 @@ import Apply from './compontents/Apply/Apply'
            <Route path="ourservices" element={<Ourservices/>} />
            <Route path="products" element={<Products />} />
            <Route path="apply" element={<Apply/>} />
-           <Route path='buy' element = {<Buy/>} />
+        
 
            <Route path="/products/smart-integration" element={<Smart />} />
            <Route
