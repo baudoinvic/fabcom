@@ -1,5 +1,4 @@
 import React from "react";
-import { FaEye, FaCog, FaHeart } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 import { IoHardwareChipOutline } from "react-icons/io5";
 import { SiSimilarweb } from "react-icons/si";
