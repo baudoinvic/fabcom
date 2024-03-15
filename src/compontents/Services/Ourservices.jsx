@@ -20,18 +20,19 @@ const Ourservices = () => {
           alt="Description"
         />
 
-       
-
-        <div class="absolute inset-0 flex flex-col items-center justify-center md:justify-start text-center md:text-left p-8 md:p-16 mt-8 md:mt-16">
-          <span class="font-bold text-white mb-4 max-w-3/4 animate-moveText text-lg md:text-2xl lg:text-3xl">
-           Our services
-          </span>
+        <div class="absolute inset-0 flex flex-col items-center justify-center md:justify-start text-center md:text-left p-8 md:p-16 mt-24 md:mt-32">
+          <button class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-black-100 md:mr-16 text-3xl">
+            Our Services
+          </button>
         </div>
       </div>
 
-      <div class="bg-gray-100">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <span class="text-center text-2xl font-bold mt-10">Services we offer</span>
+        </div>
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
+          <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiSimilarweb className="text-gray-600 text-4xl  mb-4" />
             <span className="text-xl font-bold mb-4">Smart integration</span>
             <p className="text-gray-600">
@@ -42,7 +43,7 @@ const Ourservices = () => {
             </p>
           </div>
 
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
+          <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <GrIntegration className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">Internet Of Things</span>
             <p className="text-gray-600">
@@ -55,10 +56,10 @@ const Ourservices = () => {
             </p>
           </div>
 
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
+          <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
             <AiOutlineFieldTime className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">
-              Network deployment and design
+              Hardware Design
             </span>
             <p className="text-gray-600">
               Our team of highly skilled hardware engineers is dedicated to
@@ -74,11 +75,11 @@ const Ourservices = () => {
 
       {/* Second row */}
       <br />
-      <div class="bg-gray-100">
+      <div class="">
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
+          <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiWebmoney className="text-gray-600 text-4xl  mb-4" />
-            <span className="text-xl font-bold mb-4">Web development</span>
+            <span className="text-xl font-bold mb-4">Software development</span>
             <p className="text-gray-600">
               Elevate your online presence with our expert web development
               services at FabTech Hub. We are dedicated to creating seamless
@@ -88,7 +89,7 @@ const Ourservices = () => {
             </p>
           </div>
 
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
+          <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiKasasmart className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">
               Innovative Automatic Fare Collection Solutions
@@ -103,7 +104,7 @@ const Ourservices = () => {
             </p>
           </div>
 
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
+          <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
             <LiaUikit className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4">Educational Kit</span>
             <p className="text-gray-600">
