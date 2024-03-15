@@ -8,7 +8,7 @@ const Career = () => {
     <div className="career">
       <Navbar />
       <div className="">
-        <header class="bg-blue-400 text-white py-8">
+        <header class="bg-gray-800 text-white py-8">
           <div class="container mx-auto text-center">
             <h1 class="text-3xl font-extrabold">Join Our Team</h1>
             <p class="text-lg">Explore exciting career opportunities with us</p>
@@ -22,7 +22,7 @@ const Career = () => {
 
             {/*job cards*/}
 
-            <div class="bg-white p-6 rounded-md shadow-md mb-6">
+            <div class="bg-white p-6 rounded-md  mb-6">
               <h3 class="text-xl font-semibold mb-2">Software Engineer</h3>
               <p class="text-gray-700 mb-4">
                 We are seeking a talented software engineer to join our
@@ -35,13 +35,13 @@ const Career = () => {
                 of experience in full-stack development.
               </p>
               <Link to="/apply">
-                <a href="#" class="text-blue-500 mt-4 inline-block">
+                <a href="#" class="text-purple-800 mt-4 inline-block">
                   Apply Now
                 </a>
               </Link>
             </div>
 
-            <div class="bg-white p-6 rounded-md shadow-md mb-6">
+            <div class="bg-white p-6 rounded-md  mb-6">
               <h3 class="text-xl font-semibold mb-2">Marketing Specialist</h3>
               <p class="text-gray-700 mb-4">
                 Join our marketing team and help drive brand awareness and
@@ -55,7 +55,7 @@ const Career = () => {
               </p>
 
               <Link to="/apply">
-                <a href="#" class="text-blue-500 mt-4 inline-block">
+                <a href="#" class="text-purple-800 mt-4 inline-block">
                   Apply Now
                 </a>
               </Link>
@@ -86,7 +86,7 @@ const Career = () => {
               <li>Prepare your resume and cover letter.</li>
               <li>
                 Submit your application through our online portal or send it to{" "}
-                <a href="fabtechhub@gmail.com" class="text-blue-500">
+                <a href="fabtechhub@gmail.com" class="text-purple-800">
                   info@fabtechhubgmail.com
                 </a>
                 .
@@ -99,7 +99,7 @@ const Career = () => {
             <h2 class="text-2xl font-semibold mb-6">Contact Us</h2>
             <p class="text-gray-700">
               For any inquiries related to careers, please contact us at{" "}
-              <a href="fabtech@gmail.com" class="text-blue-500">
+              <a href="fabtech@gmail.com" class="text-purple-800">
                 info@fabtechhub@gmail.com
               </a>
               .

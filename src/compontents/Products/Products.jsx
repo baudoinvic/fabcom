@@ -74,7 +74,6 @@
            <div className="">
              <Navbar />
 
-
              <div className="flex flex-col items-center mt-8 sm:mt-12 md:mt-16 lg:mt-20">
                <div className="flex space-x-2 sm:space-x-4 flex-col sm:flex-row filter-buttons">
                  <button
@@ -100,25 +99,33 @@
                </div>
              </div>
 
-             <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+             <div className=" container mx-auto px-4 sm:px-6 lg:px-8 mt-8">
                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                  {filteredProducts.map((product, index) => (
                    <div
                      key={index}
-                     className="bg-white rounded-lg shadow-md p-4 transition-transform transform hover:scale-105"
+                     className="bg-white rounded-lg shadow-md p-4 transition-transform transform hover:scale-105 border border-purple-800"
                    >
-                     <img
+                     {/* <img
                        src={product.image}
                        className="w-full h-40 sm:h-56 object-cover rounded-lg mb-4"
                        alt={`Image ${index + 1}`}
-                     />
+                     /> */}
+                     <Link to={generateProductLink(product.category)}>
+                       <img
+                         src={product.image}
+                         className="w-full h-40 sm:h-56 object-cover rounded-lg mb-4"
+                         alt={`Image ${index + 1}`}
+                       />
+                     </Link>
+
                      <p className="text-gray-800 text-lg font-semibold mb-2">
                        {product.category}
                      </p>
                      <p className="text-gray-600">{product.description}</p>
                      <Link to={generateProductLink(product.category)}>
-                       <button className="mt-4 bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
-                         View
+                       <button className="mt-4 bg-purple-800 text-white py-2 px-4 rounded-lg ">
+                         Read More 
                        </button>
                      </Link>
                    </div>

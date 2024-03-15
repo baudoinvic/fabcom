@@ -34,7 +34,7 @@ const Ourservices = () => {
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
           <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiSimilarweb className="text-gray-600 text-4xl  mb-4" />
-            <span className="text-xl font-bold mb-4">Smart integration</span>
+            <span className="text-xl font-bold mb-4 text-purple-800">Smart integration</span>
             <p className="text-gray-600">
               At FabTech Hub, we envision a connected world where cutting-edge
               technology enhances the way we live, work, and interact. Our goal
@@ -45,7 +45,7 @@ const Ourservices = () => {
 
           <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <GrIntegration className="text-gray-600 text-4xl mb-4" />
-            <span className="text-xl font-bold mb-4">Internet Of Things</span>
+            <span className="text-xl font-bold mb-4 text-purple-800">Internet Of Things</span>
             <p className="text-gray-600">
               Our team of highly skilled hardware engineers is dedicated to
               crafting state-of-the-art devices that not only meet but exceed
@@ -58,7 +58,7 @@ const Ourservices = () => {
 
           <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
             <AiOutlineFieldTime className="text-gray-600 text-4xl mb-4" />
-            <span className="text-xl font-bold mb-4">
+            <span className="text-xl font-bold mb-4 text-purple-800">
               Hardware Design
             </span>
             <p className="text-gray-600">
@@ -79,7 +79,7 @@ const Ourservices = () => {
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
           <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiWebmoney className="text-gray-600 text-4xl  mb-4" />
-            <span className="text-xl font-bold mb-4">Software development</span>
+            <span className="text-xl font-bold mb-4 text-purple-800">Software development</span>
             <p className="text-gray-600">
               Elevate your online presence with our expert web development
               services at FabTech Hub. We are dedicated to creating seamless
@@ -91,8 +91,8 @@ const Ourservices = () => {
 
           <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiKasasmart className="text-gray-600 text-4xl mb-4" />
-            <span className="text-xl font-bold mb-4">
-              Innovative Automatic Fare Collection Solutions
+            <span className="text-xl font-bold mb-4 text-purple-800">
+              Innovative Automatic<br /> Fare Collection Solutions
             </span>
             <p className="text-gray-600">
               Experience cutting-edge automatic fare collection with our team of
@@ -106,7 +106,7 @@ const Ourservices = () => {
 
           <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
             <LiaUikit className="text-gray-600 text-4xl mb-4" />
-            <span className="text-xl font-bold mb-4">Educational Kit</span>
+            <span className="text-xl font-bold mb-4 text-purple-800">Educational Kit</span>
             <p className="text-gray-600">
               Explore the world of learning with our team of highly skilled
               hardware engineers dedicated to creating cutting-edge educational
