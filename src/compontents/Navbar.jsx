@@ -53,13 +53,7 @@
               >
                 Home
               </Link>
-              <Link
-                to="/products"
-                className="my-2 px-8 py-4 "
-                onClick={toggleModal}
-              >
-                Products
-              </Link>
+
               <Link
                 to="/about"
                 className="my-2 px-8 py-4 "
@@ -73,6 +67,13 @@
                 onClick={toggleModal}
               >
                 Our Services
+              </Link>
+              <Link
+                to="/products"
+                className="my-2 px-8 py-4 "
+                onClick={toggleModal}
+              >
+                Products
               </Link>
               <Link
                 to="/contact"
@@ -107,12 +108,6 @@
               <li className="mx-2">Home</li>
             </Link>
 
-            <Link to="/products" className="text-black">
-              <span className="flex items-center">
-                <li className="mx-2">Products</li>
-              </span>
-            </Link>
-
             <Link to="/about" className="text-black">
               <li className="mx-2">About us</li>
             </Link>
@@ -120,6 +115,13 @@
             <Link to="/ourservices" className="text-black">
               <li className="mx-2">Our Services</li>
             </Link>
+
+            <Link to="/products" className="text-black">
+              <span className="flex items-center">
+                <li className="mx-2">Products</li>
+              </span>
+            </Link>
+
             <Link to="/Career" className="text-black">
               <span className="text-decoration-none flex items-center">
                 Careers

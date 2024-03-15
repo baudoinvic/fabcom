@@ -49,7 +49,7 @@ const Footer = () => {
 
   return (
     <div className="Fab-footer">
-      <section className="newletter bg-gray-800">
+      <section className="newletter bg-purple-800">
         <div className="container flexSB">
           <div className="left row ml-10">
             <h1>Subsribe to Our Newsletter</h1>
@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
       </section>
       <footer>
-        <div className="container padding ml-6">
+        <div className="container padding ml-6 ">
           <div className="box logo">
             <h1>FabTechHub</h1>
             <span>We are here</span>
@@ -191,7 +191,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className="legal">
+      <div className="legal bg-white">
         <p>
           Copyright ©2024 All rights reserved | This site is made with{" "}
           <i className="fa fa-heart"></i> by BaudoinCoder
