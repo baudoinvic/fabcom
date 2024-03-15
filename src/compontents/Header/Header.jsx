@@ -10,9 +10,13 @@ const Header = () => {
       style={{ marginTop: "7rem" }}
     >
       <div class="w-1/2 ml-10">
-        <h1 class="text-6xl font-bold mb-8 text-purple-800">FabtechHub</h1>
+        <h1 class="text-6xl font-bold mb-8 text-purple-800">
+          FabtechHub<h1 className='text-black'> Innovation</h1>
+        </h1>
+         <h4 class="text-2xl font-bold  text-purple-800">
+          Meets Excellence
+        </h4>
         <span class="text-lg block leading-relaxed mb-12">
-          Innovation Meets Excellence
           <br />
           <br />
           FabTech Hub is a dynamic and forward-thinking technology
