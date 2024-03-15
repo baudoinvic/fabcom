@@ -88,7 +88,7 @@
                  {productsData.map((product, index) => (
                    <button
                      key={index}
-                     className={`bg-gray-800 text-white py-2 px-3 sm:px-4 ${
+                     className={`rounded bg-gray-800 text-white py-2 px-3 sm:px-4 ${
                        selectedCategory === product.category ? "active" : ""
                      }`}
                      onClick={() => filterProducts(product.category)}
