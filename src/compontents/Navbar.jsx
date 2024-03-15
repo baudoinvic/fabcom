@@ -22,9 +22,7 @@
       <div className="fab-com-electronics bg-gray-900 text-white  ">
         {/* Desktop navigation */}
 
-        <div className="bg-gray-800 hidden md:flex items-center justify-end px-4 py-4 shadow-md fab-com-navbar space-x-10 ">
-         
-        </div>
+        <div className="bg-gray-800 hidden md:flex items-center justify-end px-4 py-4 shadow-md fab-com-navbar space-x-10 "></div>
 
         {/* Mobile navigation */}
         <div
@@ -90,14 +88,13 @@
                   Careers
                 </span>
               </Link>
-
             </div>
           </div>
         )}
 
         {/* The rest of your desktop navigation */}
-        <div className="hidden md:flex justify-between items-center px-8 py-5 shadow-md fab-com-navbar">
-          <Link to="/homepage" className="text-white">
+        <div className="hidden md:flex justify-between items-center px-8 py-5 shadow-md fab-com-navbar bg-white">
+          <Link to="/homepage" className="text-black">
             <img
               src="https://jabesautoservice.com/wp-content/uploads/2017/12/lp-fabtech-logo.png"
               style={{ width: "100px" }}
@@ -106,31 +103,29 @@
           </Link>
 
           <ul className="cursor-pointer flex items-center space-x-10 text-white">
-            <Link to="/homepage" className="text-white">
+            <Link to="/homepage" className="text-black">
               <li className="mx-2">Home</li>
             </Link>
 
-            <Link to="/products" className="text-white">
+            <Link to="/products" className="text-black">
               <span className="flex items-center">
-                <FontAwesomeIcon icon={faBars} />
                 <li className="mx-2">Products</li>
               </span>
             </Link>
 
-            <Link to="/about" className="text-white">
+            <Link to="/about" className="text-black">
               <li className="mx-2">About us</li>
             </Link>
 
-            <Link to="/ourservices" className="text-white">
+            <Link to="/ourservices" className="text-black">
               <li className="mx-2">Our Services</li>
             </Link>
-            <Link to="/Career" className="text-white">
+            <Link to="/Career" className="text-black">
               <span className="text-decoration-none flex items-center">
-                <FontAwesomeIcon icon={faUser} className="mr-2" />
                 Careers
               </span>
             </Link>
-            <Link to="/contact" className="text-white">
+            <Link to="/contact" className="text-white bg-blue-500 p-3">
               <li className="mx-2 mr-8">Contact us</li>
             </Link>
           </ul>
