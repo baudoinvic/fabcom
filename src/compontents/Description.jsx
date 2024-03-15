@@ -69,7 +69,7 @@ const Description = () => {
           <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
             <SiSimilarweb className="text-2xl text-purple-800" />
             <span className="text-xl font-bold mb-4 text-purple-800">
-              Software Development
+              Web Development
             </span>
             <p className="text-gray-600 mt-5">
               we provide the best of solutions of software development
@@ -81,7 +81,7 @@ const Description = () => {
           <div class="h-48 bg-white shadow-md p-6  rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
             <BiNetworkChart className="text-2xl text-purple-800" />
             <span className="text-xl font-bold mb-4 text-purple-800">
-              Network Support
+              Network Deployment <br /> and Design
             </span>
             <p className="text-gray-600 mt-5">
               Our network support services offer comprehensive assistance
@@ -98,7 +98,7 @@ const Description = () => {
           <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
             <FaLaptopCode className="text-2xl text-purple-800" />
             <span className="text-xl font-bold mb-4 text-purple-800 ">
-              Laptop Repair
+             Internet of things
             </span>
             <p className="text-gray-600 mt-5">
               We offer affrodable laptop repair services to indivudual and
@@ -110,7 +110,7 @@ const Description = () => {
           <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
             <FaCloudUploadAlt className="text-2xl text-purple-800" />
             <span className="text-xl font-bold mb-4 text-purple-800">
-              Cloud Services
+              Educational kit
             </span>
             <p className="text-gray-600 mt-5">
               A perfect way to store your data, our cloud services provide
