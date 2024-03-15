@@ -5,36 +5,26 @@ const Header = () => {
 
 
   return (
-    <div>
-      <div className="relative">
-        <video
-          style={{ height: "580px" }}
-          className="w-full  object-cover"
-          autoPlay
-          muted
-          loop
-        >
-          <source src="/techVideo.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-white z-10">
-          <span className="text-white font-bold text-center mb-4 max-w-3/4 animate-slideIn text-3xl">
-            Welcome to FabTech Hub, where innovation meets excellence
-            <br /> As a dynamic and forward-thinking technology company.
-          </span>
-          <Link to="/about">
-            <button
-              class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-black-100 md:px-6"
-              style={{
-                borderRadius: "30px",
-                border: "solid 4px white",
-              }}
-            >
-              Discover More
-            </button>
-          </Link>
-        </div>
+    <div
+      class="flex items-center justify-center ml-10  "
+      style={{ marginTop: "7rem" }}
+    >
+      <div class="w-1/2 ml-10">
+        <h1 class="text-6xl font-bold mb-8 text-purple-800">FabtechHub</h1>
+        <span class="text-lg block leading-relaxed mb-12">
+          Innovation Meets Excellence
+          <br />
+          <br />
+          FabTech Hub is a dynamic and forward-thinking technology
+          <br /> company where innovation meets excellence
+        </span>
+      </div>
+      <div class="w-1/2">
+        <img
+          src="https://media.istockphoto.com/id/1157610669/vector/financial-audit-budget-graph-tax-expert-and-business-finance-balance-valuation-isometric-3d.jpg?s=612x612&w=0&k=20&c=EhrSx9BlGTxEnnNir0xsuqor9RJ1Ql91eT82v2buSlc="
+          alt="Image"
+          class="rounded-lg shadow-xl"
+        />
       </div>
     </div>
   );
