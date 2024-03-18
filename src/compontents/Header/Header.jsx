@@ -5,8 +5,6 @@ const Header = () => {
 
 
   return (
-   
-
     <div className="flex flex-col md:flex-row items-center justify-center ml-10 mt-10 ">
       <div className="w-full md:w-1/2 max-w-screen-xl md:ml-10">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-8 text-purple-800">
@@ -16,12 +14,14 @@ const Header = () => {
           Meets Excellence
         </h4>
         <p className="text-lg md:text-base leading-relaxed mt-4">
-          FabTech Hub is a dynamic and forward-thinking technology company<br /> where
-          innovation meets excellence.
+          FabTech Hub is a dynamic and forward-thinking technology company
+          <br /> where innovation meets excellence.
         </p>
-        <button className="mt-6 px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
-          Let's get started
-        </button>
+        <Link to="/products">
+          <button className="mt-6 px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
+            Let's get started
+          </button>
+        </Link>
       </div>
       <div className="w-full md:w-1/2 mt-4 md:mt-0">
         <img

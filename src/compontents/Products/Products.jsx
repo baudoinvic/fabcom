@@ -74,6 +74,14 @@
            <div className="">
              <Navbar />
 
+             <div className="mt-8 ml-10 mr-10 flex justify-center items-center">
+               <div className="">
+                 <span className="mt-10 md:mt-10 text-center">
+                   Feel free to read more about our products
+                 </span>
+               </div>
+             </div>
+
              <div className="flex flex-col items-center mt-8 sm:mt-12 md:mt-16 lg:mt-20">
                <div className="flex space-x-2 sm:space-x-4 flex-col sm:flex-row filter-buttons">
                  <button
@@ -125,7 +133,7 @@
                      <p className="text-gray-600">{product.description}</p>
                      <Link to={generateProductLink(product.category)}>
                        <button className="mt-4 bg-purple-800 text-white py-2 px-4 rounded-lg ">
-                         Read More 
+                         Read More
                        </button>
                      </Link>
                    </div>

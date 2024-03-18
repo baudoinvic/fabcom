@@ -183,25 +183,6 @@ const Contact = () => {
       <br />
       <br />
 
-      {/* <div className="flex justify-between mt-8 ml-10 mr-10 ">
-        <div className="w-1/4 bg-white p-4 rounded-lg shadow-md">
-          <h1 className="text-xl font-semibold mb-2">Address</h1>
-          <IoLocationOutline className="text-3xl text-gray-600" />
-          <span>KG 460 street</span>
-        </div>
-
-        <div className="w-1/4 bg-white p-4 rounded-lg shadow-md mx-4">
-          <h1 className="text-xl font-semibold mb-2">Email Us</h1>
-          <MdOutlineMailOutline className="text-3xl text-gray-600" />
-          <span>info@fabtechhub.gmail.com</span>
-        </div>
-
-        <div className="w-1/4 bg-white p-4 rounded-lg shadow-md">
-          <h1 className="text-xl font-semibold mb-2">Call Us</h1>
-          <FaPhoneAlt className="text-3xl text-gray-600" />
-          <span>+250783012138</span>
-        </div>
-      </div> */}
 
       <div className="flex flex-col md:flex-row justify-between mt-8 ml-10 mr-10 ">
         <div className="w-full md:w-1/4 bg-white p-4 rounded-lg shadow-md mb-4 md:mb-0 md:mr-4">
