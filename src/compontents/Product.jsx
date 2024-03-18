@@ -24,7 +24,8 @@ const Product = () => {
               ensuring that every feature aligns with our users’ expectations.
               <br />
               Our development team collaborates closely with designers, testers,
-              and<br /> stakeholders to create a seamless experience
+              and
+              <br /> stakeholders to create a seamless experience
             </span>
           </div>
 
@@ -44,17 +45,17 @@ const Product = () => {
 
           <div class="flex flex-col justify-left ml-10 lg:ml-12">
             <span class="block text-left text-3xl font-bold text-gray-800 mb-4">
-              We are the Expert <br />
-              for designing Hardwares
+              We design <br />
+              great Hardware
             </span>
             <span class="block text-left text-base text-gray-500 mb-4">
-              We provide technology where innovation meets excellence! As a
-              dynamic
-              <br /> and forward-thinking technology company, we specialize in
-              the seamless integration <br /> of hardware, software, and IoT
-              solutions. And we envision a connected world
-              <br /> where cutting-edge technology enhances the way we live,
-              work, and interact.
+              Our team’s expertise lies in crafting innovative hardware
+              solutions
+              <br /> From intricate PCB designs to cutting-edge embedded systems{" "}
+              <br /> we engineer solutions that redefine industry standards.
+              Whether it’s IoT devices
+              <br /> wearables, or industrial automation, our hardware is<br /> the
+              backbone of technological progress
             </span>
           </div>
         </div>
