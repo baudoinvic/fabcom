@@ -5,8 +5,9 @@ import { useState,useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
-
-
+import { IoLocationOutline } from "react-icons/io5";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
 
 
 const Contact = () => {
@@ -69,13 +70,17 @@ const Contact = () => {
         <h2 className="text-4xl font-extrabold mb-6 text-gray-800">
           Contact Us
         </h2>
+        <span className="text-sm md:text-base lg:text-lg">
+          Have a project in mind that you think we’d be a great <br />
+          fit for it? We’d love to know what you’re thinking
+        </span>
       </div>
 
       <div
-        className="min-h-screen flex items-center justify-center"
-        style={{ marginTop: "-2rem" }}
+        className=" flex items-center justify-center"
+        style={{ marginTop: " 2rem" }}
       >
-        <div className="bg-white p-8 rounded shadow-md w-full md:w-3/4 lg:w-1/2 xl:w-1/3">
+        <div className="bg-white p-8 rounded shadow-md w-full md:w-7/6 lg:w-1/2 xl:w-1/3">
           <form onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="mb-4">
@@ -154,7 +159,7 @@ const Contact = () => {
               >
                 Message
               </label>
-             
+
               <textarea
                 id="message"
                 name="message"
@@ -175,13 +180,59 @@ const Contact = () => {
           <ToastContainer />
         </div>
       </div>
-        
-      <div className="items-center p-4 mt-10">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30607.79514638295!2d30.066595630129367!3d-1.9550632439832505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssp rwanda!5e0!3m2!1sen!2srw!4v1663256798141!5m2!1sen!2srw"
-          width="100%"
-          height="600px"
-        />
+      <br />
+      <br />
+
+      {/* <div className="flex justify-between mt-8 ml-10 mr-10 ">
+        <div className="w-1/4 bg-white p-4 rounded-lg shadow-md">
+          <h1 className="text-xl font-semibold mb-2">Address</h1>
+          <IoLocationOutline className="text-3xl text-gray-600" />
+          <span>KG 460 street</span>
+        </div>
+
+        <div className="w-1/4 bg-white p-4 rounded-lg shadow-md mx-4">
+          <h1 className="text-xl font-semibold mb-2">Email Us</h1>
+          <MdOutlineMailOutline className="text-3xl text-gray-600" />
+          <span>info@fabtechhub.gmail.com</span>
+        </div>
+
+        <div className="w-1/4 bg-white p-4 rounded-lg shadow-md">
+          <h1 className="text-xl font-semibold mb-2">Call Us</h1>
+          <FaPhoneAlt className="text-3xl text-gray-600" />
+          <span>+250783012138</span>
+        </div>
+      </div> */}
+
+      <div className="flex flex-col md:flex-row justify-between mt-8 ml-10 mr-10 ">
+        <div className="w-full md:w-1/4 bg-white p-4 rounded-lg shadow-md mb-4 md:mb-0 md:mr-4">
+          <h1 className="text-xl md:text-2xl font-semibold mb-2">Address</h1>
+          <IoLocationOutline className="text-3xl md:text-4xl text-gray-600" />
+          <span className="text-sm md:text-base">KG 460 street</span>
+        </div>
+
+        <div className="w-full md:w-1/4 bg-white p-4 rounded-lg shadow-md mb-4 md:mb-0 md:mx-4">
+          <h1 className="text-xl md:text-2xl font-semibold mb-2">Email Us</h1>
+          <MdOutlineMailOutline className="text-3xl md:text-4xl text-gray-600" />
+          <span className="text-sm md:text-base">
+            info@fabtechhub.gmail.com
+          </span>
+        </div>
+
+        <div className="w-full md:w-1/4 bg-white p-4 rounded-lg shadow-md">
+          <h1 className="text-xl md:text-2xl font-semibold mb-2">Call Us</h1>
+          <FaPhoneAlt className="text-3xl md:text-4xl text-gray-600" />
+          <span className="text-sm md:text-base">+250783012138</span>
+        </div>
+      </div>
+
+      <div className="">
+        <div className="items-center p-4 mt-10">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30607.79514638295!2d30.066595630129367!3d-1.9550632439832505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssp rwanda!5e0!3m2!1sen!2srw!4v1663256798141!5m2!1sen!2srw"
+            width="100%"
+            height="600px"
+          />
+        </div>
       </div>
       <Footer />
     </div>
