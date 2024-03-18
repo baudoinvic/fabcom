@@ -11,7 +11,10 @@ import { FaCloudUploadAlt } from "react-icons/fa";
 const Description = () => {
   return (
     <div className="">
-      <div className="flex flex-col md:flex-row items-center justify-center mt-8 md:" style={{marginTop: '10rem'}}>
+      <div
+        className="flex flex-col md:flex-row items-center justify-center mt-8 md:"
+        style={{ marginTop: "10rem" }}
+      >
         <div className="w-full md:w-1/2 max-w-screen-xl md:ml-10">
           <h2 className="text-left text-4xl md:text-4xl text-purple-800 mb-4 md:mb-8 md:ml-12">
             WHO WE ARE
@@ -26,28 +29,28 @@ const Description = () => {
             We envision a connected world where cutting-edge technology enhances
             the way we live, work, and interact.
           </p>
+
           <Link
             to="/about"
-            className="flex items-center ml-10 text-lg text-gray-800"
+            className="flex items-center ml-0 md:ml-10 text-lg text-gray-800"
           >
             <span className="mr-2 text-purple-800">See more information</span>
             <FaArrowRight size={20} className="text-purple-800" />
           </Link>
         </div>
-        <div className="w-full md:w-1/2 mt-8 md:mt-0">
-          <img
-            src="https://media.istockphoto.com/id/1422478091/photo/close-up-of-a-hands-on-a-laptop-keyboard.jpg?s=612x612&w=0&k=20&c=TNGJooImQwsqodIC8vZB4e0r60RN989t0H9lmBmz60Y="
-            alt="Image"
-            className="rounded-lg shadow-xl w-4/5 md:w-94"
-          />
-        </div>
+
+        <img
+          src="https://media.istockphoto.com/id/1422478091/photo/close-up-of-a-hands-on-a-laptop-keyboard.jpg?s=612x612&w=0&k=20&c=TNGJooImQwsqodIC8vZB4e0r60RN989t0H9lmBmz60Y="
+          alt="Image"
+          class="w-full lg:w-2/5 mt-8 lg:mt-0 ml-0 lg:ml-12 rounded-lg"
+        />
       </div>
 
       <div class="bg-white">
-        <div class="p-8 ml-10">
+        <div class="p-8 ml-0 md:ml-10">
           <span class="text-4xl font-bold block">What we do</span>
           <br />
-          <span class="text-lg ">
+          <span class="text-lg">
             We design hardwares and innovate the youth
           </span>
         </div>
