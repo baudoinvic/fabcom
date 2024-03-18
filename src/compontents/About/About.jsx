@@ -22,9 +22,11 @@ const About = () => {
           </button>
         </div>
       </div>
-      <div class="flex flex-col md:flex-row md:mr-3 md:ml-3 md:mt-20 ml-10 mr-10">
+      <div class="flex flex-col md:flex-row md:mr-3 md:ml-3 md:mt-20 ml-10 mr-10 bg-gray-100">
         <div class="w-full md:w-1/2 p-8">
-          <h1 class="text-gray-800 text-3xl font-bold mb-4">About Us</h1>
+          <h1 class="text-purple-800 text-3xl font-bold mb-4">
+            About FabtechHub
+          </h1>
           <br />
           <p class="mb-4 text-base text-gray-500">
             <span className="text-purple-800">At FabTech Hub</span> the
@@ -60,22 +62,25 @@ const About = () => {
           class="w-full md:w-1/2 mt-7 flex justify-center items-center"
           style={{ marginTop: "-2rem" }}
         >
-          <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+          <div class="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden">
             <video
               controls
-              class="w-full h-full object-cover rounded-lg"
+              class="w-full h-full object-cover rounded-xl "
               width="full"
               height="560"
+              border-radius="40"
             >
               <source src="/anima.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10">
+      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10 shadow-lg">
         <div className="bg-white p-6 rounded-lg shadow-md border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
           <FaEye className="text-purple-800 text-4xl mb-4" />
-          <span className="text-xl font-bold mb-4 text-purple-800">Our Vision</span>
+          <span className="text-xl font-bold mb-4 text-purple-800">
+            Our Vision
+          </span>
           <p className="text-gray-500">
             To be the premier provider of comprehensive educational kits for
             engineering schools, empowering the next generation of innovators,
@@ -90,7 +95,9 @@ const About = () => {
 
         <div className="border border-purple-800 bg-white p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 cursor-pointer">
           <FaCog className="text-purple-800 text-4xl mb-4" />
-          <span className="text-xl font-bold mb-4 text-purple-800">Our Value</span>
+          <span className="text-xl font-bold mb-4 text-purple-800">
+            Our Value
+          </span>
           <p className="text-gray-500">
             Excellence: We strive for excellence in all aspects of our
             operations, from the quality of our educational kits to the
@@ -105,7 +112,9 @@ const About = () => {
 
         <div className="border border-purple-800 bg-white p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 cursor-pointer">
           <FaHeart className="text-purple-800 text-4xl mb-4" />
-          <span className="text-xl font-bold mb-4 text-purple-800">Our Mission</span>
+          <span className="text-xl font-bold mb-4 text-purple-800">
+            Our Mission
+          </span>
           <p className="text-gray-500">
             Our mission is to revolutionize engineering education by offering
             dynamic educational kits that foster hands-on learning and practical
