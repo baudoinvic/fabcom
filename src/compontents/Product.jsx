@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const Product = () => {
   return (
     <div className="">
-     
       <div className="flex justify-center">
         <span className="text-center text-lg md:text-2xl lg:text-3xl font-bold md:text-left">
           Ways of building great software
@@ -70,12 +69,14 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <div className="ml-10 mr-10 p-8 md:p-20 flex flex-col md:flex-row items-start bg-gray-100 shadow-md rounded mt-4 md:mt-8">
-        <span className="mr-6 text-gray-600 md:mr-0 md:w-1/2 md:mt-0">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">
+    
+
+      <div className="ml-2 md:ml-10 mr-2 md:mr-10 p-8 md:p-20 flex flex-col md:flex-row items-start bg-gray-100 shadow-md rounded mt-4 md:mt-8">
+        <span className="mr-6 md:w-1/2 md:mr-0 md:mt-0">
+          <h2 className="text-xl md:text-3xl font-bold text-gray-800 mb-4">
             Get in touch for collaboration
           </h2>
-          <p className="text-base leading-relaxed">
+          <p className="text-sm md:text-base leading-relaxed">
             Hey there! This is the best way we can get in touch to collaborate
             on your new project. If you have any questions, feel free to reach
             out to us through our official email address or phone number. We're
@@ -85,7 +86,7 @@ const Product = () => {
           </p>
         </span>
         <Link to="/contact" className="flex items-center mt-4 md:mt-0 ml-auto">
-          <button className="px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
+          <button className="px-4 md:px-6 py-2 md:py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
             Get In Touch
           </button>
         </Link>
