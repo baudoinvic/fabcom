@@ -11,37 +11,36 @@ import { FaCloudUploadAlt } from "react-icons/fa";
 const Description = () => {
   return (
     <div className="">
-      <div
-        class="flex items-center justify-center"
-        style={{ marginTop: "8rem" }}
-      >
-        <div class="flex flex-col justify-left mr-10">
-          <h2 class=" text-left text-4xl text-purple-800  mb-4 lg:ml-12">
-            WH0 WE ARE
+      <div className="flex flex-col md:flex-row items-center justify-center mt-8 md:" style={{marginTop: '10rem'}}>
+        <div className="w-full md:w-1/2 max-w-screen-xl md:ml-10">
+          <h2 className="text-left text-4xl md:text-4xl text-purple-800 mb-4 md:mb-8 md:ml-12">
+            WHO WE ARE
           </h2>
-          <span class="block text-left text-3xl font-bold text-gray-800 mb-4 lg:ml-12">
+          <span className="block text-left text-3xl font-bold text-gray-800 mb-4 md:ml-12">
             We Help To Innovate
           </span>
-          <span class="block text-left text-base mb-4 lg:ml-12 lg:mt-10">
+          <p className="text-base md:text-lg leading-relaxed mt-4 md:ml-12 md:mt-10">
             We provide technology where innovation meets excellence! As a
-            dynamic <br /> and forward-thinking technology company, we
-            specialize in the seamless integration <br /> of hardware, software,
-            and IoT solutions. And we envision a connected world where <br />{" "}
-            cutting-edge technology enhances the way we live, work, and
-            interact.
-          </span>
-          <Link to="/about">
-            <span className="flex items-center ml-10 text-lg text-gray-800">
-              <span className="mr-2 text-purple-800">See more information</span>
-              <FaArrowRight size={20} className="text-purple-800" />
-            </span>
+            dynamic and forward-thinking technology company, we specialize in
+            the seamless integration of hardware, software, and IoT solutions.
+            We envision a connected world where cutting-edge technology enhances
+            the way we live, work, and interact.
+          </p>
+          <Link
+            to="/about"
+            className="flex items-center ml-10 text-lg text-gray-800"
+          >
+            <span className="mr-2 text-purple-800">See more information</span>
+            <FaArrowRight size={20} className="text-purple-800" />
           </Link>
         </div>
-
-        <img
-          src="https://media.istockphoto.com/id/1422478091/photo/close-up-of-a-hands-on-a-laptop-keyboard.jpg?s=612x612&w=0&k=20&c=TNGJooImQwsqodIC8vZB4e0r60RN989t0H9lmBmz60Y="
-          class="w-full lg:w-2/5 mt-8  ml-12 lg:mt-0 rounded-lg"
-        ></img>
+        <div className="w-full md:w-1/2 mt-8 md:mt-0">
+          <img
+            src="https://media.istockphoto.com/id/1422478091/photo/close-up-of-a-hands-on-a-laptop-keyboard.jpg?s=612x612&w=0&k=20&c=TNGJooImQwsqodIC8vZB4e0r60RN989t0H9lmBmz60Y="
+            alt="Image"
+            className="rounded-lg shadow-xl w-4/5 md:w-94"
+          />
+        </div>
       </div>
 
       <div class="bg-white">
@@ -97,12 +96,11 @@ const Description = () => {
           <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
             <FaLaptopCode className="text-2xl text-purple-800" />
             <span className="text-xl font-bold mb-4 text-purple-800 ">
-             Internet of things
+              Internet of things
             </span>
             <p className="text-gray-600 mt-5">
               We offer affrodable laptop repair services to indivudual and
-              coporate clients ensuring budget-friendly solutions 
-              compromising
+              coporate clients ensuring budget-friendly solutions compromising
             </p>
           </div>
 
@@ -114,7 +112,7 @@ const Description = () => {
             <p className="text-gray-600 mt-5">
               A perfect way to store your data, our cloud services provide
               secure and reliable storage solutions designed to meet the demands
-              of  businesses.
+              of businesses.
             </p>
           </div>
 
