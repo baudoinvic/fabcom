@@ -15,15 +15,16 @@ const Product = () => {
         <div class="flex items-center justify-center">
           <div class="flex flex-col justify-left mr-10">
             <span class="block text-left text-3xl font-bold text-gray-800 mb-4 lg:ml-12">
-              Build the great software
+              We Build the great software Product
             </span>
             <span class="text-gray-500 block text-left text-base mb-4 lg:ml-12 lg:mt-10">
-              We provide technology where innovation meets excellence! As a
-              dynamic <br /> and forward-thinking technology company, we
-              specialize in the seamless integration <br /> of hardware,
-              software, and IoT solutions. And we envision a connected world
-              where <br /> cutting-edge technology enhances the way we live,
-              work, and interact.
+              Our software product is meticulously crafted to meet the diverse
+              needs of our users by <br /> ensuring seamless user experiences
+              and We prioritize usability performance <br /> and security,
+              ensuring that every feature aligns with our users’ expectations.
+              <br />
+              Our development team collaborates closely with designers, testers,
+              and<br /> stakeholders to create a seamless experience
             </span>
           </div>
 
