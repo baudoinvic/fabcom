@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div class="">
+    <div class="bg-gray-100">
       <Navbar />
       <div class="relative">
         <img
-          class="w-full object-cover d"
+          class="w-full object-cover opacity-80 "
           style={{ height: "560px" }}
           src="https://fablab.rw/wp-content/uploads/2022/09/fablab-scaled.jpg"
           alt="Description"
@@ -22,7 +22,7 @@ const About = () => {
           </button>
         </div>
       </div>
-      <div class="flex flex-col md:flex-row md:mr-3 md:ml-3 md:mt-20 ml-10 mr-10 bg-gray-100">
+      <div class="flex flex-col md:flex-row md:mr-3 md:ml-3 md:mt-20 ml-10 mr-10 ">
         <div class="w-full md:w-1/2 p-8">
           <h1 class="text-purple-800 text-3xl font-bold mb-4">
             About FabtechHub
@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10 shadow-lg">
+      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10 bg-white">
         <div className="bg-white p-6 rounded-lg shadow-md border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
           <FaEye className="text-purple-800 text-4xl mb-4" />
           <span className="text-xl font-bold mb-4 text-purple-800">
