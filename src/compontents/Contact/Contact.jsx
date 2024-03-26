@@ -66,7 +66,7 @@ const Contact = () => {
     <div className="">
       <Navbar />
 
-      <div className="text-center text-gray-800 mt-10">
+      <div data-aos="zoom-in" className="text-center text-gray-800 mt-10">
         <h2 className="text-4xl font-extrabold mb-6 text-gray-800">
           Contact Us
         </h2>
@@ -76,7 +76,7 @@ const Contact = () => {
         </span>
       </div>
 
-      <div
+      <div data-aos="zoom-in"
         className=" flex items-center justify-center"
         style={{ marginTop: " 2rem" }}
       >
@@ -184,7 +184,7 @@ const Contact = () => {
       <br />
 
 
-      <div className="flex flex-col md:flex-row justify-between mt-8 ml-10 mr-10 ">
+      <div data-aos="zoom-in" className="flex flex-col md:flex-row justify-between mt-8 ml-10 mr-10 ">
         <div className="w-full md:w-1/4 bg-white p-4 rounded-lg shadow-md mb-4 md:mb-0 md:mr-4">
           <h1 className="text-xl md:text-2xl font-semibold mb-2">Address</h1>
           <IoLocationOutline className="text-3xl md:text-4xl text-gray-600" />
@@ -206,7 +206,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="">
+      <div data-aos="zoom-in" className="">
         <div className="items-center p-4 mt-10">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30607.79514638295!2d30.066595630129367!3d-1.9550632439832505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssp rwanda!5e0!3m2!1sen!2srw!4v1663256798141!5m2!1sen!2srw"
