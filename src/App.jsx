@@ -1,4 +1,7 @@
 import React from 'react'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbar from './compontents/Navbar'
 import About from './compontents/About/About'
 import Service from './compontents/Service'
@@ -37,8 +40,20 @@ import Apply from './compontents/Apply/Apply'
  };
 
  const App = () => {
+
+  React.useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 800,
+      easing: "ease-in-sine",
+      delay: 100,
+    });
+    AOS.refresh();
+  }, []);
+
+
    return (
-     <div>
+     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
        <BrowserRouter>
          <Routes>
            <Route
@@ -55,11 +70,10 @@ import Apply from './compontents/Apply/Apply'
            <Route path="/Contact" element={<Contact />} />
            <Route path="About" element={<About />} />
            <Route path="homepage" element={<Homepage />} />
-           <Route path="career" element={<Career/>} />
-           <Route path="ourservices" element={<Ourservices/>} />
+           <Route path="career" element={<Career />} />
+           <Route path="ourservices" element={<Ourservices />} />
            <Route path="products" element={<Products />} />
-           <Route path="apply" element={<Apply/>} />
-        
+           <Route path="apply" element={<Apply />} />
 
            <Route path="/products/smart-integration" element={<Smart />} />
            <Route
@@ -78,7 +92,6 @@ import Apply from './compontents/Apply/Apply'
              path="/products/educational-kit"
              element={<EducationalKit />}
            />
-
          </Routes>
        </BrowserRouter>
      </div>
