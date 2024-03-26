@@ -22,7 +22,7 @@ const Career = () => {
 
             {/*job cards*/}
 
-            <div class="bg-white p-6 rounded-md  mb-6">
+            <div data-aos="zoom-in" class="bg-white p-6 rounded-md  mb-6">
               <h3 class="text-xl font-semibold mb-2">Software Engineer</h3>
               <p class="text-gray-700 mb-4">
                 We are seeking a talented software engineer to join our
@@ -41,7 +41,7 @@ const Career = () => {
               </Link>
             </div>
 
-            <div class="bg-white p-6 rounded-md  mb-6">
+            <div data-aos="zoom-in" class="bg-white p-6 rounded-md  mb-6">
               <h3 class="text-xl font-semibold mb-2">Marketing Specialist</h3>
               <p class="text-gray-700 mb-4">
                 Join our marketing team and help drive brand awareness and
@@ -65,7 +65,7 @@ const Career = () => {
           </section>
 
           {/*Benefits section*/}
-          <section class="mb-12 ml-4">
+          <section data-aos="zoom-in" class="mb-12 ml-4">
             <h2 class="text-2xl font-semibold mb-6">Why Choose Us?</h2>
             <ul class="list-disc list-inside">
               <li>Competitive salary</li>
@@ -76,7 +76,7 @@ const Career = () => {
           </section>
 
           {/*Application process*/}
-          <section class="mb-12 ml-4">
+          <section data-aos="zoom-in" class="mb-12 ml-4">
             <h2 class="text-2xl font-semibold mb-6">Application Process</h2>
             <p class="text-gray-700">
               To apply for a position, please follow these steps:
@@ -95,7 +95,7 @@ const Career = () => {
           </section>
 
           {/*Contact section*/}
-          <section class="ml-4">
+          <section data-aos="zoom-in" class="ml-4">
             <h2 class="text-2xl font-semibold mb-6">Contact Us</h2>
             <p class="text-gray-700">
               For any inquiries related to careers, please contact us at{" "}

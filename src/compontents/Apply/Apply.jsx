@@ -68,7 +68,7 @@ const Apply = () => {
   return (
     <div className="job-applications">
       <Navbar />
-      <div className="">
+      <div data-aos="zoom-in" className="">
         <div class="bg-white container  mx-auto p-8 max-w-md shadow-lg">
           <h2 class="text-2xl font-semibold mb-6">Job Application Form</h2>
 
