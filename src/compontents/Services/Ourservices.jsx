@@ -27,7 +27,7 @@ const Ourservices = () => {
         </div>
       </div>
 
-      <div class="">
+      <div data-aos="zoom-in" class="">
         <div class="flex justify-center items-center">
           <span class="text-center text-2xl font-bold mt-10">Services we offer</span>
         </div>
