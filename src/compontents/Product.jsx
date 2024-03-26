@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Product = () => {
   return (
-    <div className="">
+    <div data-aos="zoom-in" className="">
       <div className="flex justify-center">
         <span className="text-center text-lg md:text-2xl lg:text-3xl font-bold md:text-left">
           Ways of building great software
