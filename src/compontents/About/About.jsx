@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div class="bg-gray-100">
       <Navbar />
-      <div class="relative">
+      <div data-aos="zoom-in" class="relative">
         <img
           class="w-full object-cover opacity-80 "
           style={{ height: "560px" }}
