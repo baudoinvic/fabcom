@@ -8,7 +8,7 @@ const Career = () => {
     <div className="career">
       <Navbar />
       <div className="">
-        <header class="bg-gray-800 text-white py-8">
+        <header data-aos="zoom-in" class="bg-gray-800 text-white py-8">
           <div class="container mx-auto text-center">
             <h1 class="text-3xl font-extrabold">Join Our Team</h1>
             <p class="text-lg">Explore exciting career opportunities with us</p>
