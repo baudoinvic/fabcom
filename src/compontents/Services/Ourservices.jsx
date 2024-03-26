@@ -12,7 +12,7 @@ const Ourservices = () => {
   return (
     <div class="">
       <Navbar />
-      <div class="relative">
+      <div data-aos="zoom-in" class="relative">
         <img
           class="w-full object-cover shadow-md"
           style={{ height: "560px" }}
