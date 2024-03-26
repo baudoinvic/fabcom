@@ -5,7 +5,7 @@ const Header = () => {
 
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center ml-10 mt-10 ">
+    <div data-aos="zoom-in" className="flex flex-col md:flex-row items-center justify-center ml-10 mt-10 ">
       <div className="w-full md:w-1/2 max-w-screen-xl md:ml-10">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-8 text-purple-800">
           FabtechHub<span className="text-black"> Innovation</span>

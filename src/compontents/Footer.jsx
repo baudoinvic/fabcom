@@ -48,7 +48,7 @@ const Footer = () => {
 
 
   return (
-    <div className="Fab-footer">
+    <div data-aos="zoom-in" className="Fab-footer">
       <section className="newletter bg-purple-800">
         <div className="container flexSB">
           <div className="left row ml-10">

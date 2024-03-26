@@ -10,7 +10,7 @@ import { FaCloudUploadAlt } from "react-icons/fa";
 
 const Description = () => {
   return (
-    <div className="">
+    <div data-aos="zoom-in" className="">
       <div
         className="flex flex-col md:flex-row items-center justify-center mt-8 md:"
         style={{ marginTop: "10rem" }}
