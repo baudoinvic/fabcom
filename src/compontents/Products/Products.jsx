@@ -75,14 +75,14 @@
              <Navbar />
 
              <div className="mt-8 ml-10 mr-10 flex justify-center items-center">
-               <div className="">
+               <div data-aos="zoom-in" className="">
                  <span className="mt-10 md:mt-10 text-center">
                    Feel free to read more about our products
                  </span>
                </div>
              </div>
 
-             <div className="flex flex-col items-center mt-8 sm:mt-12 md:mt-16 lg:mt-20">
+             <div data-aos="zoom-in" className="flex flex-col items-center mt-8 sm:mt-12 md:mt-16 lg:mt-20">
                <div className="flex space-x-2 sm:space-x-4 flex-col sm:flex-row filter-buttons">
                  <button
                    className={`bg-gray-900 text-white py-2 px-3 sm:px-4 ${
@@ -107,7 +107,7 @@
                </div>
              </div>
 
-             <div className=" container mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+             <div data-aos="zoom-in" className=" container mx-auto px-4 sm:px-6 lg:px-8 mt-8">
                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                  {filteredProducts.map((product, index) => (
                    <div

@@ -75,7 +75,7 @@ const Ourservices = () => {
 
       {/* Second row */}
       <br />
-      <div class="">
+      <div data-aos="zoom-in" class="">
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
           <div class="border border-purple-800 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiWebmoney className="text-gray-600 text-4xl  mb-4" />
