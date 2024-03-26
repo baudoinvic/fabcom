@@ -41,7 +41,7 @@ import Apply from './compontents/Apply/Apply'
 
  const App = () => {
 
-  React.useEffect(() => {
+  useEffect(() => {
     AOS.init({
       offset: 100,
       duration: 800,
