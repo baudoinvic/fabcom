@@ -20,8 +20,6 @@ const Career = () => {
           <section class="mb-12">
             <h2 class="text-2xl font-semibold mb-6">Current Job Openings</h2>
 
-            {/*job cards*/}
-
             <div data-aos="zoom-in" class="bg-white p-6 rounded-md  mb-6">
               <h3 class="text-xl font-semibold mb-2">Software Engineer</h3>
               <p class="text-gray-700 mb-4">
