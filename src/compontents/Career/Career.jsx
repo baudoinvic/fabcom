@@ -16,7 +16,7 @@ const Career = () => {
         </header>
 
         <div class="container mx-auto my-8">
-          {/*job listing*/}
+       
           <section class="mb-12">
             <h2 class="text-2xl font-semibold mb-6">Current Job Openings</h2>
 
