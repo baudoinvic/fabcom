@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaCheckCircle, FaClock, FaShieldAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { MdOutlineDoneOutline } from "react-icons/md";
 
 const Product = () => {
   return (
@@ -14,8 +15,10 @@ const Product = () => {
 
           <div class="flex flex-col justify-left ml-0 lg:ml-12 mt-8 lg:mt-0">
             <span className="text-purple-800">WHY CHOOSE US</span>
-            <h1>Driving Innovation At FabTech Hub </h1>
-            <span>
+            <h1 className="text-3xl mt-4">
+              Driving Innovation At FabTech Hub{" "}
+            </h1>
+            <span className="mt-4">
               At FabTech Hub the innovation meets excellence! As a dynamic and
               forward-thinking technology company, we specialize in the seamless
               integration of hardware, software, and IoT solutions. Our Vision:
@@ -26,6 +29,22 @@ const Product = () => {
               Expertise in Hardware Design: Our team of highly skilled hardware
               engineers is dedicated to crafting state-of-the-art devices that
               not only meet but exceed industry standards.{" "}
+              <div className="mt-8 flex text-2xl">
+                <MdOutlineDoneOutline className='text-purple-800' />
+                <span className='ml-2'>Comprehensive Features</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <div className="flex text-2xl mt-4">
+                <MdOutlineDoneOutline className='text-purple-800' />
+                <span className='ml-2'>User-Friendly Interface</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
             </span>
           </div>
         </div>
