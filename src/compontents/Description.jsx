@@ -7,51 +7,40 @@ import { BiNetworkChart } from "react-icons/bi";
 import { FaLaptopCode } from "react-icons/fa6";
 import { FaCloudUploadAlt } from "react-icons/fa";
  import { SiKasasmart } from "react-icons/si";
+ import { IoDiamondOutline } from "react-icons/io5";
+ import { PiPaperPlaneTiltBold } from "react-icons/pi";
+ import { RiFocus2Line } from "react-icons/ri";
 
 const Description = () => {
   return (
     <div data-aos="zoom-in" className="">
-      {/* <div
-        className="flex flex-col md:flex-row items-center justify-center mt-8 md:"
-        style={{ marginTop: "10rem" }}
-      >
-        <div className="w-full md:w-1/2 max-w-screen-xl md:ml-10">
-          <h2 className="text-left text-4xl md:text-4xl text-purple-800 mb-4 md:mb-8 md:ml-12">
-            WHO WE ARE
-          </h2>
-          <span className="block text-left text-3xl font-bold text-gray-800 mb-4 md:ml-12">
-            We Help To Innovate
-          </span>
-          <p className="text-base md:text-lg leading-relaxed mt-4 md:ml-12 md:mt-10">
-            We provide technology where innovation meets excellence! As a
-            dynamic and forward-thinking technology company, we specialize in
-            the seamless integration of hardware, software, and IoT solutions.
-            We envision a connected world where cutting-edge technology enhances
-            the way we live, work, and interact.
-          </p>
-
-          <Link
-            to="/about"
-            className="flex items-center ml-0 md:ml-10 text-lg text-gray-800"
-          >
-            <span className="mr-2 text-purple-800">See more information</span>
-            <FaArrowRight size={20} className="text-purple-800" />
-          </Link>
-        </div>
-
-       
-      </div> */}
-
       <div className="pt-32 text-center">
-        <span className="pt-16 ">WHO WE ARE</span>
+        <span className="pt-16 text-purple-800 font-bold ">WHO WE ARE</span>
+        <h1 className="text-3xl font-bold pt-4">
+          Explore the Innovative Features With Us
+        </h1>
         <p className="w-1/2 mt-10 text-center mx-auto">
-        
           We provide technology where innovation meets excellence! As a dynamic
           and forward-thinking technology company, we specialize in the seamless
           integration of hardware, software, and IoT solutions. We envision a
           connected world where cutting-edge technology enhances the way we
           live, work, and interact.
         </p>
+      </div>
+
+      <div className="">
+        <div className="">
+          <IoDiamondOutline />
+          <h1>Our Values</h1>
+        </div>
+        <div className="">
+          <PiPaperPlaneTiltBold />
+          <h1>Our Vision</h1>
+        </div>
+        <div className="">
+          <RiFocus2Line />
+          <h1>Our Mission</h1>
+        </div>
       </div>
 
       <div class="bg-white">
