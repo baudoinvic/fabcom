@@ -28,7 +28,6 @@ const Description = () => {
         </p>
       </div>
 
-      
       <div className="flex justify-between items-start ml-16 mr-16 mt-16">
         <div className="w-3/5">
           <div className="w-full">
@@ -77,13 +76,17 @@ const Description = () => {
       </div>
 
       <div class="bg-white">
-        <div class="p-8 ml-0 md:ml-10">
-          <span class="text-4xl font-bold block">What we do</span>
-          <br />
-          <span class="text-lg">
-            We design hardwares and innovate the youth
+        {/* <div class="p-8  ">
+          <span class=" font-bold block text-purple-800">
+            WHAT WE OFFER
           </span>
-        </div>
+
+          <h1 className="text-4xl">We Provide The Best Service For You</h1>
+          <span>
+            Enjoy with our services which we provide for you and if you are
+            intersted don't hesitate to get in touch with us
+          </span>
+        </div> */}
 
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-7  ">
           <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
