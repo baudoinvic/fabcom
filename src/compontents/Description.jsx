@@ -42,9 +42,17 @@ const Description = () => {
        
       </div> */}
 
-       <div className="">
+      <div className="pt-32 text-center">
+        <span className="pt-16 ">WHO WE ARE</span>
+        <p className="w-1/2 mt-10 text-center mx-auto">
         
-       </div>
+          We provide technology where innovation meets excellence! As a dynamic
+          and forward-thinking technology company, we specialize in the seamless
+          integration of hardware, software, and IoT solutions. We envision a
+          connected world where cutting-edge technology enhances the way we
+          live, work, and interact.
+        </p>
+      </div>
 
       <div class="bg-white">
         <div class="p-8 ml-0 md:ml-10">
