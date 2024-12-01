@@ -11,6 +11,12 @@ import { FaCloudUploadAlt } from "react-icons/fa";
  import { PiPaperPlaneTiltBold } from "react-icons/pi";
  import { RiFocus2Line } from "react-icons/ri";
 
+  import { GrIntegration } from "react-icons/gr";
+  import { AiOutlineFieldTime } from "react-icons/ai";
+  import { SiWebmoney } from "react-icons/si";
+ 
+  import { LiaUikit } from "react-icons/lia";
+
 const Description = () => {
   return (
     <div data-aos="zoom-in" className="">
@@ -75,8 +81,7 @@ const Description = () => {
         />
       </div>
 
-      <div class="bg-white">
-
+      <div class="white">
         <div class="flex items-center justify-center mt-16">
           <div class="p-8 text-center">
             <span class="font-bold block text-purple-800">WHAT WE OFFER</span>
@@ -91,80 +96,102 @@ const Description = () => {
             </span>
           </div>
         </div>
+        <div data-aos="zoom-in" class="">
+         
+          <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
+            <div class="bbg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
+              <SiSimilarweb className="text-gray-600 text-4xl  mb-4" />
+              <span className="text-xl font-bold mb-4 text-purple-800">
+                Smart integration
+              </span>
+              <p className="text-gray-600">
+                At FabTech Hub, we envision a connected world where cutting-edge
+                technology enhances the way we live, work, and interact. Our
+                goal is to be at the forefront of this transformation, driving
+                innovation through the convergence of hardware, software, and
+                IoT.
+              </p>
+            </div>
 
-        <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-7  ">
-          <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <IoHardwareChipOutline className="text-2xl text-purple-800" />
-            <span class="text-xl font-bold mb-4 text-purple-800">
-              Hardware Design
-            </span>
-            <p class="text-gray-600 mt-5">
-              We provide comprehensive hardware design services
-              <br /> ensuring the swift and efficient resolution
-            </p>
-          </div>
+            <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
+              <GrIntegration className="text-gray-600 text-4xl mb-4" />
+              <span className="text-xl font-bold mb-4 text-purple-800">
+                Internet Of Things
+              </span>
+              <p className="text-gray-600">
+                Our team of highly skilled hardware engineers is dedicated to
+                crafting state-of-the-art devices that not only meet but exceed
+                industry standards. From concept to prototype to final
+                production, we leverage the latest technologies to design robust
+                and efficient hardware solutions. We ensure that our hardware
+                stands out in terms of performance
+              </p>
+            </div>
 
-          <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <SiSimilarweb className="text-2xl text-purple-800" />
-            <span className="text-xl font-bold mb-4 text-purple-800">
-              Web Development
-            </span>
-            <p className="text-gray-600 mt-5">
-              we provide the best of solutions of software development
-              <br />
-              mostly we do web applications and mobile apps for our clients
-            </p>
-          </div>
-
-          <div class="h-48 bg-white shadow-md p-6  rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <BiNetworkChart className="text-2xl text-purple-800" />
-            <span className="text-xl font-bold mb-4 text-purple-800">
-              Network Deployment <br /> and Design
-            </span>
-            <p className="text-gray-600 mt-5">
-              Our network support services offer comprehensive assistance
-              <br /> to optimize your network
-            </p>
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
+              <AiOutlineFieldTime className="text-gray-600 text-4xl mb-4" />
+              <span className="text-xl font-bold mb-4 text-purple-800">
+                Hardware Design
+              </span>
+              <p className="text-gray-600">
+                Our team of highly skilled hardware engineers is dedicated to
+                crafting state-of-the-art devices that not only meet but exceed
+                industry standards. From concept to prototype to final
+                production, we leverage the latest technologies to design robust
+                and efficient hardware solutions. We ensure that our hardware
+                stands out in terms of performance.
+              </p>
+            </div>
           </div>
         </div>
       </div>
 
       {/* Second row */}
 
-      <div class="bg-white">
+      <div data-aos="zoom-in" class="">
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
-          <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <FaLaptopCode className="text-2xl text-purple-800" />
-            <span className="text-xl font-bold mb-4 text-purple-800 ">
-              Internet of things
+          <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
+            <SiWebmoney className="text-gray-600 text-4xl  mb-4" />
+            <span className="text-xl font-bold mb-4 text-purple-800">
+              Software development
             </span>
-            <p className="text-gray-600 mt-5">
-              We offer affrodable laptop repair services to indivudual and
-              coporate clients ensuring budget-friendly solutions compromising
+            <p className="text-gray-600">
+              Elevate your online presence with our expert web development
+              services at FabTech Hub. We are dedicated to creating seamless
+              digital experiences that empower your business. From innovative
+              designs to robust backend solutions, we specialize in crafting
+              websites that not only meet but exceed your expectations.
             </p>
           </div>
 
-          <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <FaCloudUploadAlt className="text-2xl text-purple-800" />
+          <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
+            <SiKasasmart className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4 text-purple-800">
-              Educational kit
+              Innovative Automatic
+              <br /> Fare Collection Solutions
             </span>
-            <p className="text-gray-600 mt-5">
-              A perfect way to store your data, our cloud services provide
-              secure and reliable storage solutions designed to meet the demands
-              of businesses.
+            <p className="text-gray-600">
+              Experience cutting-edge automatic fare collection with our team of
+              highly skilled hardware engineers at FabtechHub. We are committed
+              to designing state-of-the-art devices that set new industry
+              standards. From initial concept to prototype and final production,
+              we harness the latest technologies to create robust and efficient
+              hardware solutions for automatic fare collection systems.
             </p>
           </div>
 
-          <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
-            <SiKasasmart className="text-2xl text-purple-800" />
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
+            <LiaUikit className="text-gray-600 text-4xl mb-4" />
             <span className="text-xl font-bold mb-4 text-purple-800">
-              Smart integration
+              Educational Kit
             </span>
-            <p className="text-gray-600 mt-5">
-              Seamless integration is key to our approach as we tailor smart
-              solutions to seamlessly integrate with your existing systems
-              performance
+            <p className="text-gray-600">
+              Explore the world of learning with our team of highly skilled
+              hardware engineers dedicated to creating cutting-edge educational
+              kits. We go beyond industry standards, from the conceptualization
+              phase to prototype development and final production. Leveraging
+              the latest technologies, we design robust and efficient hardware
+              solutions to enhance the educational experience.
             </p>
           </div>
         </div>
