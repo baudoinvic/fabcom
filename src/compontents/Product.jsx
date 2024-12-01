@@ -6,10 +6,10 @@ import { MdOutlineDoneOutline } from "react-icons/md";
 const Product = () => {
   return (
     <div data-aos="zoom-in" className="">
-      <div className="" style={{ marginTop: "7rem" }}>
+      {/* <div className="mt-16">
         <div class="flex flex-col-reverse lg:flex-row items-center justify-center">
           <img
-            src="https://media.istockphoto.com/id/1269045922/photo/two-graphic-designer-brainstorming-meeting-and-drawing-on-graphics-tablet-at-workplace.jpg?s=612x612&w=0&k=20&c=5WTdKfpEzVsiCQKotNzS5Bgd86VD78GyHBwI8F8vDkg="
+            src="https://template.creativemox.com/evostart/wp-content/uploads/sites/16/2024/06/Macbook-Pro-M1-Front-Mockup-01.png"
             class="w-full lg:w-2/5 mt-8 lg:mt-0 rounded-lg"
           ></img>
 
@@ -18,7 +18,7 @@ const Product = () => {
             <h1 className="text-3xl mt-4">
               Driving Innovation At FabTech Hub{" "}
             </h1>
-            <span className="mt-4">
+            <span className="mt-4 w-2/3">
               At FabTech Hub the innovation meets excellence! As a dynamic and
               forward-thinking technology company, we specialize in the seamless
               integration of hardware, software, and IoT solutions. Our Vision:
@@ -30,22 +30,84 @@ const Product = () => {
               engineers is dedicated to crafting state-of-the-art devices that
               not only meet but exceed industry standards.{" "}
               <div className="mt-8 flex text-2xl">
-                <MdOutlineDoneOutline className='text-purple-800' />
-                <span className='ml-2'>Comprehensive Features</span>
+                <MdOutlineDoneOutline className="text-purple-800" />
+                <span className="ml-2">Comprehensive Features</span>
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                 tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
               <div className="flex text-2xl mt-4">
-                <MdOutlineDoneOutline className='text-purple-800' />
-                <span className='ml-2'>User-Friendly Interface</span>
+                <MdOutlineDoneOutline className="text-purple-800" />
+                <span className="ml-2">User-Friendly Interface</span>
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                 tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
             </span>
+          </div>
+        </div>
+      </div> */}
+
+      <div className="mt-16 px-4 lg:px-0">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-12">
+          {/* Image Section */}
+          <img
+            src="https://template.creativemox.com/evostart/wp-content/uploads/sites/16/2024/06/Macbook-Pro-M1-Front-Mockup-01.png"
+            className="w-full lg:w-2/5 rounded-lg shadow-lg"
+            alt="MacBook Pro Mockup"
+          />
+
+          {/* Content Section */}
+          <div className="lg:w-1/2 text-left">
+            <span className="text-purple-800 font-semibold uppercase tracking-wide">
+              Why Choose Us
+            </span>
+            <h1 className="text-4xl font-bold mt-4 text-gray-800 leading-tight">
+              Driving Innovation At FabTech Hub
+            </h1>
+            <p className="mt-4 text-gray-600 leading-relaxed">
+              At FabTech Hub, innovation meets excellence! As a dynamic and
+              forward-thinking technology company, we specialize in the seamless
+              integration of hardware, software, and IoT solutions.
+            </p>
+            <p className="mt-4 text-gray-600 leading-relaxed">
+              Our vision is to create a connected world where cutting-edge
+              technology enhances the way we live, work, and interact. Our goal
+              is to lead this transformation by driving innovation through the
+              convergence of hardware, software, and IoT.
+            </p>
+
+            {/* Feature List */}
+            <div className="mt-8">
+              <div className="flex items-start text-2xl">
+                <MdOutlineDoneOutline className="text-purple-800 mt-1" />
+                <div className="ml-4">
+                  <h2 className="font-semibold text-gray-800">
+                    Comprehensive Features
+                  </h2>
+                  <p className="text-gray-600 text-sm mt-1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                    leo.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start text-2xl mt-6">
+                <MdOutlineDoneOutline className="text-purple-800 mt-1" />
+                <div className="ml-4">
+                  <h2 className="font-semibold text-gray-800">
+                    User-Friendly Interface
+                  </h2>
+                  <p className="text-gray-600 text-sm mt-1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                    leo.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
