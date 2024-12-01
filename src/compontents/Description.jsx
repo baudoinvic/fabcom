@@ -28,18 +28,40 @@ const Description = () => {
         </p>
       </div>
 
-      <div className="">
+      <div className="ml-16 mt-16">
         <div className="">
           <IoDiamondOutline />
           <h1>Our Values</h1>
+          <p>
+            Excellence: We strive for excellence in all aspects of our
+            operations, from the quality of our educational kits to the
+            solutions we deliver to our clients. Innovation
+          </p>
         </div>
-        <div className="">
-          <PiPaperPlaneTiltBold />
-          <h1>Our Vision</h1>
+        <div className="w-2/5">
+          <div className="">
+            <PiPaperPlaneTiltBold />
+            <h1>Our Vision</h1>
+          </div>
+
+          <span>
+            To be the premier provider of comprehensive educational kits for
+            engineering schools, empowering the next generation of innovators,
+            while delivering cutting-edge engineering solutions to businesses
+            globally.{" "}
+          </span>
         </div>
-        <div className="">
-          <RiFocus2Line />
-          <h1>Our Mission</h1>
+        <div className="w-2/4">
+          <div className="flex">
+            <RiFocus2Line />
+            <h1>Our Mission</h1>
+          </div>
+
+          <span>
+            Our mission is to revolutionize engineering education by offering
+            dynamic educational kits that foster hands-on learning and practical
+            skill development.
+          </span>
         </div>
       </div>
 
