@@ -96,11 +96,7 @@
         {/* The rest of your desktop navigation */}
         <div className="hidden md:flex justify-between items-center px-8 py-5 shadow-md fab-com-navbar bg-white">
           <Link to="/homepage" className="text-black">
-            <img
-              src="https://jabesautoservice.com/wp-content/uploads/2017/12/lp-fabtech-logo.png"
-              style={{ width: "100px" }}
-              alt="Logo"
-            />
+            Fabtch
           </Link>
 
           <ul className="cursor-pointer flex items-center space-x-10 text-white">
