@@ -29,17 +29,20 @@ const Description = () => {
       </div>
 
       <div className="ml-16 mt-16">
-        <div className="">
-          <IoDiamondOutline />
-          <h1>Our Values</h1>
+        <div className="w-2/5">
+          <div className="flex">
+            <IoDiamondOutline />
+            <h1>Our Values</h1>
+          </div>
+
           <p>
             Excellence: We strive for excellence in all aspects of our
             operations, from the quality of our educational kits to the
             solutions we deliver to our clients. Innovation
           </p>
         </div>
-        <div className="w-2/5">
-          <div className="">
+        <div className="w-2/5 pt-8">
+          <div className="flex">
             <PiPaperPlaneTiltBold />
             <h1>Our Vision</h1>
           </div>
@@ -51,7 +54,7 @@ const Description = () => {
             globally.{" "}
           </span>
         </div>
-        <div className="w-2/4">
+        <div className="w-2/4 pt-8">
           <div className="flex">
             <RiFocus2Line />
             <h1>Our Mission</h1>
