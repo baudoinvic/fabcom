@@ -19,7 +19,7 @@ const Header = () => {
         </p>
         <Link to="/products">
           <button className="mt-6 px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
-            Let's get started
+            Discover More
           </button>
         </Link>
       </div>
