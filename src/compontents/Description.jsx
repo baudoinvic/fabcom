@@ -76,17 +76,21 @@ const Description = () => {
       </div>
 
       <div class="bg-white">
-        {/* <div class="p-8  ">
-          <span class=" font-bold block text-purple-800">
-            WHAT WE OFFER
-          </span>
 
-          <h1 className="text-4xl">We Provide The Best Service For You</h1>
-          <span>
-            Enjoy with our services which we provide for you and if you are
-            intersted don't hesitate to get in touch with us
-          </span>
-        </div> */}
+        <div class="flex items-center justify-center mt-16">
+          <div class="p-8 text-center">
+            <span class="font-bold block text-purple-800">WHAT WE OFFER</span>
+
+            <h1 class="text-4xl font-bold mt-4">
+              We Provide The Best Service For You
+            </h1>
+
+            <span class="block mt-2">
+              Enjoy with our services which we provide for you and if you are
+              interested don't hesitate to get in touch with us
+            </span>
+          </div>
+        </div>
 
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-7  ">
           <div class="h-48 bg-white shadow-md p-6 rounded-lg border border-purple-800 transition-transform transform hover:scale-105 cursor-pointer">
