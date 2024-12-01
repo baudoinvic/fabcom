@@ -11,7 +11,7 @@ import { FaCloudUploadAlt } from "react-icons/fa";
 const Description = () => {
   return (
     <div data-aos="zoom-in" className="">
-      <div
+      {/* <div
         className="flex flex-col md:flex-row items-center justify-center mt-8 md:"
         style={{ marginTop: "10rem" }}
       >
@@ -39,12 +39,12 @@ const Description = () => {
           </Link>
         </div>
 
-        <img
-          src="https://media.istockphoto.com/id/1422478091/photo/close-up-of-a-hands-on-a-laptop-keyboard.jpg?s=612x612&w=0&k=20&c=TNGJooImQwsqodIC8vZB4e0r60RN989t0H9lmBmz60Y="
-          alt="Image"
-          class="w-full lg:w-2/5 mt-8 lg:mt-0 ml-0 lg:ml-12 rounded-lg"
-        />
-      </div>
+       
+      </div> */}
+
+       <div className="">
+        
+       </div>
 
       <div class="bg-white">
         <div class="p-8 ml-0 md:ml-10">

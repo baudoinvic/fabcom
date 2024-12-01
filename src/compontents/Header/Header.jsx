@@ -5,7 +5,7 @@ const Header = () => {
 
 
   return (
-    <div data-aos="zoom-in" className="flex flex-col md:flex-row items-center justify-center ml-10 mt-10 ">
+    <div data-aos="zoom-in" className="flex flex-col md:flex-row items-center justify-center ml-10 pt-32 ">
       <div className="w-full md:w-1/2 max-w-screen-xl md:ml-10">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-8 text-purple-800">
           FabtechHub<span className="text-black"> Innovation</span>
@@ -27,7 +27,7 @@ const Header = () => {
         <img
           src="https://media.istockphoto.com/id/1157610669/vector/financial-audit-budget-graph-tax-expert-and-business-finance-balance-valuation-isometric-3d.jpg?s=612x612&w=0&k=20&c=EhrSx9BlGTxEnnNir0xsuqor9RJ1Ql91eT82v2buSlc="
           alt="Image"
-          className="rounded-lg shadow-xl w-full"
+          className="rounded-lg shadow-xl w-84"
         />
       </div>
     </div>
