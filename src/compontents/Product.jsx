@@ -6,19 +6,6 @@ import { MdOutlineDoneOutline } from "react-icons/md";
 const Product = () => {
   return (
     <div data-aos="zoom-in" className="">
-      {/* <div className="">
-        <img src="https://template.creativemox.com/evostart/wp-content/uploads/sites/16/2024/06/about-us@300x-8.png" />
-        <span className="text-2xl">
-          Fintech is only as powerful as the innovators behind it.
-        </span>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-        </p>
-        <button className="mt-6 px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
-          Discover More
-        </button>
-      </div> */}
 
       <div
         className="relative h-[400px] bg-cover bg-center bg-no-repeat"
