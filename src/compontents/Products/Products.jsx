@@ -114,11 +114,6 @@
                      key={index}
                      className="bg-white rounded-lg shadow-md p-4 transition-transform transform hover:scale-105 border border-purple-800"
                    >
-                     {/* <img
-                       src={product.image}
-                       className="w-full h-40 sm:h-56 object-cover rounded-lg mb-4"
-                       alt={`Image ${index + 1}`}
-                     /> */}
                      <Link to={generateProductLink(product.category)}>
                        <img
                          src={product.image}
