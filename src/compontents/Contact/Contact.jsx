@@ -63,158 +63,166 @@ const Contact = () => {
 
 
   return (
-    <div className="">
+
+    <div className="min-h-screen bg-gray-50">
       <Navbar />
 
-      <div data-aos="zoom-in" className="text-center text-gray-800 mt-10">
-        <h2 className="text-4xl font-extrabold mb-6 text-gray-800">
-          Contact Us
-        </h2>
-        <span className="text-sm md:text-base lg:text-lg">
-          Have a project in mind that you think we’d be a great <br />
-          fit for it? We’d love to know what you’re thinking
-        </span>
-      </div>
-
-      <div data-aos="zoom-in"
-        className=" flex items-center justify-center"
-        style={{ marginTop: " 2rem" }}
-      >
-        <div className="bg-white p-8 rounded shadow-md w-full md:w-7/6 lg:w-1/2 xl:w-1/3">
-          <form onSubmit={handleSubmit}>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="container mx-auto px-4 py-12">
+        <div className="flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-8">
+          {/* Contact Form - Left Side */}
+          <div className="w-full md:w-1/2 bg-white p-8 rounded-lg shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-gray-800 text-center">
+              Get In Touch
+            </h2>
+            <form onSubmit={handleSubmit}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="mb-4">
+                  <label
+                    htmlFor="firstname"
+                    className="block text-sm font-medium text-gray-600 mb-2"
+                  >
+                    First Name
+                  </label>
+                  <input
+                    type="text"
+                    id="firstname"
+                    name="firstname"
+                    value={formData.firstname}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    placeholder="Your First Name"
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    htmlFor="lastname"
+                    className="block text-sm font-medium text-gray-600 mb-2"
+                  >
+                    Last Name
+                  </label>
+                  <input
+                    type="text"
+                    id="lastname"
+                    name="lastname"
+                    value={formData.lastname}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    placeholder="Your Last Name"
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-600 mb-2"
+                  >
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    placeholder="Your Email"
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    htmlFor="phoneNumber"
+                    className="block text-sm font-medium text-gray-600 mb-2"
+                  >
+                    Phone Number
+                  </label>
+                  <input
+                    type="tel"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    value={formData.phoneNumber}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    placeholder="Your Phone Number"
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+              </div>
               <div className="mb-4">
                 <label
-                  htmlFor="firstname"
-                  className="block text-sm font-medium text-gray-600"
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-600 mb-2"
                 >
-                  First Name
+                  Message
                 </label>
-                <input
-                  type="text"
-                  id="Firstname"
-                  name="Firstname"
-                  className="mt-1 p-2 w-full border rounded-md"
-                  placeholder="Your First Name"
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  value={formData.message}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  placeholder="Your Message"
                   onChange={handleChange}
                   required
-                />
+                ></textarea>
               </div>
-              <div className="mb-4">
-                <label
-                  htmlFor="Lastname"
-                  className="block text-sm font-medium text-gray-600"
-                >
-                  Last Name
-                </label>
-                <input
-                  type="text"
-                  id="Lastname"
-                  name="Lastname"
-                  className="mt-1 p-2 w-full border rounded-md"
-                  placeholder="Your Last Name"
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-gray-600"
-                >
-                  Email
-                </label>
-
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  className="mt-1 p-2 w-full border rounded-md"
-                  placeholder="Your Email"
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  htmlFor="phoneNumber"
-                  className="block text-sm font-medium text-gray-600"
-                >
-                  Phone Number
-                </label>
-                <input
-                  type="tel"
-                  id="phoneNumber"
-                  name="phoneNumber"
-                  className="mt-1 p-2 w-full border rounded-md"
-                  placeholder="Your Phone Number"
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-            </div>
-            <div className="mb-4">
-              <label
-                htmlFor="message"
-                className="block text-sm font-medium text-gray-600"
+              <button
+                type="submit"
+                className="w-full bg-purple-800 text-white py-3 rounded-md hover:bg-purple-900 transition duration-300"
               >
-                Message
-              </label>
+                Send Message
+              </button>
+            </form>
+          </div>
 
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                className="mt-1 p-2 w-full border rounded-md"
-                placeholder="Your Message"
-                onChange={handleChange}
-                required
-              ></textarea>
+          {/* Contact Information - Right Side */}
+          <div className="w-full md:w-1/2 mt-8 md:mt-0">
+            <div className="space-y-6">
+              <div className="text-center mb-8">
+                <h2 className="text-4xl font-extrabold mb-4 text-gray-800">
+                  Contact Us
+                </h2>
+                <p className="text-gray-600 text-lg">
+                  Have a project in mind that you think we'd be a great fit for?
+                  We'd love to know what you're thinking.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {/* Address Card */}
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <div className="flex justify-center mb-4">
+                    <IoLocationOutline className="text-4xl text-purple-600" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">Address</h3>
+                  <p className="text-gray-600">KG 460 street, Kigali</p>
+                </div>
+
+                {/* Email Card */}
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <div className="flex justify-center mb-4">
+                    <MdOutlineMailOutline className="text-4xl text-purple-600" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">Email Us</h3>
+                  <p className="text-gray-600">info@fabtechhub.gmail.com</p>
+                </div>
+
+                {/* Phone Card */}
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <div className="flex justify-center mb-4">
+                    <FaPhoneAlt className="text-4xl text-purple-600" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">Call Us</h3>
+                  <p className="text-gray-600">+250 783 012 138</p>
+                </div>
+              </div>
             </div>
-            <button
-              type="submit"
-              className="bg-purple-800 text-white px-4 py-2 rounded-md  w-full"
-            >
-              Send Message
-            </button>
-          </form>
-          <ToastContainer />
-        </div>
-      </div>
-      <br />
-      <br />
-
-
-      <div data-aos="zoom-in" className="flex flex-col md:flex-row justify-between mt-8 ml-10 mr-10 ">
-        <div className="w-full md:w-1/4 bg-white p-4 rounded-lg shadow-md mb-4 md:mb-0 md:mr-4">
-          <h1 className="text-xl md:text-2xl font-semibold mb-2">Address</h1>
-          <IoLocationOutline className="text-3xl md:text-4xl text-gray-600" />
-          <span className="text-sm md:text-base">KG 460 street</span>
-        </div>
-
-        <div className="w-full md:w-1/4 bg-white p-4 rounded-lg shadow-md mb-4 md:mb-0 md:mx-4">
-          <h1 className="text-xl md:text-2xl font-semibold mb-2">Email Us</h1>
-          <MdOutlineMailOutline className="text-3xl md:text-4xl text-gray-600" />
-          <span className="text-sm md:text-base">
-            info@fabtechhub.gmail.com
-          </span>
-        </div>
-
-        <div className="w-full md:w-1/4 bg-white p-4 rounded-lg shadow-md">
-          <h1 className="text-xl md:text-2xl font-semibold mb-2">Call Us</h1>
-          <FaPhoneAlt className="text-3xl md:text-4xl text-gray-600" />
-          <span className="text-sm md:text-base">+250783012138</span>
+          </div>
         </div>
       </div>
 
-      <div data-aos="zoom-in" className="">
-        <div className="items-center p-4 mt-10">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30607.79514638295!2d30.066595630129367!3d-1.9550632439832505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssp rwanda!5e0!3m2!1sen!2srw!4v1663256798141!5m2!1sen!2srw"
-            width="100%"
-            height="600px"
-          />
-        </div>
-      </div>
+    
       <Footer />
     </div>
   );
