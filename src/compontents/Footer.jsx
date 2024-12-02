@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="container mx-auto px-4  ">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
-              <h1 className="text-3xl font-bold text-blue-500">FabTechHub</h1>
+              <h1 className="text-3xl font-bold text-purple-800">FabTechHub</h1>
 
               <p className="text-gray-900">
                 We are here To help you solve the problems in your company and
@@ -96,15 +96,15 @@ const Footer = () => {
 
               <div className="space-y-2 mb-4">
                 <p className="flex items-center">
-                  <i className="fa fa-map mr-2 text-blue-500"></i>
+                  <i className="fa fa-map mr-2 text-purple-800"></i>
                   Rwanda Kigali 640 Street
                 </p>
                 <p className="flex items-center">
-                  <i className="fa fa-phone-alt mr-2 text-blue-500"></i>
+                  <i className="fa fa-phone-alt mr-2 text-purple-800"></i>
                   +250 782 012 140
                 </p>
                 <p className="flex items-center">
-                  <i className="fa fa-paper-plane mr-2 text-blue-500"></i>
+                  <i className="fa fa-paper-plane mr-2 text-purple-800"></i>
                   info@fabtechhubgmail.com
                 </p>
               </div>
@@ -131,7 +131,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-400 transition"
                 >
-                  <FaFacebook className="text-2xl" />
+                  <FaFacebook className="text-2xl text-purple-800 " />
                 </a>
 
                 <a
@@ -140,7 +140,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-400 transition"
                 >
-                  <FaLinkedin className="text-2xl" />
+                  <FaLinkedin className="text-2xl text-purple-800" />
                 </a>
                 <a
                   href="https://instagram.com"
@@ -148,7 +148,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-400 transition"
                 >
-                  <FaInstagram className="text-2xl" />
+                  <FaInstagram className="text-2xl text-purple-800" />
                 </a>
               </div>
             </div>
