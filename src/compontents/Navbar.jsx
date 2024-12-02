@@ -275,7 +275,7 @@ const Navbar = () => {
               onMouseEnter={() => setIsAboutDropdownOpen(true)}
             >
               About us
-              <FontAwesomeIcon icon={faChevronDown} className="ml-2 text-xs" />
+              
             </div>
             {isAboutDropdownOpen && (
               <div
