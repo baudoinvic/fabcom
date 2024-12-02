@@ -34,8 +34,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="hover:text-blue-500 transition">
-                    About Us
+                  <Link
+                    to="/Provider"
+                    className="hover:text-blue-500 transition"
+                  >
+                    Who We Are
                   </Link>
                 </li>
                 <li>
@@ -59,7 +62,7 @@ const Footer = () => {
               <ul className="space-y-2">
                 <li>
                   <Link
-                    to="/educational-kit"
+                    to="/products/educational-kit"
                     className="hover:text-blue-500 transition"
                   >
                     Educational Kit
@@ -67,20 +70,23 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="/network-deployment"
+                    to="/products/network-deployment"
                     className="hover:text-blue-500 transition"
                   >
                     Network Deployment
                   </Link>
                 </li>
                 <li>
-                  <Link to="/iot" className="hover:text-blue-500 transition">
+                  <Link
+                    to="/products/iot"
+                    className="hover:text-blue-500 transition"
+                  >
                     Internet of Things
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/fare-collection"
+                    to="/automatic"
                     className="hover:text-blue-500 transition"
                   >
                     Automatic Fare Collection
