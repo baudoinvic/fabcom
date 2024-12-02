@@ -1,16 +1,9 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa6";
-import { IoHardwareChipOutline } from "react-icons/io5";
 import { SiSimilarweb } from "react-icons/si";
-import { Link } from "react-router-dom";
-import { BiNetworkChart } from "react-icons/bi";
-import { FaLaptopCode } from "react-icons/fa6";
-import { FaCloudUploadAlt } from "react-icons/fa";
  import { SiKasasmart } from "react-icons/si";
  import { IoDiamondOutline } from "react-icons/io5";
  import { PiPaperPlaneTiltBold } from "react-icons/pi";
  import { RiFocus2Line } from "react-icons/ri";
-
   import { GrIntegration } from "react-icons/gr";
   import { AiOutlineFieldTime } from "react-icons/ai";
   import { SiWebmoney } from "react-icons/si";
