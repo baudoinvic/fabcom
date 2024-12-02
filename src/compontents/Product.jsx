@@ -6,23 +6,24 @@ import { MdOutlineDoneOutline } from "react-icons/md";
 const Product = () => {
   return (
     <div data-aos="zoom-in" className="">
-
       <div
-        className="relative h-[400px] bg-cover bg-center bg-no-repeat"
+        className="relative h-[400px] bg-cover bg-center bg-no-repeat "
         style={{
           backgroundImage:
             "url(https://omdia.tech.informa.com/-/media/tech/omdia/omdia-website-enhancement-oct-2023/iot-coverage-2.jpg?rev=4fa2eb28f841448c9d126f911019398f)",
-          backgroundOpacity: "0.7",
+          backgroundOpacity: "0.4",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative flex flex-col items-center justify-center h-full text-center text-white px-4">
           <h1 className="text-3xl font-bold">
-            Fintech is only as powerful as<br /> the innovators behind it.
+            FabTech Hub is only as powerful as
+            <br /> the innovators behind it.
           </h1>
-          <p className="mt-4 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          <p className="mt-4 text-base w-2/4">
+            Empowering progress through technology and creativity, our mission
+            is to redefine financial services with groundbreaking ideas and
+            solutions. Join us in shaping the future of FabTech Hub.
           </p>
           <button className="mt-6 px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
             Discover More
