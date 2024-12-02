@@ -3,6 +3,7 @@ import Navbar from '../Navbar'
  import { IoDiamondOutline } from "react-icons/io5";
  import { PiPaperPlaneTiltBold } from "react-icons/pi";
  import { RiFocus2Line } from "react-icons/ri";
+import Footer from '../Footer';
 
 const Mission = () => {
   return (
@@ -72,6 +73,7 @@ const Mission = () => {
           className="w-2/5"
         />
       </div>
+      <Footer />
     </div>
   );
 }
