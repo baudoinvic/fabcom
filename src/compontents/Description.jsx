@@ -100,8 +100,8 @@ const Description = () => {
          
           <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
             <div class="bbg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
-              <SiSimilarweb className="text-gray-600 text-4xl  mb-4" />
-              <span className="text-xl font-bold mb-4 text-purple-800">
+              <SiSimilarweb className=" text-4xl  mb-4" />
+              <span className="text-xl font-bold mb-4 ">
                 Smart integration
               </span>
               <p className="text-gray-600">
@@ -115,7 +115,7 @@ const Description = () => {
 
             <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
               <GrIntegration className="text-gray-600 text-4xl mb-4" />
-              <span className="text-xl font-bold mb-4 text-purple-800">
+              <span className="text-xl font-bold mb-4 ">
                 Internet Of Things
               </span>
               <p className="text-gray-600">
@@ -129,8 +129,8 @@ const Description = () => {
             </div>
 
             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
-              <AiOutlineFieldTime className="text-gray-600 text-4xl mb-4" />
-              <span className="text-xl font-bold mb-4 text-purple-800">
+              <AiOutlineFieldTime className=" text-4xl mb-4" />
+              <span className="text-xl font-bold mb-4 ">
                 Hardware Design
               </span>
               <p className="text-gray-600">
@@ -151,8 +151,8 @@ const Description = () => {
       <div data-aos="zoom-in" class="">
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
           <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
-            <SiWebmoney className="text-gray-600 text-4xl  mb-4" />
-            <span className="text-xl font-bold mb-4 text-purple-800">
+            <SiWebmoney className=" text-4xl  mb-4" />
+            <span className="text-xl font-bold mb-4 ">
               Software development
             </span>
             <p className="text-gray-600">
@@ -165,8 +165,8 @@ const Description = () => {
           </div>
 
           <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
-            <SiKasasmart className="text-gray-600 text-4xl mb-4" />
-            <span className="text-xl font-bold mb-4 text-purple-800">
+            <SiKasasmart className="text-4xl mb-4" />
+            <span className="text-xl font-bold mb-4 ">
               Innovative Automatic
               <br /> Fare Collection Solutions
             </span>
@@ -181,8 +181,8 @@ const Description = () => {
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
-            <LiaUikit className="text-gray-600 text-4xl mb-4" />
-            <span className="text-xl font-bold mb-4 text-purple-800">
+            <LiaUikit className=" text-4xl mb-4" />
+            <span className="text-xl font-bold mb-4 ">
               Educational Kit
             </span>
             <p className="text-gray-600">
