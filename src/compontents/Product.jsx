@@ -7,7 +7,7 @@ const Product = () => {
   return (
     <div data-aos="zoom-in" className="">
       <div
-         className="relative h-[400px] bg-cover bg-center bg-no-repeat "
+        className="relative h-[400px] bg-cover bg-center bg-no-repeat "
         style={{
           backgroundImage:
             "url(https://omdia.tech.informa.com/-/media/tech/omdia/omdia-website-enhancement-oct-2023/iot-coverage-2.jpg?rev=4fa2eb28f841448c9d126f911019398f)",
@@ -25,9 +25,11 @@ const Product = () => {
             is to redefine financial services with groundbreaking ideas and
             solutions. Join us in shaping the future of FabTech Hub.
           </p>
-          <button className="mt-6 px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
-            Discover More
-          </button>
+          <Link to="/About">
+            <button className="mt-6 px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
+              Discover More
+            </button>
+          </Link>
         </div>
       </div>
 

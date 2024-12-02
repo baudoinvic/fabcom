@@ -19,10 +19,10 @@
       };
 
     return (
-      <div className="fab-com-electronics bg-gray-900 text-white  ">
+      <div className="fab-com-electronics text-white  ">
         {/* Desktop navigation */}
 
-        <div className="bg-gray-800 hidden md:flex items-center justify-end px-4 py-4 shadow-md fab-com-navbar space-x-10 "></div>
+        <div className=" hidden md:flex items-center justify-end px-4 py-2 shadow-md fab-com-navbar space-x-10 "></div>
 
         {/* Mobile navigation */}
         <div
@@ -61,7 +61,7 @@
               >
                 About us
               </Link>
-            
+
               <Link
                 to="/products"
                 className="my-2 px-8 py-4 "
@@ -90,7 +90,7 @@
         {/* The rest of your desktop navigation */}
         <div className="hidden md:flex justify-between items-center px-8 py-5 shadow-md fab-com-navbar bg-white">
           <Link to="/homepage" className="text-black">
-            Fabtch
+            FabTechHub
           </Link>
 
           <ul className="cursor-pointer flex items-center space-x-10 text-white">
@@ -101,7 +101,6 @@
             <Link to="/about" className="text-black">
               <li className="mx-2">About us</li>
             </Link>
-
 
             <Link to="/products" className="text-black">
               <span className="flex items-center">
