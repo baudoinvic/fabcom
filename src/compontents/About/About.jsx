@@ -6,22 +6,9 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div class="bg-gray-100">
+    <div class="">
       <Navbar />
-      <div data-aos="zoom-in" class="relative">
-        <img
-          class="w-full object-cover opacity-80 "
-          style={{ height: "560px" }}
-          src="https://fablab.rw/wp-content/uploads/2022/09/fablab-scaled.jpg"
-          alt="Description"
-        />
-
-        <div class="absolute inset-0 flex flex-col items-center justify-center md:justify-start text-center md:text-left p-8 md:p-16 mt-24 md:mt-32">
-          <button class="px-4 py-4 bg-[#02010130] text-white font-bold rounded hover:bg-black-100 md:mr-16 text-3xl">
-            About Us
-          </button>
-        </div>
-      </div>
+      
       <div data-aos="zoom-in" class="flex flex-col md:flex-row md:mr-3 md:ml-3 md:mt-20 ml-10 mr-10 ">
         <div class="w-full md:w-1/2 p-8">
           <h1 class="text-purple-800 text-3xl font-bold mb-4">
