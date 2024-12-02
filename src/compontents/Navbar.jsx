@@ -158,13 +158,13 @@ const Navbar = () => {
                 onMouseLeave={() => setIsAboutDropdownOpen(false)}
               >
                 <Link
-                  to="/about/who-we-are"
+                  to="/provider"
                   className="block px-4 py-2 text-black hover:bg-gray-100"
                 >
                   Who We Are
                 </Link>
                 <Link
-                  to="/about/our-mission"
+                  to="/Mission"
                   className="block px-4 py-2 text-black hover:bg-gray-100"
                 >
                   Our Mission

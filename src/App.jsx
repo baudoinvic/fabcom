@@ -21,6 +21,8 @@ import Ourservices from "./compontents/Services/Ourservices";
 import Career from "./compontents/Career/Career";
 import Apply from "./compontents/Apply/Apply";
 import Contact from "./compontents/Contact/Contact";
+import Provider from "./compontents/Provider/Provider";
+import Mission from "./compontents/Mission/Mission";
 
 const CommonLayout = ({ children }) => {
   return (
@@ -66,6 +68,8 @@ const App = () => {
           <Route path="/ourservices" element={<Ourservices />} />
           <Route path="/products" element={<Products />} />
           <Route path="/apply" element={<Apply />} />
+          <Route path="/provider" element={<Provider />} />
+          <Route path="/Mission" element={<Mission />} />
 
           <Route path="/products/smart-integration" element={<Smart />} />
           <Route
