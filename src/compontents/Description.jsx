@@ -34,11 +34,11 @@ const Description = () => {
         </p>
       </div>
 
-      <div className="flex justify-between items-start ml-16 mr-16 mt-16">
+      <div data-aos="zoom-in" className="flex justify-between items-start ml-16 mr-16 mt-16">
         <div className="w-3/5">
           <div className="w-full">
             <div className="flex items-center mb-4">
-              <IoDiamondOutline className="text-2xl mr-2" />
+              <IoDiamondOutline className="text-2xl mr-2 text-purple-800" />
               <h1 className="text-2xl font-bold">Our Values</h1>
             </div>
             <p className="block mb-8 w-2/3">
@@ -50,7 +50,7 @@ const Description = () => {
 
           <div className="w-full">
             <div className="flex items-center mb-4">
-              <PiPaperPlaneTiltBold className="text-2xl mr-2" />
+              <PiPaperPlaneTiltBold className="text-2xl mr-2 text-purple-800" />
               <h1 className="text-2xl font-bold">Our Vision</h1>
             </div>
             <span className="block mb-8 w-2/3">
@@ -63,7 +63,7 @@ const Description = () => {
 
           <div className="w-full">
             <div className="flex items-center mb-4">
-              <RiFocus2Line className="text-2xl mr-2" />
+              <RiFocus2Line className="text-2xl mr-2 text-purple-800" />
               <h1 className="text-2xl font-bold">Our Mission</h1>
             </div>
             <span className="block mb-8 w-2/3">
