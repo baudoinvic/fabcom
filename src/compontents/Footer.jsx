@@ -10,20 +10,18 @@ const Footer = () => {
 
   return (
     <div className="">
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-4">
+      <footer className="bg-white text-gray-900  py-12">
+        <div className="container mx-auto px-4  ">
           <div className="grid md:grid-cols-4 gap-8">
-            {/* Company Info */}
             <div className="space-y-4">
               <h1 className="text-3xl font-bold text-blue-500">FabTechHub</h1>
-              <span className="text-gray-400 block">We are here</span>
-              <p className="text-gray-300">
-                To help you solve the problems in your company and elevate it to
-                a very high level.
+
+              <p className="text-gray-900">
+                We are here To help you solve the problems in your company and
+                elevate it to a very high level.
               </p>
             </div>
 
-            {/* Quick Links */}
             <div>
               <h3 className="text-xl font-semibold mb-4">Explore</h3>
               <ul className="space-y-2">
@@ -56,7 +54,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Important Links */}
             <div>
               <h3 className="text-xl font-semibold mb-4">Important Links</h3>
               <ul className="space-y-2">
@@ -92,13 +89,11 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Contact & Newsletter */}
             <div>
               <h3 className="text-xl font-semibold mb-4">
                 Contact & Newsletter
               </h3>
 
-              {/* Contact Info */}
               <div className="space-y-2 mb-4">
                 <p className="flex items-center">
                   <i className="fa fa-map mr-2 text-blue-500"></i>
@@ -114,21 +109,21 @@ const Footer = () => {
                 </p>
               </div>
 
-              {/* Newsletter Subscription */}
               <form className="flex">
                 <input
                   type="email"
                   placeholder="Subscribe to our newsletter"
-                  className="w-full px-3 py-2 bg-gray-800 text-white rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-3 py-2 text-white  border border-solid border-gray-500 rounded-l-md  "
                   required
                 />
                 <button
                   type="submit"
-                  className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-r-md transition"
-                ></button>
+                  className="bg-purple-800 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition"
+                >
+                  Submit
+                </button>
               </form>
 
-              {/* Social Media Links */}
               <div className="flex space-x-4 mt-4">
                 <a
                   href="https://facebook.com"
@@ -136,7 +131,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-400 transition"
                 >
-                  <FaFacebook />
+                  <FaFacebook className="text-2xl" />
                 </a>
 
                 <a
@@ -145,7 +140,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-400 transition"
                 >
-                  <FaLinkedin />
+                  <FaLinkedin className="text-2xl" />
                 </a>
                 <a
                   href="https://instagram.com"
@@ -153,13 +148,12 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-400 transition"
                 >
-                  <FaInstagram />
+                  <FaInstagram className="text-2xl" />
                 </a>
               </div>
             </div>
           </div>
 
-          {/* Copyright */}
           <div className="border-t border-gray-800 mt-8 pt-4 text-center text-gray-500">
             © {new Date().getFullYear()} FabTechHub. All Rights Reserved.
           </div>
