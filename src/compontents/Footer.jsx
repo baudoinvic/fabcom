@@ -191,12 +191,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className="legal bg-white">
-        <p>
-          Copyright ©2024 All rights reserved | This site is made with{" "}
-          <i className="fa fa-heart"></i> by BaudoinCoder
-        </p>
-      </div>
+    
     </div>
   );
 }
