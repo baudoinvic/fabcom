@@ -61,13 +61,7 @@
               >
                 About us
               </Link>
-              <Link
-                to="/ourservices"
-                className="my-2 px-8 py-4 "
-                onClick={toggleModal}
-              >
-                Our Services
-              </Link>
+            
               <Link
                 to="/products"
                 className="my-2 px-8 py-4 "
@@ -108,13 +102,10 @@
               <li className="mx-2">About us</li>
             </Link>
 
-            <Link to="/ourservices" className="text-black">
-              <li className="mx-2">Our Services</li>
-            </Link>
 
             <Link to="/products" className="text-black">
               <span className="flex items-center">
-                <li className="mx-2">Products</li>
+                <li className="mx-2">Our Products</li>
               </span>
             </Link>
 
