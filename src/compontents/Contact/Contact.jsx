@@ -63,11 +63,10 @@ const Contact = () => {
 
 
   return (
-
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen  ">
       <Navbar />
 
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-12  ">
         <div className="flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-8">
           {/* Contact Form - Left Side */}
           <div className="w-full md:w-1/2 bg-white p-8 rounded-lg shadow-lg">
@@ -193,28 +192,28 @@ const Contact = () => {
                 {/* Address Card */}
                 <div className="bg-white p-6 rounded-lg shadow-md text-center">
                   <div className="flex justify-center mb-4">
-                    <IoLocationOutline className="text-4xl text-purple-600" />
+                    <IoLocationOutline className="text-2xl text-purple-600" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Address</h3>
+                  <h3 className="text-xl font-semibold mb-2">Head Office</h3>
                   <p className="text-gray-600">KG 460 street, Kigali</p>
                 </div>
 
                 {/* Email Card */}
                 <div className="bg-white p-6 rounded-lg shadow-md text-center">
                   <div className="flex justify-center mb-4">
-                    <MdOutlineMailOutline className="text-4xl text-purple-600" />
+                    <MdOutlineMailOutline className="text-2xl text-purple-600" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Email Us</h3>
+                  <h3 className="text-xl font-semibold mb-2">Email Support</h3>
                   <p className="text-gray-600">info@fabtechhub.gmail.com</p>
                 </div>
 
                 {/* Phone Card */}
                 <div className="bg-white p-6 rounded-lg shadow-md text-center">
                   <div className="flex justify-center mb-4">
-                    <FaPhoneAlt className="text-4xl text-purple-600" />
+                    <FaPhoneAlt className="text-2xl text-purple-600" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-                  <p className="text-gray-600">+250 783 012 138</p>
+                  <h3 className="text-xl font-semibold mb-2">Let's Talk</h3>
+                  <p className="text-gray-600">+250 794 015 150</p>
                 </div>
               </div>
             </div>
@@ -222,7 +221,6 @@ const Contact = () => {
         </div>
       </div>
 
-    
       <Footer />
     </div>
   );
