@@ -69,9 +69,9 @@ const Product = () => {
                     Comprehensive Features
                   </h2>
                   <p className="text-gray-600 text-sm mt-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                    leo.
+                    Explore a suite of robust tools and capabilities designed to
+                    meet your needs, enhance efficiency, and deliver exceptional
+                    results.
                   </p>
                 </div>
               </div>
@@ -82,9 +82,10 @@ const Product = () => {
                     User-Friendly Interface
                   </h2>
                   <p className="text-gray-600 text-sm mt-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                    leo.
+                    Designed with simplicity and efficiency in mind, our
+                    interface ensures seamless navigation and an intuitive
+                    experience, making it easy for everyone to achieve their
+                    goals effortlessly.
                   </p>
                 </div>
               </div>
