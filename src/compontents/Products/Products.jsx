@@ -145,5 +145,26 @@
 
       //  export default Products;
 
-
+    import React from 'react'
+import Navbar from '../Navbar'
+    
+    const Products = () => {
+      return (
+        <div>
+          <Navbar />
+          <div className="">
+            <div className="">
+              <h1>Smart integration</h1>
+              <p>
+                Smart integration is to enhance efficiency, accuracy, and
+                reliability in various industries and applications. it is a great place to start if you're looking to improve your business or organization's
+              </p>
+            </div>
+          </div>
+        </div>
+      );
+    }
+    
+    export default Products
+    
       
