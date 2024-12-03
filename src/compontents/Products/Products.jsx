@@ -56,9 +56,9 @@
                 >
                   {/* Icon Placeholder */}
                   <div className="flex justify-center items-center mb-4">
-                    <div className="bg-green-200 p-3 rounded-full">
+                    <div className="bg-purple-800 p-3 rounded-full">
                       {/* Replace this span with the actual icon */}
-                      <span className="text-xl text-blue-600">🚀</span>
+                      <span className="text-xl text-white">🚀</span>
                     </div>
                   </div>
                   <h1 className="font-bold text-lg mb-2">{service.title}</h1>
@@ -67,7 +67,7 @@
                   </p>
                   <Link
                     to={service.link}
-                    className="text-blue-600 font-medium underline cursor-pointer"
+                    className="text-purple-800 font-medium underline cursor-pointer"
                   >
                     Learn More &rarr;
                   </Link>
