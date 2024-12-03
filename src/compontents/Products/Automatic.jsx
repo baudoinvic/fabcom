@@ -13,7 +13,7 @@ const Automatic = () => {
         </h1>
       </div>
 
-      <div className="flex flex-col lg:flex-row mx-4 md:mx-10 lg:mx-20 xl:mx-32 shadow-md">
+      <div className="flex flex-col lg:flex-row mx-4 md:mx-10 lg:mx-20 xl:mx-32 ">
         <div className="w-full lg:w-1/2 lg:mr-5">
           <span className="mr-4 mt-4">
             An automatic fare collection system is designed to allow passengers
