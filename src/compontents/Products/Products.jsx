@@ -48,7 +48,7 @@
         return (
           <div>
             <Navbar />
-            <div className="grid grid-cols-3 gap-8 px-8 mt-32">
+            <div className="grid grid-cols-3 gap-8 px-8 mt-32 mb-32">
               {services.map((service, index) => (
                 <div
                   key={index}
