@@ -157,8 +157,29 @@ import Navbar from '../Navbar'
               <h1>Smart integration</h1>
               <p>
                 Smart integration is to enhance efficiency, accuracy, and
-                reliability in various industries and applications. it is a great place to start if you're looking to improve your business or organization's
+                reliability in various industries and applications. it is a
+                great place to start if you're looking to improve your business
+                or organization's
               </p>
+              <span className="underline text-purple-800">Read More</span>
+            </div>
+            <div className="">
+              <h1>Automatic fare collection system</h1>
+              <p>
+                Automatic fare collection system uses electrical signals for
+                various applications, including communication, information
+                processing, control systems, entertainment, and more.
+              </p>
+              <span className="underline text-purple-800">Read More</span>
+            </div>
+            <div className="">
+              <h1>Internet of Things</h1>
+              <p>
+                IOT refers to energy derived from sources that are naturally
+                replenished on a human timescale, such as sunlight, wind, rain,
+                tides, waves, geothermal heat, and biomass.
+              </p>
+              <span className="underline text-purple-800">Read More</span>
             </div>
           </div>
         </div>
