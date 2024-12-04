@@ -1,5 +1,6 @@
 
 
+
 import React, { useState } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
@@ -19,20 +20,22 @@ const Career = () => {
     {
       title: "Software Engineer",
       location: "Remote",
-      posted: "2 years ago",
+      posted: "4 months ago",
       description:
         "We are seeking a talented software engineer to join our innovative team. The ideal candidate will have experience in web development and a passion for creating robust and scalable solutions.",
       detailedDescription:
         "Full job description: As a Software Engineer, you will design and develop robust web applications using React.js and Node.js. Collaborate with teams to deliver scalable and high-performing solutions. Enjoy a fully remote working environment with flexible schedules.",
+      isClosed: true,
     },
     {
       title: "Marketing Specialist",
       location: "Remote",
-      posted: "2 years ago",
+      posted: "3 months ago",
       description:
         "Join our marketing team and help drive brand awareness and customer engagement. The ideal candidate will have experience in digital marketing, content creation, and social media management.",
       detailedDescription:
         "Full job description: Create and execute marketing strategies to enhance brand visibility. You will manage content, campaigns, and social media platforms. This role offers growth opportunities in a fast-paced environment.",
+      isClosed: true,
     },
     {
       title: "UI/UX Designer",
@@ -42,6 +45,7 @@ const Career = () => {
         "We are looking for a creative UI/UX Designer to enhance user experiences through intuitive designs. You will collaborate with our development team to create engaging interfaces for our applications.",
       detailedDescription:
         "Full job description: Work closely with developers to create user-centered designs for web and mobile applications. Must have expertise in design tools like Figma or Adobe XD. Remote working opportunities with flexible hours.",
+      isClosed: false,
     },
   ];
 
@@ -105,9 +109,18 @@ const Career = () => {
                     >
                       View Job Description
                     </button>
-                    <button className="bg-green-500 text-white px-4 py-2 rounded-md text-sm hover:bg-green-600">
-                      Apply
-                    </button>
+                    {job.isClosed ? (
+                      <button
+                        className="bg-red-500 text-white px-4 py-2 rounded-md text-sm cursor-not-allowed"
+                        disabled
+                      >
+                        Application Closed
+                      </button>
+                    ) : (
+                      <button className="bg-green-500 text-white px-4 py-2 rounded-md text-sm hover:bg-green-600">
+                        Apply
+                      </button>
+                    )}
                   </div>
                 </div>
               ))}
