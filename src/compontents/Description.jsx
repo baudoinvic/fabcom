@@ -93,8 +93,8 @@ const Description = () => {
          
           <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
             <div class="bbg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
-              <SiSimilarweb className=" text-1xl  mb-4" />
-              <span className="text-xl font-bold mb-4 ">
+              <SiSimilarweb className=" text-1xl "/>
+              <span className="text-xl font-bold ">
                 Smart integration
               </span>
               <p className="text-gray-600">
@@ -107,11 +107,11 @@ const Description = () => {
             </div>
 
             <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
-              <GrIntegration className="text-gray-600 text-1xl mb-4" />
-              <span className="text-xl font-bold mb-4 ">
+              <GrIntegration className="text-gray-600 text-1xl " />
+              <span className="text-xl font-bold  ">
                 Internet Of Things
               </span>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mt-4">
                 Our team of highly skilled hardware engineers is dedicated to
                 crafting state-of-the-art devices that not only meet but exceed
                 industry standards. From concept to prototype to final
@@ -122,11 +122,11 @@ const Description = () => {
             </div>
 
             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
-              <AiOutlineFieldTime className=" text-1xl mb-4" />
-              <span className="text-xl font-bold mb-4 ">
+              <AiOutlineFieldTime className=" text-1xl " />
+              <span className="text-xl font-bold  ">
                 Hardware Design
               </span>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mt-4">
                 Our team of highly skilled hardware engineers is dedicated to
                 crafting state-of-the-art devices that not only meet but exceed
                 industry standards. From concept to prototype to final
@@ -145,11 +145,11 @@ const Description = () => {
       <div data-aos="zoom-in" class="">
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
           <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
-            <SiWebmoney className=" text-1xl  mb-4" />
-            <span className="text-xl font-bold mb-4 ">
+            <SiWebmoney className=" text-1xl " />
+            <span className="text-xl font-bold  ">
               Software development
             </span>
-            <p className="text-gray-600">
+            <p className="text-gray-600 mt-4">
               Elevate your online presence with our expert web development
               services at FabTech Hub. We are dedicated to creating seamless
               digital experiences that empower your business. From innovative
@@ -159,12 +159,12 @@ const Description = () => {
           </div>
 
           <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
-            <SiKasasmart className="text-1xl mb-4" />
-            <span className="text-xl font-bold mb-4 ">
+            <SiKasasmart className="text-1xl " />
+            <span className="text-xl font-bold  ">
               Innovative Automatic
               <br /> Fare Collection Solutions
             </span>
-            <p className="text-gray-600">
+            <p className="text-gray-600 mt-4">
               Experience cutting-edge automatic fare collection with our team of
               highly skilled hardware engineers at FabtechHub. We are committed
               to designing state-of-the-art devices that set new industry
@@ -175,11 +175,11 @@ const Description = () => {
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
-            <LiaUikit className=" text-1xl mb-4" />
-            <span className="text-xl font-bold mb-4 ">
+            <LiaUikit className=" text-1xl " />
+            <span className="text-xl font-bold  ">
               Educational Kit
             </span>
-            <p className="text-gray-600">
+            <p className="text-gray-600 mt-4">
               Explore the world of learning with our team of highly skilled
               hardware engineers dedicated to creating cutting-edge educational
               kits. We go beyond industry standards, from the conceptualization
