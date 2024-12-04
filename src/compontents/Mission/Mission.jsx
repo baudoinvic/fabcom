@@ -9,17 +9,21 @@ const Mission = () => {
   return (
     <div>
       <Navbar />
+    
+
       <div
         data-aos="zoom-in"
-        className="flex justify-between items-start ml-16 mr-16 mt-16 mb-16"
+        className="flex flex-col lg:flex-row justify-between items-start mx-4 md:mx-16 mt-8 md:mt-16 mb-8 md:mb-16"
       >
-        <div className="w-3/5">
+        {/* Content Section */}
+        <div className="w-full lg:w-3/5 space-y-8">
+          {/* Our Values */}
           <div className="w-full">
             <div className="flex items-center mb-4">
-              <IoDiamondOutline className="text-2xl mr-2 text-purple-800" />
-              <h1 className="text-2xl font-bold">Our Values</h1>
+              <IoDiamondOutline className="text-xl md:text-2xl mr-2 text-purple-800" />
+              <h1 className="text-xl md:text-2xl font-bold">Our Values</h1>
             </div>
-            <p className="block mb-8 w-2/3">
+            <p className="block text-sm md:text-base leading-relaxed">
               Excellence: We strive for excellence in all aspects of our
               operations, from the quality of our educational kits to the
               solutions we deliver to our clients. Innovation: We embrace
@@ -32,12 +36,13 @@ const Mission = () => {
             </p>
           </div>
 
+          {/* Our Vision */}
           <div className="w-full">
             <div className="flex items-center mb-4">
-              <PiPaperPlaneTiltBold className="text-2xl mr-2 text-purple-800" />
-              <h1 className="text-2xl font-bold">Our Vision</h1>
+              <PiPaperPlaneTiltBold className="text-xl md:text-2xl mr-2 text-purple-800" />
+              <h1 className="text-xl md:text-2xl font-bold">Our Vision</h1>
             </div>
-            <span className="block mb-8 w-2/3">
+            <p className="block text-sm md:text-base leading-relaxed">
               To be the premier provider of comprehensive educational kits for
               engineering schools, empowering the next generation of innovators,
               while delivering cutting-edge engineering solutions to businesses
@@ -46,33 +51,38 @@ const Mission = () => {
               collaboration ensuring that students and professionals alike are
               equipped with the skills and knowledge needed to thrive in an
               ever-evolving technological landscape.
-            </span>
+            </p>
           </div>
 
+          {/* Our Mission */}
           <div className="w-full">
             <div className="flex items-center mb-4">
-              <RiFocus2Line className="text-2xl mr-2 text-purple-800" />
-              <h1 className="text-2xl font-bold">Our Mission</h1>
+              <RiFocus2Line className="text-xl md:text-2xl mr-2 text-purple-800" />
+              <h1 className="text-xl md:text-2xl font-bold">Our Mission</h1>
             </div>
-            <span className="block mb-8 w-2/3">
+            <p className="block text-sm md:text-base leading-relaxed">
               Our mission is to revolutionize engineering education by offering
               dynamic educational kits that foster hands-on learning and
               practical skill development. Simultaneously, we are committed to
               providing top-tier engineering support to companies, specializing
-              in web design, re design, and Internet of Things solutions.
-              Through innovation, expertise, and a dedication to excellence, we
-              aim to empower both students and businesses to thrive in a rapidly
+              in web design, redesign, and Internet of Things solutions. Through
+              innovation, expertise, and a dedication to excellence, we aim to
+              empower both students and businesses to thrive in a rapidly
               evolving technological landscape.
-            </span>
+            </p>
           </div>
         </div>
 
-        <img
-          src="https://template.creativemox.com/evostart/wp-content/uploads/sites/16/2024/06/about-us@300x-8.png"
-          alt="About Us"
-          className="w-2/5"
-        />
+        {/* Image Section */}
+        <div className="w-full lg:w-2/5 mt-8 lg:mt-0 flex justify-center lg:justify-end">
+          <img
+            src="https://template.creativemox.com/evostart/wp-content/uploads/sites/16/2024/06/about-us@300x-8.png"
+            alt="About Us"
+            className="w-full md:w-4/5 lg:w-full object-cover rounded-lg shadow-lg"
+          />
+        </div>
       </div>
+
       <Footer />
     </div>
   );
