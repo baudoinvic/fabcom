@@ -14,22 +14,23 @@ const Product = () => {
           backgroundOpacity: "0.4",
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        <div className="relative flex flex-col items-center justify-center h-full text-center text-white px-4">
-          <h1 className="text-3xl font-bold">
-            FabTech Hub is only as powerful as
-            <br /> the innovators behind it.
-          </h1>
-          <p className="mt-4 text-base w-2/4">
-            Empowering progress through technology and creativity, our mission
-            is to redefine financial services with groundbreaking ideas and
-            solutions. Join us in shaping the future of FabTech Hub.
-          </p>
-          <Link to="/Provider">
-            <button className="mt-6 px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
-              Read More
-            </button>
-          </Link>
+        <div className="absolute inset-0 bg-black bg-opacity-50">
+          <div className="relative flex flex-col items-center justify-center h-full text-center text-white px-4">
+            <h1 className="text-3xl font-bold">
+              FabTech Hub is only as powerful as
+              <br /> the innovators behind it.
+            </h1>
+            <p className="mt-4 text-base w-2/4">
+              Empowering progress through technology and creativity, our mission
+              is to redefine financial services with groundbreaking ideas and
+              solutions. Join us in shaping the future of FabTech Hub.
+            </p>
+            <Link to="/Provider">
+              <button className="mt-6 px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
+                Read More
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
 
