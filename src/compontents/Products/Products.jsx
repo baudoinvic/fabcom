@@ -122,7 +122,7 @@ const Products = () => {
       title: "Educational Kit",
       description:
         "Educational kits provide hands-on tools for students to learn complex concepts interactively, making education more practical and engaging.",
-      link: "/educational-kit",
+      link: "/products/educational-kit",
     },
   ];
 
