@@ -27,7 +27,10 @@ const Description = () => {
         </p>
       </div>
 
-      <div data-aos="zoom-in" className="flex justify-between items-start ml-16 mr-16 mt-16">
+      <div
+        data-aos="zoom-in"
+        className="flex justify-between items-start ml-16 mr-16 mt-16"
+      >
         <div className="w-3/5">
           <div className="w-full">
             <div className="flex items-center mb-4">
@@ -90,14 +93,11 @@ const Description = () => {
           </div>
         </div>
         <div data-aos="zoom-in" class="">
-         
           <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
             <div class="bbg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
-              <SiSimilarweb className=" text-1xl "/>
-              <span className="text-xl font-bold ">
-                Smart integration
-              </span>
-              <p className="text-gray-600">
+              <SiSimilarweb className=" text-1xl " />
+              <span className="text-lg font-bold ">Smart integration</span>
+              <p className="text-gray-600 text-sm mt-4">
                 At FabTech Hub, we envision a connected world where cutting-edge
                 technology enhances the way we live, work, and interact. Our
                 goal is to be at the forefront of this transformation, driving
@@ -108,10 +108,8 @@ const Description = () => {
 
             <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
               <GrIntegration className="text-gray-600 text-1xl " />
-              <span className="text-xl font-bold  ">
-                Internet Of Things
-              </span>
-              <p className="text-gray-600 mt-4">
+              <span className="text-lg font-bold  ">Internet Of Things</span>
+              <p className="text-gray-600 mt-4 text-sm">
                 Our team of highly skilled hardware engineers is dedicated to
                 crafting state-of-the-art devices that not only meet but exceed
                 industry standards. From concept to prototype to final
@@ -123,10 +121,8 @@ const Description = () => {
 
             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
               <AiOutlineFieldTime className=" text-1xl " />
-              <span className="text-xl font-bold  ">
-                Hardware Design
-              </span>
-              <p className="text-gray-600 mt-4">
+              <span className="text-lg font-bold  ">Hardware Design</span>
+              <p className="text-gray-600 mt-4 text-sm">
                 Our team of highly skilled hardware engineers is dedicated to
                 crafting state-of-the-art devices that not only meet but exceed
                 industry standards. From concept to prototype to final
@@ -137,7 +133,6 @@ const Description = () => {
             </div>
           </div>
         </div>
-        
       </div>
 
       {/* Second row */}
@@ -146,10 +141,8 @@ const Description = () => {
         <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
           <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiWebmoney className=" text-1xl " />
-            <span className="text-xl font-bold  ">
-              Software development
-            </span>
-            <p className="text-gray-600 mt-4">
+            <span className="text-lg font-bold  ">Software development</span>
+            <p className="text-gray-600 mt-4 text-sm">
               Elevate your online presence with our expert web development
               services at FabTech Hub. We are dedicated to creating seamless
               digital experiences that empower your business. From innovative
@@ -160,11 +153,10 @@ const Description = () => {
 
           <div class=" bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
             <SiKasasmart className="text-1xl " />
-            <span className="text-xl font-bold  ">
-              Innovative Automatic
-              <br /> Fare Collection Solutions
+            <span className="text-lg font-bold  ">
+              Automatic Fare Collection Solutions
             </span>
-            <p className="text-gray-600 mt-4">
+            <p className="text-gray-600 mt-4 text-sm">
               Experience cutting-edge automatic fare collection with our team of
               highly skilled hardware engineers at FabtechHub. We are committed
               to designing state-of-the-art devices that set new industry
@@ -176,10 +168,8 @@ const Description = () => {
 
           <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3">
             <LiaUikit className=" text-1xl " />
-            <span className="text-xl font-bold  ">
-              Educational Kit
-            </span>
-            <p className="text-gray-600 mt-4">
+            <span className="text-lg font-bold  ">Educational Kit</span>
+            <p className="text-gray-600 mt-4 text-sm">
               Explore the world of learning with our team of highly skilled
               hardware engineers dedicated to creating cutting-edge educational
               kits. We go beyond industry standards, from the conceptualization

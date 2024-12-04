@@ -9,7 +9,7 @@ const Product = () => {
     
 
       <div
-        className="relative h-[600px] bg-cover bg-center"
+        className="relative h-[600px] bg-cover bg-center mt-16"
         style={{
           backgroundImage:
             "url(https://omdia.tech.informa.com/-/media/tech/omdia/omdia-website-enhancement-oct-2023/iot-coverage-2.jpg?rev=4fa2eb28f841448c9d126f911019398f)",
@@ -60,7 +60,7 @@ const Product = () => {
         </div>
       </div>
 
-      <div data-aos="zoom-in" className="mt-16 px-4 lg:px-0 mb-16">
+      <div data-aos="zoom-in" className="mt-32 px-4 lg:px-0 mb-32 ">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-12">
           {/* Image Section */}
           <img
