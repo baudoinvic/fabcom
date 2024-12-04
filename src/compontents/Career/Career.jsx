@@ -1,6 +1,4 @@
 
-
-
 import React, { useState } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
@@ -90,11 +88,11 @@ const Career = () => {
                   className="border border-blue-500 rounded-md p-6 flex justify-between items-center shadow-md"
                 >
                   <div className="flex items-center space-x-4">
-                    <span className="bg-blue-500 text-white px-3 py-1 rounded-md font-semibold text-sm">
+                    <span className="bg-purple-500 text-white px-3 py-1 rounded-md font-semibold text-sm">
                       {job.location}
                     </span>
                     <div>
-                      <h3 className="text-lg font-bold text-blue-700">
+                      <h3 className="text-lg font-bold text-purple-800">
                         {job.title}
                       </h3>
                       <p className="text-gray-500 text-sm">{job.posted}</p>
@@ -105,7 +103,7 @@ const Career = () => {
                   <div className="text-right space-y-2">
                     <button
                       onClick={() => openModal(job)}
-                      className="text-blue-500 underline text-sm block"
+                      className="text-purple-500 underline text-sm block"
                     >
                       View Job Description
                     </button>
@@ -117,7 +115,7 @@ const Career = () => {
                         Application Closed
                       </button>
                     ) : (
-                      <button className="bg-green-500 text-white px-4 py-2 rounded-md text-sm hover:bg-green-600">
+                      <button className="bg-purple-800 text-white px-4 py-2 rounded-md text-sm hover:bg-green-600">
                         Apply
                       </button>
                     )}
