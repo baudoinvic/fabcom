@@ -133,7 +133,7 @@ const Career = () => {
       {modalData && (
         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
           <div className="bg-white rounded-md p-6 shadow-lg w-1/2">
-            <h2 className="text-lg font-bold text-blue-700">
+            <h2 className="text-lg font-bold text-purple-700">
               {modalData.title}
             </h2>
             <p className="text-gray-500 mt-2">

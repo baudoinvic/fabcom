@@ -68,7 +68,7 @@ const Apply = () => {
 
   return (
     <div className="job-applications">
-      <div data-aos="zoom-in" className="mt-32 mb-16">
+      <div data-aos="zoom-in" className="mt-16 mb-16">
         <div className="flex items-center justify-center space-x-2">
           <FaArrowLeft className="text-purple-800 cursor-pointer" />
           <Link to="/homepage">
