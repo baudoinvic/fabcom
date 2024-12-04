@@ -39,21 +39,21 @@ const Product = () => {
         <div className="absolute -bottom-10 left-0 right-0 bg-white py-6 md:py-8 shadow-lg mx-4 md:mx-16 rounded-lg md:rounded-full">
           <div className="max-w-4xl md:max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-0 text-center">
             <div>
-              <h3 className="text-xl md:text-2xl font-bold text-blue-800">
-                29K+
+              <h3 className="text-xl md:text-2xl font-bold text-purple-800">
+                150+
               </h3>
               <p className="text-gray-600 text-sm md:text-base">
                 Member Active
               </p>
             </div>
             <div>
-              <h3 className="text-xl md:text-2xl font-bold text-blue-800">
-                129K+
+              <h3 className="text-xl md:text-2xl font-bold text-purple-800">
+                30+
               </h3>
-              <p className="text-gray-600 text-sm md:text-base">Transactions</p>
+              <p className="text-gray-600 text-sm md:text-base">Projects accomplished </p>
             </div>
             <div>
-              <h3 className="text-xl md:text-2xl font-bold text-blue-800">
+              <h3 className="text-xl md:text-2xl font-bold text-purple-800">
                 4.9
               </h3>
               <p className="text-gray-600 text-sm md:text-base">
@@ -61,8 +61,8 @@ const Product = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-xl md:text-2xl font-bold text-blue-800">
-                39K+
+              <h3 className="text-xl md:text-2xl font-bold text-purple-800">
+                20+
               </h3>
               <p className="text-gray-600 text-sm md:text-base">Happy Client</p>
             </div>
