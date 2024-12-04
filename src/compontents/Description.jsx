@@ -13,12 +13,16 @@ import { SiSimilarweb } from "react-icons/si";
 const Description = () => {
   return (
     <div data-aos="zoom-in" className="">
-      <div className="pt-32 text-center">
-        <span className="pt-16 text-purple-800 font-bold ">WHO WE ARE</span>
-        <h1 className="text-3xl font-bold pt-4">
+    
+
+      <div className="pt-32 text-center px-4 md:px-0">
+        <span className="pt-16 text-purple-800 font-bold block">
+          WHO WE ARE
+        </span>
+        <h1 className="text-2xl md:text-3xl font-bold pt-4">
           Explore the Innovative Features With Us
         </h1>
-        <p className="w-1/2 mt-10 text-center mx-auto">
+        <p className="w-full md:w-1/2 mt-6 md:mt-10 text-center mx-auto">
           We provide technology where innovation meets excellence! As a dynamic
           and forward-thinking technology company, we specialize in the seamless
           integration of hardware, software, and IoT solutions. We envision a
