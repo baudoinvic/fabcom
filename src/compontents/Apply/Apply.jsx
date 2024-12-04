@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import Footer from '../Footer';
-import Navbar from '../Navbar';
+import { FaArrowLeft } from "react-icons/fa6";
 import { ToastContainer,toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import axios from 'axios';
+import { Link } from "react-router-dom";
 
 const Apply = () => {
 
@@ -67,14 +68,25 @@ const Apply = () => {
 
   return (
     <div className="job-applications">
-      <Navbar />
-      <div data-aos="zoom-in" className="">
+      <div data-aos="zoom-in" className="mt-32 mb-16">
+        <div className="flex items-center justify-center space-x-2">
+          <FaArrowLeft className="text-purple-800 cursor-pointer" />
+          <Link to="/homepage">
+            <span className="text-purple-800 cursor-pointer">Go to Home</span>
+          </Link>
+        </div>
+
         <div class="bg-white container  mx-auto p-8 max-w-md shadow-lg">
           <h2 class="text-2xl font-semibold mb-6">Job Application Form</h2>
 
-          <form onSubmit={handleSubmit} action="/submit_application" method="post" class="space-y-4">
+          <form
+            onSubmit={handleSubmit}
+            action="/submit_application"
+            method="post"
+            class="space-y-4"
+          >
             <div class="flex flex-col">
-              <label for="name" class="mb-1">
+              <label for="name" class="mb-1 text-sm">
                 Firstname
               </label>
               <input
@@ -83,13 +95,12 @@ const Apply = () => {
                 name="Firstname"
                 required
                 class="border p-2 rounded"
-              
                 onChange={handleChange}
               ></input>
             </div>
 
             <div class="flex flex-col">
-              <label for="name" class="mb-1">
+              <label for="name" class="mb-1 text-sm">
                 LastName
               </label>
               <input
@@ -98,13 +109,12 @@ const Apply = () => {
                 name="Lastname"
                 required
                 class="border p-2 rounded"
-             
                 onChange={handleChange}
               ></input>
             </div>
 
             <div class="flex flex-col">
-              <label for="email" class="mb-1">
+              <label for="email" class="mb-1 text-sm">
                 Email
               </label>
               <input
@@ -113,13 +123,12 @@ const Apply = () => {
                 name="email"
                 required
                 class="border p-2 rounded"
-             
                 onChange={handleChange}
               ></input>
             </div>
 
             <div class="flex flex-col">
-              <label for="phone" class="mb-1">
+              <label for="phone" class="mb-1 text-sm">
                 Phone Number
               </label>
               <input
@@ -128,13 +137,12 @@ const Apply = () => {
                 name="phoneNumber"
                 required
                 class="border p-2 rounded"
-              
                 onChange={handleChange}
               ></input>
             </div>
 
             <div class="flex flex-col">
-              <label for="resume" class="mb-1">
+              <label for="resume" class="mb-1 text-sm">
                 Resume (PDF or Word document)
               </label>
               <input
@@ -144,13 +152,12 @@ const Apply = () => {
                 accept=".pdf, .doc, .docx"
                 required
                 class="border p-2"
-             
-                 onChange={handleChange}
+                onChange={handleChange}
               ></input>
             </div>
 
             <div class="flex flex-col">
-              <label for="experience" class="mb-1">
+              <label for="experience" class="mb-1 text-sm">
                 Years of Experience
               </label>
               <input
@@ -160,13 +167,12 @@ const Apply = () => {
                 min="0"
                 required
                 class="border p-2 rounded"
-             
                 onChange={handleChange}
               ></input>
             </div>
 
             <div class="flex flex-col">
-              <label for="additionalInfo" class="mb-1">
+              <label for="additionalInfo" class="mb-1 text-sm">
                 description
               </label>
               <textarea
