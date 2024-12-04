@@ -8,15 +8,36 @@ const Career = () => {
     <div className="career">
       <Navbar />
       <div className="">
-        <header data-aos="zoom-in" class="bg-gray-800 text-white py-8">
-          <div class="container mx-auto text-center">
-            <h1 class="text-3xl font-extrabold">Join Our Team</h1>
-            <p class="text-lg">Explore exciting career opportunities with us</p>
-          </div>
-        </header>
+      
+
+
+        <header class="bg-purple-800 text-white py-32">
+  <div class="container mx-auto flex items-center justify-between">
+   
+    <div class="w-1/2">
+      <h1 class="text-4xl font-extrabold mb-4">Careers at FabTechHub</h1>
+      <p class="text-lg leading-relaxed">
+        Our mission is to build Africa’s large Quality Workforce and talent
+        network that power the businesses’ productivity and growth while also
+        creating digital jobs for African Talents. Our mission is a tool to
+        address talent shortage and unemployment in the in-demand areas of the
+        digital economy.
+      </p>
+    </div>
+
+  
+    <div class="w-1/2 flex justify-center">
+      <img
+        src="https://umurava.africa/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flawyer.163770fa.png&w=384&q=75"
+        alt="Desk illustration"
+        class="max-w-full h-auto"
+      />
+    </div>
+  </div>
+</header>
+
 
         <div class="container mx-auto my-8">
-       
           <section class="mb-12">
             <h2 class="text-2xl font-semibold mb-6">Current Job Openings</h2>
 
