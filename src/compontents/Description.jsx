@@ -29,55 +29,6 @@ const Description = () => {
         </p>
       </div>
 
-      {/* <div
-        data-aos="zoom-in"
-        className="flex justify-between items-start ml-16 mr-16 mt-16"
-      >
-        <div className="w-3/5">
-          <div className="w-full">
-            <div className="flex items-center mb-4">
-              <IoDiamondOutline className="text-2xl mr-2 text-purple-800" />
-              <h1 className="text-2xl font-bold">Our Values</h1>
-            </div>
-            <p className="block mb-8 w-2/3">
-              Excellence: We strive for excellence in all aspects of our
-              operations, from the quality of our educational kits to the
-              solutions we deliver to our clients. Innovation
-            </p>
-          </div>
-
-          <div className="w-full">
-            <div className="flex items-center mb-4">
-              <PiPaperPlaneTiltBold className="text-2xl mr-2 text-purple-800" />
-              <h1 className="text-2xl font-bold">Our Vision</h1>
-            </div>
-            <span className="block mb-8 w-2/3">
-              To be the premier provider of comprehensive educational kits for
-              engineering schools, empowering the next generation of innovators,
-              while delivering cutting-edge engineering solutions to businesses
-              globally.
-            </span>
-          </div>
-
-          <div className="w-full">
-            <div className="flex items-center mb-4">
-              <RiFocus2Line className="text-2xl mr-2 text-purple-800" />
-              <h1 className="text-2xl font-bold">Our Mission</h1>
-            </div>
-            <span className="block mb-8 w-2/3">
-              Our mission is to revolutionize engineering education by offering
-              dynamic educational kits that foster hands-on learning and
-              practical skill development.
-            </span>
-          </div>
-        </div>
-
-        <img
-          src="https://template.creativemox.com/evostart/wp-content/uploads/sites/16/2024/06/about-us@300x-8.png"
-          alt="About Us"
-          className="w-2/5"
-        />
-      </div> */}
 
       <div
         data-aos="zoom-in"
