@@ -133,7 +133,7 @@ const Navbar = () => {
       )}
 
       {/* Desktop navigation */}
-      <div className="hidden md:flex justify-between items-center px-8 py-5 shadow-md fab-com-navbar bg-white">
+      <div className="hidden md:flex justify-between items-center px-8 py-5 shadow-lg fab-com-navbar bg-white ">
         <Link to="/homepage" className="text-black font-bold">
           FabTechHub
         </Link>

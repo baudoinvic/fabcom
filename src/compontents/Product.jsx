@@ -28,7 +28,7 @@ const Product = () => {
               solutions. Join us in shaping the future of FabTech Hub.
             </p>
             <Link to="/Provider">
-              <button className="mt-6 md:mt-8 px-6 md:px-8 py-3 md:py-4 bg-green-500 text-black font-semibold text-sm md:text-lg rounded-full hover:bg-green-600 transition-all duration-300">
+              <button className="mt-6 md:mt-8 px-6 md:px-8 py-3 md:py-4 bg-purple-500 text-white font-semibold text-sm md:text-lg rounded-full hover:bg-blue-500 transition-all duration-300">
                 Discover More
               </button>
             </Link>
