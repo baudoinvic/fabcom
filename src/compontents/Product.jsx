@@ -6,30 +6,56 @@ import { MdOutlineDoneOutline } from "react-icons/md";
 const Product = () => {
   return (
     <div data-aos="zoom-in" className="">
+    
+
       <div
-        className="relative h-[400px] bg-cover bg-center bg-no-repeat "
+        className="relative h-[600px] bg-cover bg-center"
         style={{
           backgroundImage:
             "url(https://omdia.tech.informa.com/-/media/tech/omdia/omdia-website-enhancement-oct-2023/iot-coverage-2.jpg?rev=4fa2eb28f841448c9d126f911019398f)",
-          backgroundOpacity: "0.4",
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50">
-          <div className="relative flex flex-col items-center justify-center h-full text-center text-white px-4">
-            <h1 className="text-3xl font-bold">
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
+          {/* Content */}
+          <div className="text-center text-white px-6">
+            <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
               FabTech Hub is only as powerful as
-              <br /> the innovators behind it.
+              <br />
+              the innovators behind it.
             </h1>
-            <p className="mt-4 text-base w-2/4">
+            <p className="mt-6 text-lg max-w-3xl mx-auto">
               Empowering progress through technology and creativity, our mission
               is to redefine financial services with groundbreaking ideas and
               solutions. Join us in shaping the future of FabTech Hub.
             </p>
             <Link to="/Provider">
-              <button className="mt-6 px-6 py-3 bg-purple-800 text-white font-bold rounded-lg shadow-md hover:bg-purple-900 transition-colors duration-300 ease-in-out">
-                Read More
+              <button className="mt-8 px-8 py-4 bg-green-500 text-black font-semibold text-lg rounded-full hover:bg-green-600 transition-all duration-300">
+                Discover More
               </button>
             </Link>
+          </div>
+        </div>
+
+        {/* Stats Section */}
+        <div className="absolute -bottom-10 left-0 right-0 bg-white py-8 shadow-lg  ml-16 mr-16 rounded-full">
+          <div className="max-w-6xl mx-auto flex justify-between text-center">
+            <div>
+              <h3 className="text-2xl font-bold text-blue-800">29K+</h3>
+              <p className="text-gray-600">Member Active</p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-blue-800">129K+</h3>
+              <p className="text-gray-600">Transactions</p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-blue-800">4.9</h3>
+              <p className="text-gray-600">Client Ratings</p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-blue-800">39K+</h3>
+              <p className="text-gray-600">Happy Client</p>
+            </div>
           </div>
         </div>
       </div>
