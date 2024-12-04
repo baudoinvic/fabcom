@@ -41,24 +41,32 @@ const Career = () => {
           <section class="mb-12">
             <h2 class="text-2xl font-semibold mb-6">Current Job Openings</h2>
 
-            <div data-aos="zoom-in" class="bg-white p-6 rounded-md  mb-6">
-              <h3 class="text-xl font-semibold mb-2">Software Engineer</h3>
-              <p class="text-gray-700 mb-4">
-                We are seeking a talented software engineer to join our
-                innovative team. The ideal candidate will have experience
-                <br></br> in web development and a passion for creating robust
-                and scalable solutions.
-              </p>
-              <p class="text-gray-500">
-                Qualifications: Bachelor's degree in Computer Science, 3+ years
-                of experience in full-stack development.
-              </p>
-              <Link to="/apply">
-                <a href="#" class="text-purple-800 mt-4 inline-block">
-                  Apply Now
-                </a>
-              </Link>
-            </div>
+
+
+            <div class="border border-blue-500 rounded-md p-6 flex justify-between items-center mb-6 shadow-md">
+  
+  <div class="flex items-center space-x-4">
+  
+    <span class="bg-blue-500 text-white px-3 py-1 rounded-md font-semibold text-sm">Hybrid</span>
+   
+    <div>
+      <h3 class="text-lg font-bold text-blue-700">Software Engineer</h3>
+      <p class="text-gray-500 text-sm">2 years ago</p>
+      <p class="text-gray-700 mt-2">
+        We are seeking a talented software engineer to join our innovative
+        team. The ideal candidate will have experience in web development
+        and a passion for creating robust and scalable solutions.
+      </p>
+    </div>
+  </div>
+
+ 
+  <div class="text-right space-y-2">
+    <a href="#" class="text-blue-500 underline text-sm block">View Job Description</a>
+    <button class="bg-green-500 text-white px-4 py-2 rounded-md text-sm hover:bg-green-600">Apply</button>
+  </div>
+</div>
+
 
             <div data-aos="zoom-in" class="bg-white p-6 rounded-md  mb-6">
               <h3 class="text-xl font-semibold mb-2">Marketing Specialist</h3>
