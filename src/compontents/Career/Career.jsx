@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import { Link } from "react-router-dom";
 
 const Career = () => {
   const [modalData, setModalData] = useState(null);
@@ -58,11 +59,11 @@ const Career = () => {
                 Careers at FabTechHub
               </h1>
               <p className="text-lg leading-relaxed">
-                Our mission is to build Africa’s large Quality Workforce and
-                talent network that power the businesses’ productivity and
-                growth while also creating digital jobs for African Talents. Our
-                mission is a tool to address talent shortage and unemployment in
-                the in-demand areas of the digital economy.
+                Our mission is to revolutionize engineering education by
+                offering dynamic educational kits that foster hands-on learning
+                and practical skill development. Simultaneously, we are
+                committed to providing top-tier engineering support to companies
+                through innovation and expertise.
               </p>
             </div>
             <div className="w-1/2 flex justify-center">
@@ -115,9 +116,11 @@ const Career = () => {
                         Application Closed
                       </button>
                     ) : (
-                      <button className="bg-purple-800 text-white px-4 py-2 rounded-md text-sm hover:bg-green-600">
-                        Apply
-                      </button>
+                      <Link to="/Apply">
+                        <button className="bg-purple-800 text-white px-16 py-2 rounded-md text-sm hover:bg-blue-600">
+                          Apply
+                        </button>
+                      </Link>
                     )}
                   </div>
                 </div>
