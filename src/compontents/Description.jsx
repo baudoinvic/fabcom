@@ -29,7 +29,6 @@ const Description = () => {
         </p>
       </div>
 
-
       <div
         data-aos="zoom-in"
         className="flex flex-col md:flex-row justify-between items-start ml-4 md:ml-16 mr-4 md:mr-16 mt-8 md:mt-16 space-y-8 md:space-y-0"
@@ -81,20 +80,23 @@ const Description = () => {
       </div>
 
       <div class="white">
-        <div class="flex items-center justify-center mt-16">
-          <div class="p-8 text-center">
-            <span class="font-bold block text-purple-800">WHAT WE OFFER</span>
+        <div class="flex items-center justify-center mt-8 md:mt-16 px-4">
+          <div class="p-4 md:p-8 text-center">
+            <span class="font-bold block text-purple-800 text-sm md:text-base">
+              WHAT WE OFFER
+            </span>
 
-            <h1 class="text-4xl font-bold mt-4">
+            <h1 class="text-2xl md:text-4xl font-bold mt-4">
               We Provide The Best Service For You
             </h1>
 
-            <span class="block mt-2">
-              Enjoy with our services which we provide for you and if you are
-              interested don't hesitate to get in touch with us
+            <span class="block mt-2 text-sm md:text-base">
+              Enjoy our services, which we provide for you, and if you are
+              interested, don't hesitate to get in touch with us.
             </span>
           </div>
         </div>
+
         <div data-aos="zoom-in" class="">
           <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
             <div class="bbg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 md:w-1/3 md:mb-4">
