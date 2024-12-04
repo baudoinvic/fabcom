@@ -1,4 +1,6 @@
 
+
+
 import React, { useState } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
@@ -53,8 +55,8 @@ const Career = () => {
       <Navbar />
       <div className="">
         <header className="bg-purple-800 text-white py-32">
-          <div className="container mx-auto flex items-center justify-between">
-            <div className="w-1/2">
+          <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div className="w-full md:w-1/2 mb-8 md:mb-0">
               <h1 className="text-4xl font-extrabold mb-4">
                 Careers at FabTechHub
               </h1>
@@ -66,7 +68,7 @@ const Career = () => {
                 through innovation and expertise.
               </p>
             </div>
-            <div className="w-1/2 flex justify-center">
+            <div className="w-full md:w-1/2 flex justify-center">
               <img
                 src="https://umurava.africa/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flawyer.163770fa.png&w=384&q=75"
                 alt="Desk illustration"
@@ -86,13 +88,13 @@ const Career = () => {
               {jobs.map((job, index) => (
                 <div
                   key={index}
-                  className="border border-blue-500 rounded-md p-6 flex justify-between items-center shadow-md"
+                  className="border border-blue-500 rounded-md p-6 flex flex-col md:flex-row justify-between items-center shadow-md"
                 >
-                  <div className="flex items-center space-x-4">
+                  <div className="flex flex-col md:flex-row items-center space-x-4">
                     <span className="bg-purple-500 text-white px-3 py-1 rounded-md font-semibold text-sm">
                       {job.location}
                     </span>
-                    <div>
+                    <div className="mt-4 md:mt-0">
                       <h3 className="text-lg font-bold text-purple-800">
                         {job.title}
                       </h3>
@@ -101,7 +103,7 @@ const Career = () => {
                     </div>
                   </div>
 
-                  <div className="text-right space-y-2">
+                  <div className="mt-4 md:mt-0 text-center md:text-right space-y-2">
                     <button
                       onClick={() => openModal(job)}
                       className="text-purple-500 underline text-sm block"
@@ -132,7 +134,7 @@ const Career = () => {
 
       {modalData && (
         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white rounded-md p-6 shadow-lg w-1/2">
+          <div className="bg-white rounded-md p-6 shadow-lg w-full md:w-1/2">
             <h2 className="text-lg font-bold text-purple-700">
               {modalData.title}
             </h2>
