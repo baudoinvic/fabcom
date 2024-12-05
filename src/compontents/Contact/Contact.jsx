@@ -77,15 +77,15 @@ const Contact = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="mb-4">
                   <label
-                    htmlFor="firstname"
+                    htmlFor="Firstname"
                     className="block text-sm font-medium text-gray-600 mb-2"
                   >
                     First Name
                   </label>
                   <input
                     type="text"
-                    id="firstname"
-                    name="firstname"
+                    id="Firstname"
+                    name="Firstname"
                     value={formData.Firstname}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
                     placeholder="Your First Name"
@@ -95,15 +95,15 @@ const Contact = () => {
                 </div>
                 <div className="mb-4">
                   <label
-                    htmlFor="lastname"
+                    htmlFor="Lastname"
                     className="block text-sm font-medium text-gray-600 mb-2"
                   >
                     Last Name
                   </label>
                   <input
                     type="text"
-                    id="lastname"
-                    name="lastname"
+                    id="Lastname"
+                    name="Lastname"
                     value={formData.Lastname}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
                     placeholder="Your Last Name"
