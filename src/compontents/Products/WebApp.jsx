@@ -4,7 +4,7 @@ import Footer from '../Footer';
 
 const WebApp = () => {
   return (
-    <div >
+    <div>
       <Navbar />
 
       <div className="mx-4 md:mx-10 lg:mx-20 xl:mx-32">
@@ -29,7 +29,7 @@ const WebApp = () => {
 
         <div className="w-full lg:w-1/2 lg:ml-5">
           <img
-            src="https://assets.materialup.com/uploads/5afb8065-ef8d-4a57-a627-8a87da96ca1c/preview.jpg"
+            src="https://media.istockphoto.com/id/1054541696/vector/online-product-presentation-with-project-team.jpg?s=612x612&w=0&k=20&c=ghVD5anU2Z5NPx1xdqIE6iTVDsNgwe2d3LzTAtaR7zM="
             alt="web app design"
             className="w-full h-auto"
           />
