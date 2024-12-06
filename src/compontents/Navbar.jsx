@@ -88,7 +88,7 @@ const Navbar = () => {
             {isAboutDropdownOpen && (
               <div className="bg-gray-700">
                 <Link
-                  to="/provider"
+                  to="/Provider"
                   className="block my-2 px-12 py-3"
                   onClick={toggleModal}
                 >
