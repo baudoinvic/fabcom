@@ -23,6 +23,7 @@ import Apply from "./compontents/Apply/Apply";
 import Contact from "./compontents/Contact/Contact";
 import Provider from "./compontents/Provider/Provider";
 import Mission from "./compontents/Mission/Mission";
+import ScrollToTop from "./compontents/ScrollToTop/ScrollToTop";
 
 const CommonLayout = ({ children }) => {
   return (
@@ -49,6 +50,7 @@ const App = () => {
   return (
     <div className="bg-white  duration-200">
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route
             path="/"
