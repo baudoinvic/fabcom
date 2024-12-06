@@ -43,7 +43,7 @@ const Navbar = () => {
       <div
         className={`md:hidden flex items-center justify-between px-4 py-4 bg-gray-800 text-white`}
       >
-        <Link to="/homepage" className="text-white font-bold">
+        <Link to="/homepage" className="text-white font-bold c">
           FabTechHub
         </Link>
         {/* Menu Icon */}
@@ -62,11 +62,11 @@ const Navbar = () => {
 
       {/* Mobile navigation menu */}
       {openModal && (
-        <div className="md:hidden fixed inset-0 bg-gray-800 z-50 overflow-y-auto">
-          <div className="flex flex-col items-stretch text-white">
+        <div className="md:hidden fixed inset-0 bg-gray-800 z-50 overflow-y-auto ">
+          <div className="flex flex-col items-stretch text-white ">
             <Link
               to="/homepage"
-              className="my-2 px-8 py-4 border-b border-gray-700"
+              className="my-2 px-8 py-4 border-b border-gray-700 "
               onClick={toggleModal}
             >
               Home
@@ -89,7 +89,7 @@ const Navbar = () => {
               <div className="bg-gray-700">
                 <Link
                   to="/Provider"
-                  className="block my-2 px-12 py-3"
+                  className="block my-2 px-12 py-3 cursor-pointer"
                   onClick={toggleModal}
                 >
                   Who We Are
@@ -124,7 +124,6 @@ const Navbar = () => {
               className="my-2 px-8 py-4 border-b border-gray-700 flex items-center"
               onClick={toggleModal}
             >
-             
               Careers
             </Link>
           </div>
@@ -142,14 +141,12 @@ const Navbar = () => {
             <li className="mx-2">Home</li>
           </Link>
 
-         
           <div ref={dropdownRef} className="relative group text-black">
             <div
               className="flex items-center mx-2 cursor-pointer"
               onMouseEnter={() => setIsAboutDropdownOpen(true)}
             >
               About us
-              
             </div>
             {isAboutDropdownOpen && (
               <div
