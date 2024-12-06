@@ -13,8 +13,8 @@ import { SiSimilarweb } from "react-icons/si";
 const Description = () => {
   return (
     <div data-aos="zoom-in" className="">
-      <div className="pt-32 text-center px-4 md:px-0">
-        <span className="pt-16 text-purple-800 font-bold block">
+      <div className="pt-16 text-center px-4 md:px-0">
+        <span className=" text-purple-800 font-bold block">
           WHO WE ARE
         </span>
         <h1 className="text-2xl md:text-3xl font-bold pt-4">
