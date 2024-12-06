@@ -1,41 +1,41 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom"; // Import Routes and Route if not imported already
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
 const NetworkDeployment = () => {
   return (
-    <div className="container mx-auto">
+    <div>
       <Navbar />
 
-      <div className="mx-4 md:mx-10 lg:mx-20 xl:mx-32">
-        <h1 className="text-left text-4xl font-bold mt-8 mb-4">
-          Network Deployment
-        </h1>
-      </div>
+      <div className="pt-16 px-4 md:px-10 mb-32 md:mb-64">
+        <div className="flex flex-col lg:flex-row mt-8 items-center lg:items-start gap-8">
+          <div className="lg:w-1/2 text-gray-600 space-y-4">
+            <span className="text-purple-800 font-bold text-sm md:text-lg">
+              Network Deployment
+            </span>
+            <p className="text-sm md:text-base leading-relaxed">
+              It is no myth that the right network design and deployment for any
+              business increase its customer base, employee efficiency, and
+              revenue. Ensuring that you start with carrying out network design
+              in a way that is holistic, yet precise, and is critically tailored
+              to the goals of the business is very important.
+            </p>
+          </div>
 
-      <div className="flex flex-col lg:flex-row mx-4 md:mx-10 lg:mx-20 xl:mx-32 shadow-md">
-        <div className="w-full lg:w-1/2 lg:mr-5">
-          <span className="mr-4 mt-4">
-            It is no myth that the right network design and deployment for any
-            business increase its customer base, employee efficiency, and
-            revenue. Ensuring that you start with carrying out network design in
-            a way that is holistic, yet precise, and is critically tailored to
-            the goals of the business is very important.
-          </span>
+          <div className="relative lg:w-1/2 flex justify-center items-center">
+            <img
+              className="w-full md:w-3/4 lg:w-128 h-60 md:h-80 object-cover rounded-lg shadow-lg border border-solid border-gray-500"
+              src="https://vietec.co.uk/wp-content/uploads/2023/07/Network-Design-600.jpg"
+              alt="Large Background"
+            />
+            <img
+              className="absolute bottom-[-100px] left-[10px] md:bottom-[-150px] md:left-[30px] w-2/5 md:w-1/3 rounded-lg border border-gray-500 shadow-lg"
+              src="https://vietec.co.uk/wp-content/uploads/2023/07/Network-Design-600.jpg"
+              alt="Small Foreground"
+            />
+          </div>
         </div>
-
-        <div className="w-full lg:w-1/2 lg:ml-5">
-          <img
-            src="https://vietec.co.uk/wp-content/uploads/2023/07/Network-Design-600.jpg"
-            alt="Network Deployment"
-            className="w-full h-auto"
-          />
-        </div>
       </div>
-
-      <br />
-      <br />
 
       <Footer />
     </div>
