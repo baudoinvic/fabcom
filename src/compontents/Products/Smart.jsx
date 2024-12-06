@@ -1,6 +1,9 @@
-import React from 'react'
-import Navbar from '../Navbar'
-import Footer from '../Footer';
+
+
+
+import React from "react";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 const Smart = () => {
   return (
@@ -9,24 +12,26 @@ const Smart = () => {
 
       <div className="pt-16 px-4 md:px-10 mb-32 md:mb-64">
         <div className="flex flex-col lg:flex-row mt-8 items-center lg:items-start gap-8">
+          {/* Image Section */}
           <div className="relative lg:w-1/2 flex justify-center items-center">
             <img
-              className="w-full md:w-3/4 lg:w-128 h-60 md:h-80 object-cover rounded-lg shadow-lg border border-solid border-gray-500"
+              className="w-full max-w-md lg:max-w-lg h-auto object-cover rounded-lg shadow-lg border border-gray-500"
               src="https://www.iotallknow.com/wp-content/uploads/2022/11/%E6%99%BA%E8%83%BD%E7%81%8C%E6%BA%89%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E4%BE%8B.webp"
               alt="Large Background"
             />
             <img
-              className="absolute bottom-[-100px] left-[10px] md:bottom-[-150px] md:left-[30px] w-2/5 md:w-1/3 rounded-lg border border-gray-500 shadow-lg"
+              className="absolute bottom-[-60px] sm:bottom-[-80px] md:bottom-[-100px] left-4 sm:left-8 w-2/5 sm:w-1/3 max-w-xs rounded-lg border border-gray-500 shadow-lg"
               src="https://www.iotallknow.com/wp-content/uploads/2022/11/%E6%99%BA%E8%83%BD%E7%81%8C%E6%BA%89%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E4%BE%8B.webp"
               alt="Small Foreground"
             />
           </div>
 
-          <div className="lg:w-1/2 text-gray-600 space-y-4">
-            <span className="text-purple-800 font-bold text-sm md:text-lg">
+          {/* Text Section */}
+          <div className="lg:w-1/2 text-gray-600 space-y-4 mt-16">
+            <span className="text-purple-800 font-bold text-sm sm:text-base md:text-lg">
               Smart Integration
             </span>
-            <p className="text-sm md:text-base leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg leading-relaxed">
               Smart integration typically refers to the integration of smart
               technologies or devices into various systems or processes to
               enhance efficiency, automation, and functionality. The aim of
@@ -48,6 +53,6 @@ const Smart = () => {
       <Footer />
     </div>
   );
-}
+};
 
-export default Smart
+export default Smart;
