@@ -89,14 +89,14 @@ const Navbar = () => {
             {isAboutDropdownOpen && (
               <div className="bg-gray-700">
                 <Link
-                  to="/about/who-we-are"
+                  to="/Provider"
                   className="block my-2 px-12 py-3"
                   onClick={toggleModal}
                 >
                   Who We Are
                 </Link>
                 <Link
-                  to="/about/our-mission"
+                  to="/Mission"
                   className="block my-2 px-12 py-3"
                   onClick={toggleModal}
                 >
@@ -125,7 +125,7 @@ const Navbar = () => {
               className="my-2 px-8 py-4 border-b border-gray-700 flex items-center"
               onClick={toggleModal}
             >
-              <FontAwesomeIcon icon={faUser} className="mr-2" />
+             
               Careers
             </Link>
           </div>
@@ -143,7 +143,7 @@ const Navbar = () => {
             <li className="mx-2">Home</li>
           </Link>
 
-          {/* About Us Dropdown for Desktop */}
+         
           <div ref={dropdownRef} className="relative group text-black">
             <div
               className="flex items-center mx-2 cursor-pointer"
