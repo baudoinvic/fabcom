@@ -38,7 +38,6 @@ const Contact = () => {
     try {
       let token = localStorage.getItem("token");
       console.log("Request Data:", formData);
- 
 
       const response = await axios({
         url: "https://fabtechhub.onrender.com/FabtechHub/contacts/makecontact",
@@ -52,6 +51,17 @@ const Contact = () => {
 
       console.log("Response Data:", response.data);
       toast.success("Thank you for your feedback");
+
+      // Clear the form
+      setFormData({
+        Firstname: "",
+        Lastname: "",
+        email: "",
+        phoneNumber: "",
+        message: "",
+      });
+
+       document.getElementById("Firstname").focus();
     } catch (error) {
       console.error("Error:", error.response ? error.response.data : error);
       toast.error("Failed to send message. Please try again later.");
