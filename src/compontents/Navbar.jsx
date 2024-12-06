@@ -73,36 +73,44 @@ const Navbar = () => {
             </Link>
 
             {/* About Us Dropdown for Mobile */}
-            <div
-              className="my-2 px-8 py-4 border-b border-gray-700 flex justify-between items-center"
-              onClick={toggleAboutDropdown}
-            >
-              About us
-              <FontAwesomeIcon
-                icon={faChevronDown}
-                className={`ml-2 transition-transform duration-300 ${
-                  isAboutDropdownOpen ? "rotate-180" : ""
-                }`}
-              />
-            </div>
-            {isAboutDropdownOpen && (
-              <div className="bg-gray-700">
-                <Link
-                  to="/Provider"
-                  className="block my-2 px-12 py-3 cursor-pointer"
-                  onClick={toggleModal}
-                >
-                  Who We Are
-                </Link>
-                <Link
-                  to="/Mission"
-                  className="block my-2 px-12 py-3"
-                  onClick={toggleModal}
-                >
-                  Our Mission
-                </Link>
+            <div className="relative">
+              <div
+                className="my-2 px-8 py-4 border-b border-gray-700 flex justify-between items-center cursor-pointer"
+                onClick={toggleAboutDropdown}
+              >
+                About us
+                <FontAwesomeIcon
+                  icon={faChevronDown}
+                  className={`ml-2 transition-transform duration-300 ${
+                    isAboutDropdownOpen ? "rotate-180" : ""
+                  }`}
+                />
               </div>
-            )}
+              {isAboutDropdownOpen && (
+                <div className="bg-gray-700">
+                  <Link
+                    to="/provider"
+                    className="block px-12 py-3 hover:bg-gray-600"
+                    onClick={() => {
+                      toggleModal();
+                      setIsAboutDropdownOpen(false);
+                    }}
+                  >
+                    Who We Are
+                  </Link>
+                  <Link
+                    to="/Mission"
+                    className="block px-12 py-3 hover:bg-gray-600"
+                    onClick={() => {
+                      toggleModal();
+                      setIsAboutDropdownOpen(false);
+                    }}
+                  >
+                    Our Mission
+                  </Link>
+                </div>
+              )}
+            </div>
 
             <Link
               to="/products"
