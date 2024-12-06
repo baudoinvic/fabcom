@@ -36,12 +36,12 @@ const Smart = () => {
           <div className="relative lg:w-1/2 flex justify-center items-center">
             <img
               className="w-full md:w-3/4 lg:w-128 h-60 md:h-80 object-cover rounded-lg shadow-lg border border-solid border-gray-500"
-              src="https://www.masstrans.in/wp-content/uploads/automatic-fare-collection-system-in-bus.jpg"
+              src="https://www.iotallknow.com/wp-content/uploads/2022/11/%E6%99%BA%E8%83%BD%E7%81%8C%E6%BA%89%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E4%BE%8B.webp"
               alt="Large Background"
             />
             <img
               className="absolute bottom-[-100px] left-[10px] md:bottom-[-150px] md:left-[30px] w-2/5 md:w-1/3 rounded-lg border border-gray-500 shadow-lg"
-              src="https://www.masstrans.in/wp-content/uploads/automatic-fare-collection-system-in-bus.jpg"
+              src="https://www.iotallknow.com/wp-content/uploads/2022/11/%E6%99%BA%E8%83%BD%E7%81%8C%E6%BA%89%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E4%BE%8B.webp"
               alt="Small Foreground"
             />
           </div>
