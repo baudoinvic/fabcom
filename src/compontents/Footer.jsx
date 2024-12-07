@@ -8,46 +8,38 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
+  
 
-  const handleChange = (e) => {
-    setEmail(e.target.value);
-  };
+   const [email, setEmail] = useState("");
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const token = localStorage.getItem("token");
-      if (!token) {
-        toast.error("You need to be logged in to subscribe.");
-        return;
-      }
+   const handleChange = (e) => {
+     setEmail(e.target.value);
+   };
 
-      console.log("Newsletter Subscription Email:", email);
+   const handleSubmit = async (e) => {
+     e.preventDefault();
 
-      const response = await axios.post(
-        "https://fabtechhub.onrender.com/FabtechHub/subscribes/makeSubscribe",
-        { email },
-        {
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${token}`,
-          },
-        }
-      );
+     try {
+       let token = localStorage.getItem("token");
+       console.log("Newsletter Subscription Email:", email);
 
-      if (response.status === 200 || response.status === 201) {
-        console.log("Subscription Response Data:", response.data);
-        toast.success("Thank you for subscribing to our newsletter!");
-        setEmail("");
-      } else {
-        toast.error("Failed to subscribe. Please try again later.");
-      }
-    } catch (error) {
-      console.error("Error:", error.response ? error.response.data : error);
-      toast.error("Failed to subscribe. Please try again later.");
-    }
-  };
+       const response = await axios({
+         url: "https://fabtechhub.onrender.com/FabtechHub/subscribes/makeSubscribe",
+         method: "POST",
+         headers: {
+           "Content-Type": "application/json",
+           Authorization: `Bearer ${token}`,
+         },
+         data: JSON.stringify({ email }),
+       });
+
+       console.log("Subscription Response Data:", response.data);
+       toast.success("Thank you for subscribing to our newsletter");
+     } catch (error) {
+       console.error("Error:", error.response ? error.response.data : error);
+       toast.error("Failed to subscribe. Please try again later.");
+     }
+   };
 
   return (
     <div>
