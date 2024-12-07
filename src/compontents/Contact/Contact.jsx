@@ -12,9 +12,6 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
 
-//sending information by filling the form//
-
-
   const [formData, setFormData] = useState({
     Firstname: "",
     Lastname: "",
@@ -51,6 +48,14 @@ const Contact = () => {
 
       console.log("Response Data:", response.data);
       toast.success("Thank you for your feedback");
+
+        setFormData({
+          Firstname: "",
+          Lastname: "",
+          email: "",
+          phoneNumber: "",
+          message: "",
+        });
 
      
     } catch (error) {
