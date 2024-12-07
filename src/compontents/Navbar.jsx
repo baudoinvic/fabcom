@@ -44,7 +44,7 @@ const Navbar = () => {
         className={`md:hidden flex items-center justify-between px-4 py-4 bg-gray-800 text-white`}
       >
         <Link to="/homepage" className="text-white font-bold c">
-          FabTechHub
+          Fab<span className="text-purple-800">TechHub</span>
         </Link>
         {/* Menu Icon */}
         {openModal ? (
@@ -112,30 +112,28 @@ const Navbar = () => {
                 </div>
               )} */}
 
-            
-                <div className="bg-gray-700">
-                  <Link
-                    to="/provider"
-                    className="block px-12 py-3 hover:bg-gray-600"
-                    onClick={() => {
-                      toggleModal();
-                      setIsAboutDropdownOpen(false);
-                    }}
-                  >
-                    Who We Are
-                  </Link>
-                  <Link
-                    to="/Mission"
-                    className="block px-12 py-3 hover:bg-gray-600"
-                    onClick={() => {
-                      toggleModal();
-                      setIsAboutDropdownOpen(false);
-                    }}
-                  >
-                    Our Mission
-                  </Link>
-                </div>
-           
+              <div className="bg-gray-700">
+                <Link
+                  to="/provider"
+                  className="block px-12 py-3 hover:bg-gray-600"
+                  onClick={() => {
+                    toggleModal();
+                    setIsAboutDropdownOpen(false);
+                  }}
+                >
+                  Who We Are
+                </Link>
+                <Link
+                  to="/Mission"
+                  className="block px-12 py-3 hover:bg-gray-600"
+                  onClick={() => {
+                    toggleModal();
+                    setIsAboutDropdownOpen(false);
+                  }}
+                >
+                  Our Mission
+                </Link>
+              </div>
             </div>
 
             <Link
