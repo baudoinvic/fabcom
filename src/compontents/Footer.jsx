@@ -35,6 +35,9 @@ const Footer = () => {
 
        console.log("Subscription Response Data:", response.data);
        toast.success("Thank you for subscribing to our newsletter");
+
+        setEmail("");
+
      } catch (error) {
        console.error("Error:", error.response ? error.response.data : error);
        toast.error("Failed to subscribe. Please try again later.");
