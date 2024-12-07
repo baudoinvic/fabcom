@@ -60,6 +60,19 @@ const Apply = () => {
 
         console.log("Response Data:", response.data);
         toast.success("Your application was submitted successfully");
+
+            setFormData({
+              Firstname: "",
+              Lastname: "",
+              email: "",
+              phoneNumber: "",
+              file: "",
+              yearsOfExperience: "",
+              description: "",
+            });
+
+
+
       } catch (error) {
         console.error("Error:", error.response ? error.response.data : error);
         toast.error("Failed to apply. Please try again later.");
