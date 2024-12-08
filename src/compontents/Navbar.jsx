@@ -87,8 +87,6 @@ const Navbar = () => {
                 />
               </div>
 
-            
-
               <div className="bg-gray-700">
                 <Link
                   to="/provider"
