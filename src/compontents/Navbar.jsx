@@ -46,7 +46,7 @@ const Navbar = () => {
         <Link to="/homepage" className="text-white font-bold c">
           Fab<span className="text-purple-800">TechHub</span>
         </Link>
-        {/* Menu Icon */}
+        
         {openModal ? (
           <IoMdClose
             className="text-[2rem] cursor-pointer"
