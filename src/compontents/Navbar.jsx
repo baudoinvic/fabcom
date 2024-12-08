@@ -87,30 +87,7 @@ const Navbar = () => {
                 />
               </div>
 
-              {/* {isAboutDropdownOpen && (
-                <div className="bg-gray-700">
-                  <Link
-                    to="/Apply"
-                    className="block px-12 py-3 hover:bg-gray-600"
-                    onClick={() => {
-                      toggleModal();
-                      setIsAboutDropdownOpen(false);
-                    }}
-                  >
-                    Who We Are
-                  </Link>
-                  <Link
-                    to="/Mission"
-                    className="block px-12 py-3 hover:bg-gray-600"
-                    onClick={() => {
-                      toggleModal();
-                      setIsAboutDropdownOpen(false);
-                    }}
-                  >
-                    Our Mission
-                  </Link>
-                </div>
-              )} */}
+            
 
               <div className="bg-gray-700">
                 <Link
