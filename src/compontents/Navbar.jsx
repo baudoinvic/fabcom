@@ -39,7 +39,7 @@ const Navbar = () => {
 
   return (
     <div className="fab-com-electronics text-white relative">
-      {/* Mobile navigation */}
+      
       <div
         className={`md:hidden flex items-center justify-between px-4 py-4 bg-gray-800 text-white`}
       >
