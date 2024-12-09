@@ -34,7 +34,6 @@ const CommonLayout = ({ children }) => {
     </>
   );
 };
-
 const App = () => {
   useEffect(() => {
     AOS.init({
