@@ -27,7 +27,7 @@ const WebApp = () => {
             </p>
           </div>
 
-          {/* Image Section */}
+        
           <div className="relative lg:w-1/2 flex justify-center items-center">
             <img
               className="w-full md:w-3/4 lg:w-128 h-60 md:h-80 object-cover rounded-lg shadow-lg border border-solid border-gray-500"
