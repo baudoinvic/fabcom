@@ -9,7 +9,6 @@ import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
-
 const Contact = () => {
 
   const [formData, setFormData] = useState({
@@ -63,9 +62,6 @@ const Contact = () => {
       toast.error("Failed to send message. Please try again later.");
     }
   };
-
-
-  // it's end up by here //
 
 
   return (
