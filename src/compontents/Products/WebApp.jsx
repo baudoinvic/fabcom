@@ -13,7 +13,7 @@ const WebApp = () => {
         </span>
 
         <div className="flex flex-col lg:flex-row mt-8 items-center lg:items-start gap-8">
-          {/* Text Section */}
+        
           <div className="lg:w-1/2 text-gray-600 space-y-4">
             <p className="text-sm md:text-base leading-relaxed">
               The fundamental purpose of all web applications is to facilitate
