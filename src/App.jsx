@@ -3,7 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import Navbar from "./compontents/Navbar";
-import Service from "./compontents/Service";
 import Description from "./compontents/Description";
 import Footer from "./compontents/Footer";
 import Header from "./compontents/Header/Header";
