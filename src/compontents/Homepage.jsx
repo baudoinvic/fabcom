@@ -2,7 +2,7 @@ import React from 'react'
 // import Header from './Header'
 import Header from './Header/Header'
 import Product from './Product'
-import Service from './Service'
+// import Service from './Service'
 import Description from './Description'
 import Navbar from './Navbar'
 import Footer from './Footer'
@@ -16,7 +16,7 @@ const Homepage = () => {
     <>
       <Navbar />
       <Header />
-      <Service />
+      {/* <Service /> */}
       <Description />
       <Product />
       <Footer />

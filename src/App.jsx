@@ -53,7 +53,6 @@ const App = () => {
             element={
               <CommonLayout>
                 <Header />
-                <Service />
                 <Description />
                 <Product />
               </CommonLayout>
