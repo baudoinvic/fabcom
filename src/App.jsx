@@ -67,7 +67,6 @@ const App = () => {
           <Route path="/apply" element={<Apply />} />
           <Route path="/provider" element={<Provider />} />
           <Route path="/Mission" element={<Mission />} />
-
           <Route path="/products/smart-integration" element={<Smart />} />
           <Route
             path="/products/automatic-fare-collection-system"
