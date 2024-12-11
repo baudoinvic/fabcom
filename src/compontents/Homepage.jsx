@@ -6,16 +6,12 @@ import Description from './Description'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-
 const Homepage = () => {
-
-
 
   return (
     <>
       <Navbar />
       <Header />
-      {/* <Service /> */}
       <Description />
       <Product />
       <Footer />
