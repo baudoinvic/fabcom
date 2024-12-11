@@ -41,7 +41,6 @@ const WebApp = () => {
           </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );

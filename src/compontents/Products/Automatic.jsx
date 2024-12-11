@@ -12,7 +12,7 @@ const Automatic = () => {
         </span>
 
         <div className="flex flex-col lg:flex-row mt-8 items-center lg:items-start gap-8">
-          {/* Text Section */}
+        
           <div className="lg:w-1/2 text-gray-600 space-y-4">
             <p className="text-sm md:text-base leading-relaxed">
               An automatic fare collection system is designed to allow
@@ -23,7 +23,6 @@ const Automatic = () => {
             </p>
           </div>
 
-          {/* Image Section */}
           <div className="relative lg:w-1/2 flex justify-center items-center">
             <img
               className="w-full md:w-3/4 lg:w-128 h-60 md:h-80 object-cover rounded-lg shadow-lg border border-solid border-gray-500"
